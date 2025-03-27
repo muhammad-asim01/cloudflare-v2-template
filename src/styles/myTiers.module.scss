@@ -1,0 +1,224 @@
+$theme-breakpoints: (
+  sm: 600px,
+  xs: 0,
+);
+
+@mixin breakpoint($size) {
+  @media (max-width: map-get($theme-breakpoints, $size)) {
+    @content;
+  }
+}
+
+.tierTitle {
+  font: normal normal 500 14px/18px 'Violet Sans';
+  text-transform: uppercase;
+  color: #1e1e1e;
+  margin-bottom: 16px;
+
+  @include breakpoint(sm) {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+}
+
+.listInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  background: #222228;
+  border-radius: 8px;
+  margin-bottom: 12px;
+
+  @include breakpoint(sm) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.itemInfo {
+  padding: 16px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Violet Sans';
+  font-weight: bold;
+  min-height: 90px;
+
+  @include breakpoint(sm) {
+    min-height: 90px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: none;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.nameItemInfo {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.valueItemInfo {
+  font-size: 22px;
+  line-height: 24px;
+  min-height: 24px;
+  color: #6398ff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  word-break: break-word;
+}
+
+.iconUserTier {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.message {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-family: 'Violet Sans';
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 11px 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+
+  @include breakpoint(sm) {
+    padding: 12px 20px;
+    margin-bottom: 30px;
+  }
+
+  img {
+    margin-right: 6px;
+
+    @include breakpoint(sm) {
+      display: none;
+    }
+  }
+}
+
+.menuTier {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  list-style: none;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  @include breakpoint(sm) {
+    justify-content: space-between;
+  }
+}
+
+.itemTabMyTier {
+  font: normal normal 500 14px/18px 'Violet Sans';
+  color: #1e1e1e;
+  padding: 6px 12px;
+  cursor: pointer;
+  position: relative;
+
+  @include breakpoint(sm) {
+    padding: 8px 5px;
+  }
+
+  &:first-child {
+    padding-left: 0;
+
+    &.active {
+      padding-left: 12px;
+
+      @include breakpoint(sm) {
+        padding: 8px 5px;
+      }
+    }
+  }
+
+  &.active {
+    cursor: inherit;
+    background: #d9d9d9;
+    border-radius: 50px;
+  }
+}
+
+.tierComponent {
+  transition: 1s;
+  color: #1e1e1e;
+  border-radius: 8px;
+
+  &.inactive {
+    opacity: 0;
+  }
+  &.active {
+    opacity: 1;
+  }
+  &.bg-none {
+    background: none;
+    padding: 0;
+  }
+}
+
+.bodyPage {
+  @include breakpoint(sm) {
+    padding: 25px 0px;
+    padding-bottom: 0;
+  }
+  @include breakpoint(xs) {
+    padding-top: 4px;
+  }
+}
+
+.btnHow {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background: #444449;
+  border: 1px solid #58585a;
+  border-radius: 8px;
+  min-height: 46px;
+  padding: 10px 16px;
+  font-family: 'Violet Sans';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    color: #ffffff;
+    opacity: 0.85;
+    text-decoration: inherit;
+  }
+}
+
+.lineLearMore {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: -12px;
+  margin-top: 32px;
+}
+
+.iconBtnHow {
+  margin-right: 8px;
+}
+
+.iconArrowRight {
+  margin-left: auto;
+}
+
+@include breakpoint(xs) {
+  .tierTitle {
+    display: none;
+  }
+}

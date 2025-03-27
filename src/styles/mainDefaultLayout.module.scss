@@ -1,0 +1,56 @@
+.main-layout {
+    grid-area: main;
+    width: 100%;
+    padding-top: 60px;
+    overflow: hidden;
+  }
+  
+  .alert-verify-email {
+    position: relative;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #D0AA4D;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    min-height: 42px;
+  
+    @media (max-width: 600px) {
+      align-items: flex-start;
+      width: 90%;
+    }
+  
+    img {
+      margin-top: 3px;
+      
+      @media (max-width: 600px) {
+        margin-top: 6px;
+      }
+    }
+  
+    .btn-close {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+    }
+  
+    span {
+      font: normal normal 400 14px/24px violet Sans;
+      color: #070A1B;
+    }
+  
+    a {
+      color: #3232DC;
+    }
+  }
+  
+  .error-switch {
+    margin-bottom: 20px;
+  }
+  

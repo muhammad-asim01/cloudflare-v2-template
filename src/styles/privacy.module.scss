@@ -1,0 +1,90 @@
+.privacyPolicy {
+    background-color: var(--secondary-background);
+    color: black;
+    padding: 80px 50px;
+    font-family: 'Violet Sans';
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    @media (max-width: 600px) {
+      font-size: 13px;
+      padding: 50px 10px;
+      width: 100vw;
+    }
+  
+    ul {
+      list-style: disc;
+    }
+  
+    ol {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .tableTd, .tableTh {
+      padding: 0;
+    }
+  
+    .c41, .c32, .c4, .c22 {
+      border: 1pt solid #000;
+      padding: 0 5.4pt;
+      vertical-align: top;
+    }
+  
+    .c41 { width: 103.2pt; }
+    .c32 { width: 63pt; }
+    .c4 { width: 198pt; }
+    .c22 { width: 103.5pt; }
+  
+    .c0, .c18, .c15, .c16, .c27, .c19, .c21, .c54, .c46, .c5, .c13, .c23,
+    .c12, .c28, .c33, .c53, .c36, .c39, .c57, .c37, .c43, .c48, .c58 {
+      text-align: justify;
+      padding-top: 0;
+    }
+  
+    .c18, .c15, .c19, .c23, .c33, .c53 { padding-bottom: 8pt; }
+    .c28 { padding-bottom: 10pt; }
+    .c39 { padding-bottom: 7.5pt; }
+    .c37, .c58 { padding-bottom: 14pt; }
+  
+    .c50, .c1, .c45, .c3, .c7, .c44, .c52, .c24 {
+      color: #000;
+    }
+    .c50, .c44 { font-size: 11pt; }
+    .c1, .c45, .c3, .c7, .c52, .c24 { font-size: 12pt; }
+  
+    .c7, .c44, .c52 { font-weight: 700; }
+    .c50, .c45, .c3 { font-weight: 400; }
+    .c24 { text-decoration: underline; }
+  
+    .c5, .c29, .c35, .c49 { margin-left: 72pt; }
+    .c18, .c34 { margin-left: 18pt; }
+    .c0, .c15, .c16, .c27 { margin-left: 36pt; }
+    .c30 { margin-left: 117pt; }
+  
+    .c40 { background-color: #bfbfbf; }
+    .c8, .c10 { background-color: #fff; }
+  
+    .c14 {
+      border-spacing: 0;
+      border-collapse: collapse;
+      margin-right: auto;
+    }
+  
+    .c9, .c11 { font-style: italic; }
+    .c55, .c38 { font-weight: 700; }
+  
+    .title, .subtitle {
+      padding-top: 0;
+      color: #000;
+      font-weight: 700;
+      font-size: 12pt;
+      padding-bottom: 12pt;
+      line-height: 1.08;
+    }
+    .title { text-align: center; }
+    .subtitle { text-align: left; }
+  }
+  

@@ -1,0 +1,15 @@
+<svg width="130" height="42" viewBox="0 0 130 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Rectangle 142423">
+<path d="M129 41L14.1248 40.9999L14.1248 40.9985L0.999999 26.7496L0.999999 1" stroke="white" stroke-opacity="0.6" stroke-linecap="round"/>
+<path d="M129 41L14.1248 40.9999L14.1248 40.9985L0.999999 26.7496L0.999999 1" stroke="url(#paint0_angular_826_17014)" stroke-linecap="round"/>
+</g>
+<defs>
+<radialGradient id="paint0_angular_826_17014" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(37.3935 -32.4765) rotate(-116.609) scale(160.509 159.549)">
+<stop stop-color="#724CE8"/>
+<stop offset="0.270833" stop-color="#C34C52"/>
+<stop offset="0.520833" stop-color="#FEC8C8"/>
+<stop offset="0.765625" stop-color="#4161BF"/>
+<stop offset="1" stop-color="#724CE8"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,224 @@
+.footer {
+    grid-area: footer;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 0 0;
+    border-top: 1px solid #d9d9d9;
+    background-color: var(--secondary-background); // Replace with CSS variable
+    position: relative;
+  
+    @media (max-width: 600px) { // Assuming xs breakpoint is 600px
+      padding: 0;
+    }
+  
+    .mainContent {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 30px 20px;
+      width: 100%;
+  
+      @media (max-width: 600px) {
+        gap: 0;
+        padding: 60px 0;
+        place-items: center;
+      }
+    }
+  
+    .infoRedKite {
+      display: flex;
+      flex-direction: column;
+      font: 12px/16px Violet Sans;
+      color: #1e1e1e;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+  
+      a {
+        display: block;
+        margin: 16px auto;
+        width: 86px;
+        height: 86%;
+      }
+  
+      p {
+        text-align: center;
+        max-width: 400px;
+      }
+  
+      @media (max-width: 600px) {
+        width: 100%;
+  
+        p {
+          max-width: 295px;
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+  
+    .logo {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .apps {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 12px;
+  
+      li {
+        margin-right: 6px;
+  
+        &:last-child {
+          margin-right: 0;
+        }
+  
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  
+    .shareLink {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  
+      li {
+        display: flex;
+        margin-right: 8px;
+        cursor: pointer;
+  
+        &:last-child {
+          margin-right: 0;
+        }
+  
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  
+    .infoCompany {
+      padding-top: 60px;
+    }
+  
+    .companyLink {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .help {
+      padding-top: 60px;
+    }
+  
+    .helpLink {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .developers {
+      padding-top: 60px;
+    }
+  
+    .developerLink {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .title {
+      font-family: Violet Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  
+    .link {
+      font-family: Violet Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 32px;
+      color: #999999;
+    }
+  
+    .endContent {
+      height: 30px;
+      max-width: 960px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      color: #757575;
+      font: 12px/16px Violet Sans;
+  
+      @media (max-width: 600px) {
+        height: auto;
+        margin-top: 12px;
+        flex-direction: column-reverse;
+      }
+    }
+  
+    .copyRight {
+      text-align: center;
+  
+      @media (max-width: 600px) {
+        padding: 8px 0;
+        border-top: 1px solid #757575;
+      }
+    }
+  
+    .subContent {
+      text-align: center;
+  
+      a {
+        padding: 0 8px;
+        color: #757575;
+        border-right: 1px solid #757575;
+  
+        &:last-child {
+          border-right: 0;
+        }
+  
+        @media (max-width: 600px) {
+          &:last-child {
+            display: block;
+          }
+        }
+      }
+  
+      @media (max-width: 600px) {
+        padding-bottom: 32px;
+      }
+    }
+  
+    .btnToTop {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+  
+      p {
+        margin-top: 12px;
+        font-weight: 500;
+      }
+    }
+  
+    @media (max-width: 600px) {
+      .mainContent {
+        padding: 16px 0 0;
+      }
+    }
+  }

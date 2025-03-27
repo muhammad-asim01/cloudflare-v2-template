@@ -1,0 +1,90 @@
+.MyTier {
+    margin-top: 30px;
+    width: 50%;
+    font: normal normal bold 14px/18px 'DM Sans';
+    margin-right: 120px;
+  
+    @media (max-width: 960px) {
+      margin-right: 0;
+      width: 100%;
+    }
+    
+    @media (max-width: 600px) {
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+  
+  .MyTierAccountRedirect {
+    color: #999999;
+    font-family: 'Violet Sans';
+    font-weight: normal;
+    line-height: 24px;
+  }
+  
+  .MyTierRulesHeader {
+    font-family: 'Violet Sans';
+    font-size: 15px;
+    font-weight: normal;
+  }
+  
+  .table {
+    .MuiTableBody-root td {
+      font: normal normal normal 14px/24px 'Violet Sans';
+    }
+  }
+  
+  .tableContainer {
+    max-width: 100%;
+    width: 100%;
+    background: transparent;
+    color: #1e1e1e;
+    border: 1px solid #d9d9d9;
+    margin-top: 20px;
+  
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  
+    th, td {
+      color: #999999;
+    }
+  
+    .MuiTableCell-root {
+      border-bottom: none !important;
+  
+      @media (max-width: 600px) {
+        padding: 4px !important;
+      }
+    }
+  }
+  
+  .tableHeaderWrapper {
+    background-color: #040D34;
+  
+    th {
+      font: normal normal bold 14px/18px 'DM Sans';
+    }
+  }
+  
+  .tableHeader {
+    color: white !important;
+    font-weight: 700;
+    font-size: 15px;
+  
+    > span {
+      display: inline-block;
+    }
+  
+    @media (max-width: 600px) {
+      > span {
+        display: inline-block;
+      }
+    }
+  
+    @media (max-width: 960px) {
+      > span {
+        width: 120px;
+      }
+    }
+  }

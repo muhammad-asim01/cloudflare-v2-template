@@ -1,0 +1,970 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid #d9d9d9;
+    background: var(--secondary-background); // Assuming theme.custom.colors.secondaryBackground is mapped to a CSS variable
+  
+    .conntectwallet_btn {
+      border: 1px solid #d9d9d9;
+      border-radius: 50px;
+  
+      @media (max-width: 960px) { // Assuming md breakpoint is 960px
+        width: 100%;
+      }
+  
+      span {
+        color: #000;
+      }
+    }
+  
+    .navBar {
+      grid-area: header;
+      width: 1280px;
+      margin: 0 auto;
+      max-width: calc(100vw - 80px);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+  
+      a {
+        height: 86%;
+        padding: 5px 0;
+      }
+    }
+  
+    .navbarLink {
+      text-align: center;
+      display: inline-block;
+    }
+  
+    .navbarLogo {
+      padding: 0 !important;
+      margin-right: 40px;
+  
+      @media (max-width: 960px) {
+        margin-right: 15px;
+      }
+    }
+  
+    .navBarHeaderLogo {
+      width: 86px;
+  
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  
+    .navbarBrand {
+      color: white;
+      font-size: 15px;
+      text-align: center;
+      font-weight: 300;
+      margin-top: 5px;
+    }
+  
+    .navbarBrandBold {
+      color: #D01F36;
+    }
+  
+    .rightBar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  
+    .currentAccount {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+  
+      img {
+        margin-left: 4px;
+        width: 20px;
+      }
+    }
+  
+    .learnBtn {
+      cursor: pointer;
+  
+      a {
+        display: flex;
+        align-items: center;
+      }
+  
+      svg {
+        margin: auto 0;
+        color: white;
+      }
+  
+      @media (max-width: 960px) {
+        width: 100%;
+      }
+    }
+  
+    .btnHeader {
+      margin-right: 28px;
+  
+      &:last-child {
+        margin-right: 0;
+      }
+  
+      p {
+        color: #1E1E1E;
+        display: flex;
+        align-items: center;
+        padding: 13px 6px 12px 6px;
+        letter-spacing: 1px;
+        mix-blend-mode: normal;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+  
+      span {
+        margin-left: 0;
+        font: normal normal normal 14px/24px Violet Sans;
+      }
+  
+      img {
+        margin-right: 5px;
+      }
+  
+      &:focus {
+        outline: none;
+      }
+  
+      @media (max-width: 960px) {
+        p {
+          padding-right: 0;
+        }
+      }
+    }
+  
+    .btnGiveAway {
+      margin-right: 28px;
+      margin-left: 20px;
+  
+      &:last-child {
+        margin-right: 0;
+      }
+  
+      p {
+        color: #1e1e1e;
+        display: flex;
+        align-items: center;
+        padding: 13px 6px 12px 6px;
+        letter-spacing: 1px;
+        mix-blend-mode: normal;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+  
+      span {
+        margin-left: 0;
+        font: normal normal normal 14px/24px Violet Sans;
+      }
+  
+      img {
+        margin-right: 5px;
+      }
+  
+      &:focus {
+        outline: none;
+      }
+  
+      @media (max-width: 960px) {
+        p {
+          padding-right: 0;
+          padding-left: 0;
+        }
+      }
+    }
+  
+    .skeleton {
+      background: #515151;
+      border-radius: 4px;
+    }
+  
+    .btnNetwork {
+      display: flex;
+      align-items: center;
+      height: 36px;
+      padding: 8px 20px;
+      margin-right: 10px;
+      border-radius: 4px;
+      color: #FFFFFF;
+      font: normal normal 500 14px/20px Violet Sans;
+      background: linear-gradient(180deg, #252525 0%, #191919 100%);
+      border: 1px solid #d9d9d9;
+      cursor: pointer;
+  
+      img {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+      }
+  
+      &:hover {
+        opacity: 0.8;
+      }
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    .direction_column {
+      @media (max-width: 600px) { // Assuming xs breakpoint is 600px
+        width: 100%;
+      }
+    }
+  
+    .btnConnected {
+      margin-right: 10px;
+      height: 36px;
+      width: fit-content;
+      color: white;
+      padding: 0;
+      position: relative;
+      background-color: transparent;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      display: flex;
+  
+      @media (max-width: 960px) {
+        margin-right: 20px;
+      }
+  
+      @media (max-width: 600px) {
+        margin-right: 0;
+        border: 1px solid #d9d9d9;
+        width: 100%;
+      }
+    }
+  
+    .profileimage {
+      width: 40px;
+      height: 40px;
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  
+    .btnConmob {
+      @media (max-width: 425px) {
+        // width: 50%;
+      }
+    }
+  
+    .btnTab {
+      @media (min-width: 600px) and (max-width: 960px) {
+        margin-right: 24px !important;
+      }
+    }
+  
+    .btnGradient {
+      margin-right: 10px;
+      height: 36px;
+      width: fit-content;
+      min-width: 150px;
+      color: #1e1e1e;
+      cursor: pointer;
+      background: transparent;
+      border: 1px solid #0066FF;
+      position: relative;
+      border-radius: 50px;
+  
+      img {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+      }
+  
+      @media (max-width: 600px) {
+        min-width: 140px;
+        width: 100%;
+        margin-right: 6px;
+        padding: 6px;
+      }
+  
+      @media (min-width: 600px) and (max-width: 960px) {
+        width: 50%;
+        padding: 6px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  
+    .btnPrimary {
+      margin-right: 10px;
+      height: 36px;
+      width: fit-content;
+      min-width: 150px;
+      color: white;
+      padding: 10px;
+      position: relative;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+  
+      img {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+      }
+  
+      &:before, &:after {
+        position: absolute;
+        width: 10px;
+        height: 0.095rem;
+        content: '';
+      }
+  
+      &:before {
+        top: 0;
+        left: -3px;
+        transform: rotate(-45deg);
+        transform-origin: top right;
+        background: linear-gradient(to right, var(--linear-gradient-primary-one) 0%, var(--linear-gradient-primary-two) 100%);
+      }
+  
+      &:after {
+        bottom: 0;
+        right: -3px;
+        transform: rotate(-45deg);
+        transform-origin: bottom left;
+        background: linear-gradient(to right, var(--linear-gradient-secondary-one) 0%, var(--linear-gradient-secondary-two) 100%);
+      }
+    }
+  
+    .btnPrimaryLine1 {
+      display: flex;
+  
+      &:before, &:after {
+        position: absolute;
+        width: calc(100% - 8px);
+        height: 0.18rem;
+        content: '';
+      }
+  
+      &:before {
+        top: 0;
+        left: 7px;
+        height: 0.13rem;
+        background: linear-gradient(to right, var(--linear-gradient-primary-two) 0%, var(--secondary-gradient) 100%);
+      }
+  
+      &:after {
+        bottom: 0;
+        right: 7px;
+        height: 0.095rem;
+        background: linear-gradient(to right, var(--primary-gradient) 0%, #BBA4C5 100%);
+      }
+    }
+  
+    .btnPrimaryLine2 {
+      display: flex;
+      margin: auto;
+  
+      span {
+        line-height: 1;
+      }
+  
+      &:before, &:after {
+        position: absolute;
+        width: 0.13rem;
+        content: '';
+      }
+  
+      &:before {
+        bottom: 0;
+        left: 0;
+        height: calc(100% - 7px);
+        background: linear-gradient(to bottom, #754CE3 0%, #6154DA 100%);
+      }
+  
+      &:after {
+        top: 0;
+        right: 0;
+        height: calc(100% - 7px);
+        background: linear-gradient(to bottom, #E79799 0%, #DCB6C7 100%);
+      }
+    }
+  
+    .grayBorder {
+      color: #EFEFE5;
+  
+      &:before, &:after {
+        background: #353539;
+      }
+    }
+  
+    .grayBtn {
+      border-right: 1px solid #d9d9d9;
+      border-left: none;
+      border-top: none;
+      border-bottom: none;
+      height: 36px;
+      width: fit-content;
+      color: white;
+      padding: 10px;
+      padding-left: 20px;
+      position: relative;
+      background: transparent;
+      display: flex;
+      cursor: pointer;
+      margin-right: 15px;
+  
+      div {
+        display: flex;
+        margin: auto;
+        width: fit-content;
+      }
+  
+      img {
+        width: 23px;
+        margin-right: 10px;
+        margin-top: -3px;
+      }
+  
+      @media (max-width: 600px) {
+        border: 1px solid #d9d9d9;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+  
+      @media (min-width: 600px) and (max-width: 960px) {
+        width: 50%;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  
+    .btnConnect {
+      display: flex;
+      align-items: center;
+      height: 36px;
+      color: #fff;
+      background: transparent;
+      border: 0;
+      border-radius: 4px;
+      padding: 8px 20px;
+      transition: 0.2s all ease-out;
+      font: normal normal 500 14px/20px Violet Sans;
+      cursor: pointer;
+  
+      &:hover {
+        opacity: 0.8;
+      }
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    .btnConnectText {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      font: normal normal 500 14px/20px Violet Sans;
+    }
+  
+    .btnLogout {
+      background: #3232DC;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      outline: none;
+      padding: 0 15px;
+      height: 42px;
+    }
+  
+    .btnBalance {
+      color: black;
+      margin: auto;
+      padding: 0 10px;
+      font-size: 14px;
+  
+      @media (max-width: 600px) {
+        border-right: 1px solid #d9d9d9;
+      }
+    }
+  
+    .btnAccount {
+      background-color: transparent;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 10px;
+      margin: auto;
+      border-radius: 2px;
+      margin-right: 2px;
+      font: 14px/20px Violet Sans;
+      color: #757575;
+  
+      @media (max-width: 600px) {
+        margin-left: auto;
+        width: 80%;
+      }
+    }
+  
+    .btnAccmob {
+      @media (max-width: 425px) {
+        width: auto;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        display: flex;
+      }
+    }
+  
+    .btnChangeAppNetwork {
+      padding: 6px 11px;
+      border: 1px solid #757575;
+      box-sizing: border-box;
+      border-radius: 30px;
+      background: transparent;
+      font-weight: 600;
+      color: #1e1e1e;
+      cursor: pointer;
+      transition: 0.2s all ease-in;
+      font: normal normal 700 12px/14px Violet Sans;
+  
+      &:focus {
+        outline: none;
+      }
+  
+      &:hover {
+        background-color: white;
+        color: #D01F36;
+      }
+    }
+  
+    .loginErrorBanner {
+
+      top: 60px;
+      width: 1040px;
+      max-width: calc(100vw - 80px);
+      margin: 8px auto;
+      border-radius: 8px;
+      background-color: #ffffff;
+      
+      font-size: 14px;
+      color: #1e1e1e !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      z-index: 99;
+      min-height: 42px;
+      line-height: 20px;
+      position: fixed;
+      left: 50%;
+      transform: translate(-50%);
+  
+      @media (max-width: 600px) {
+        top: 70px;
+        width: calc(100% - 36px);
+        max-width: calc(100vw - 36px);
+        margin: auto;
+      }
+    }
+  
+    .iconWarning {
+      margin-right: 8px;
+    }
+  
+    .loginErrorBannerText {
+      width: 100%;
+      height: 100%;
+      font: normal normal 400 14px/24px Violet Sans;
+      color: #1e1e1e;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(236, 34, 31, 0.1);
+      border-radius: 8px;
+      padding: 8px;
+  
+      a {
+        color: #1e1e1e;
+        text-decoration: none;
+      }
+  
+      @media (max-width: 600px) {
+        flex-direction: column;
+      }
+    }
+  
+    .loginErrorGuide {
+      color: white;
+      text-decoration: underline;
+  
+      &:hover {
+        color: white;
+      }
+    }
+  
+    .spacer {
+      flex: 1 0 0;
+    }
+  
+    .rightHeadMobile {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  
+      @media (max-width: 960px) {
+        .startMobile {
+          margin-right: 5px;
+        }
+      }
+    }
+  
+    .linkActived {
+      border-bottom: 3px solid #d9d9d9;
+    }
+  
+    .menuAccountMobile {
+      a {
+        color: #1e1e1e;
+        font: 16px/24px Violet Sans;
+        margin-top: 16px;
+        display: block;
+        height: fit-content !important;
+      }
+    }
+  
+    .menuLearnMobile {
+      border-bottom: 1px solid #d9d9d9;
+      padding-bottom: 10px;
+  
+      a {
+        color: #1e1e1e;
+        font: 16px/24px Violet Sans;
+        margin-top: 16px;
+        display: block;
+        height: fit-content !important;
+      }
+    }
+  
+    .headerMobileWallet {
+      display: flex;
+      align-items: center;
+    }
+  
+    @media (max-width: 960px) {
+      .rightBar {
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin: 0;
+        position: fixed;
+        background: #FFFFFF;
+        backdrop-filter: blur(3px);
+        padding: 84px 28px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        display: none;
+        z-index: 5;
+  
+        &.active {
+          display: flex;
+        }
+      }
+  
+      .btnNetwork {
+        margin: 0;
+        width: 100%;
+        margin-top: 12px;
+      }
+  
+      .btnConnect {
+        width: 100%;
+        margin-top: 12px;
+        display: flex;
+      }
+  
+      .btnHeader {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 12px;
+        padding-left: 0;
+        border-bottom: 1px solid #d9d9d9;
+  
+        &:first-child {
+          margin-top: 0;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+  
+        p {
+          padding: 0;
+        }
+  
+        span {
+          margin-left: 0;
+          font: 16px/24px Violet Sans;
+        }
+      }
+  
+      .linkActived {
+        border-bottom: 1px solid #d9d9d9;
+      }
+  
+      .sideBarLogo {
+        position: absolute;
+        top: 12px;
+        left: 28px;
+      }
+  
+      .closeBtn {
+        position: absolute;
+        top: 20px;
+        right: 24px;
+      }
+  
+      .navBar {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: calc(100vw - 24px);
+        margin: 12px auto;
+  
+        a {
+          height: 40px;
+          padding: 0;
+          margin-left: 0;
+        }
+      }
+  
+      .navbarLink {
+        img {
+          height: 40px;
+        }
+      }
+  
+      .loginErrorBanner {
+        align-items: flex-start;
+  
+        img {
+          margin-top: 5px;
+        }
+      }
+  
+      .myAccount {
+        width: 100%;
+        margin-top: 12px;
+  
+        .MuiButton-endIcon {
+          margin-left: auto;
+        }
+  
+        button {
+          margin-right: 0;
+          width: 100%;
+          justify-content: flex-start;
+        }
+  
+        span {
+          font: 16px/24px Violet Sans;
+        }
+      }
+    }
+  
+    @media (max-width: 600px) {
+      .navbarLink {
+        img {
+          height: 28px;
+        }
+      }
+  
+      .headerMobileWallet {
+        width: 100%;
+        justify-content: end;
+        gap: 30px;
+      }
+  
+      .myAccount {
+        display: flex;
+      }
+    }
+  }
+
+
+  .dialog {
+    .MuiPaper-root {
+      padding: 32px 28px;
+      min-width: 360px;
+      background-color: #f5f5f5;
+      border-radius: 2px;
+      border: 1px solid #d9d9d9;
+    }
+  }
+  
+  .dialogTitle {
+    .MuiTypography-h6 {
+      font: normal normal 500 22px/28px "Violet Sans";
+      padding-bottom: 16px;
+      color: #1e1e1e;
+    }
+  
+    .MuiSvgIcon-root {
+      font-size: 1rem;
+    }
+  }
+  
+  .dialogContent {
+    padding: 0 !important;
+    position: relative;
+    color: #1e1e1e !important;
+  }
+  
+  .mainDialog {
+    display: flex;
+    background: #f5f5f5;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 14px;
+  }
+  
+  .disconnectIcon {
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+  }
+  
+  .disconnectButton {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    cursor: pointer;
+  
+    span {
+      color: #0066ff;
+      font: normal normal 500 14px/18px "Violet Sans";
+    }
+  }
+  
+  .accountDetails {
+    width: 100%;
+    color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 8px 0;
+  }
+  
+  .accountDetailBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 6px;
+  }
+  
+  .accountDetailBlockLabel {
+    font: 14px/24px "Violet Sans";
+    color: #757575;
+  }
+  
+  .accountDetailBlockText {
+    font: normal normal 500 16px/24px "Violet Sans";
+    display: flex;
+    align-items: center;
+  }
+  
+  .accountDetailsIcon {
+    width: 50px;
+  }
+  
+  .accountDetailAddress {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #0d0f14;
+    border: 1px solid #263246;
+    box-shadow: inset 0 16px 30px rgba(0, 0, 0, 0.5);
+    padding: 10px 5px;
+    border-radius: 16px;
+  }
+  
+  .accountDetailAddressText {
+    margin-left: 10px;
+    color: white;
+    font: normal normal normal 14px/24px "Violet Sans";
+  }
+  
+  .walletNameIcon {
+    width: 40px;
+    height: 42px;
+    margin-right: 15px;
+  }
+  
+  .walletAddress {
+    font: normal normal 500 14px/18px "Violet Sans";
+    color: #1e1e1e;
+  }
+  
+  .accountDetailCta {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .netWorkIcon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+  }
+  
+  .accountDetailCtaIcon {
+    margin-right: 8px;
+    display: inline-block;
+  }
+  
+  .accountDetailDisconnect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #59f;
+    cursor: pointer;
+    font: normal normal bold 14px/18px "Violet Sans";
+  }
+  
+  // Responsive Styles
+  @media (max-width: 600px) {
+    .dialog {
+      .MuiPaper-root {
+        padding: 40px 20px 32px;
+        min-width: unset;
+        width: calc(100vw - 56px);
+        margin: 28px;
+        border-radius: 15px;
+      }
+    }
+  
+    .walletNameIcon {
+      margin-right: 8px;
+    }
+  }
+  

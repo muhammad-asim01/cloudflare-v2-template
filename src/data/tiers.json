@@ -1,0 +1,31 @@
+[
+    {
+      "tier": "Ape Tier",
+      "multiplicationFactor": 1,
+      "allocationPrice": 0.22,
+      "idoAmount": 0.22,
+      "imageUrl": "/assets/images/icons/bronze.png"
+    },
+    {
+      "tier": "Chad Tier",
+      "multiplicationFactor": 4,
+      "allocationPrice": 0.88,
+      "idoAmount": 0.88,
+      "imageUrl": "/assets/images/icons/silver.png"
+    },
+    {
+      "tier": "Shark Tier",
+      "multiplicationFactor": 10,
+      "allocationPrice": 2.2,
+      "idoAmount": 2.2,
+      "imageUrl": "/assets/images/icons/gold.png"
+    },
+    {
+      "tier": "Whale Tier",
+      "multiplicationFactor": 40,
+      "allocationPrice": 8.8,
+      "idoAmount": 8.8,
+      "imageUrl": "/assets/images/icons/diamond.png"
+    }
+  ]
+  

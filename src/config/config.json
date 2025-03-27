@@ -1,0 +1,615 @@
+{
+  "landing": "landing page",
+  "landingBackground3": "/assets/images/landing/landing-bg.png",
+  "landingBackgroundMobile": "/assets/images/landing/landing-bg-mobile.png",
+  "landingBackgroundMobileSM": "/assets/images/landing/landing-bg-sm.png",
+  "iconStaking": "/assets/images/icons/staking.svg",
+  "iconRocket": "/assets/images/icon-rocket.svg",
+  "landingTitle": "Built by Degens, for Degens",
+  "landingDescription": "Powered by Degenpad, DegenPad is your destination for the most hilarious, dynamic, and popular memecoin launches in Web3.",
+  "footer_description": "Launch hand-picked projects and help them shine.\r\nDegenPad, a cutting-edge launchpad and Defi platform powered by DegenPad.",
+  "footer_copyright": "Copyright © 2024 . All rights reserved.",
+  "poweredByLogo": "/assets/images/landing/logo-copy-right.svg",
+  "registerSection": [
+    {
+      "image": "/assets/images/landing/instruction1.png",
+      "title": "Sign-Up and KYC",
+      "description": "Join the fam by finishing our quick onboarding steps: registration and KYC.\n",
+      "buttonName": "Sign-Up",
+      "url": "/account"
+    },
+    {
+      "image": "/assets/images/landing/instruction2.png",
+      "title": "Verify Wallet",
+      "description": "Once registered, verify the wallet address you'll use for IDOs. Choose carefully: each user can verify one wallet.",
+      "buttonName": "Verify",
+      "url": "/account"
+    },
+    {
+      "image": "/assets/images/landing/instruction3.png",
+      "title": "Stake $CGPT",
+      "description": "Unlock your tier, increase your multiplier, and secure your allocations by staking $CGPT!",
+      "buttonName": "Stake",
+      "url": "/staking-pools"
+    },
+    {
+      "image": "/assets/images/landing/instruction4.png",
+      "title": "Register for a Sale",
+      "description": "Show your interest by registering for the projects you want to join. Only those who register can participate.",
+      "buttonName": "Register",
+      "url": "/pools"
+    }
+  ],
+  "featureSectionTitle": "DegenPad Features",
+  "featureSection": [
+    {
+      "image": "/assets/images/landing/image1.png",
+      "title": "Fair Tier System",
+      "description": "Protected. Secure. Flexible. We offer  an added layer of risk management tooling for investors.",
+      "backgroundColor": "linear-gradient(180deg, rgba(147, 19, 51, 0.69) 0%, #060B26 50%)",
+      "learnMoreURL": "https://medium.com/chaingpt-blog/chaingpt-launch-pad-refund-policy-c3c0a979d0b8"
+    },
+    {
+      "image": "/assets/images/landing/image2.png",
+      "title": "Selected Low FDV Projects",
+      "description": "Jump in! Our benefits system is designed to be fair and accessible, making IDOs open to all.",
+      "learnMoreURL": "https://medium.com/chaingpt-blog/chaingpt-launch-pad-tier-system-staking-364d2a63a10e"
+    },
+    {
+      "image": "/assets/images/landing/image3.png",
+      "title": "Airdrops and Giveawayss",
+      "description": "Treat yourself! Projects award the $CGPT community with unique goodies just for being listed!"
+    }
+   
+  ],
+  "googleFormSection": {
+    "title": "Want to launch your project on DegenPad?",
+    "buttonTitle": "Apply to Launch",
+    "buttonLink": "https://url.chaingpt.org/Apply",
+    "googleFormFeatures": [
+      {
+        "title": "Unique fictionless token sale process",
+        "image": "/assets/images/icons/checked-white-no-bg.svg"
+      },
+      {
+        "title": "Tier-1 marketing partners and support",
+        "image": "/assets/images/icons/checked-white-no-bg.svg"
+      },
+      {
+        "title": "Security audit, Pentest & Incident",
+        "image": "/assets/images/icons/checked-white-no-bg.svg"
+      }
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Can’t find an answer to your question? Feel free to contact us",
+    "QuestionsData": [
+      {
+        "tabName": "Basic",
+        "questionList": [
+          {
+            "question": "What is DegenPad?",
+            "answer": "It is a platform for incubating promising projects that are looking to introduce a token into their systems and launching them via IDOs."
+          },
+          {
+            "question": "What is an IDO?",
+            "answer": "<p>IDO stands for Initial DEX Offering. It is a method of public fundraising that pools capital from retail users by utilizing a decentralized platform as the venue for facilitating the transactions. <br/><br/> This model is superior to the preceding ICO model because the platform can provide a higher degree of security for end users by collecting the funding and only releasing to the projects after the satisfaction of a certain criteria.</p>"
+          },
+          {
+            "question": "What is CrowdFunding / Private Sale?",
+            "answer": "<p>The crowdfunding/private sale is a very early round of fundraising that takes place right before an IDO.<br/><br/>Typically just a day or so before an IDO launch. These rounds tend to offer superior rates but also incur prolonged vesting periods.</p>"
+          },
+          {
+            "question": "What is FCFS or First Comes First Serve round?",
+            "answer": "<p>FCFS is the acronym for First-Come-First-Serve, and it refers to the round of fundraising that becomes available to the general public after the guaranteed round.<br/><br/>As the name might suggest, FCFS rounds are based on timing, available token supplies are sold to participants that arrive ahead of others.</p>"
+          },
+          {
+            "question": "What is the Incubation Program?",
+            "answer": "Providing support, guidance, and accelerating excellence, the ChainGPT Incubation is an extensive, in-depth, multi-month-long program of intense, intimate collaboration between promising projects that are looking to launch into Web3."
+          }
+        ]
+      },
+      {
+        "tabName": "IDO Allocation & Policy",
+        "questionList": [
+          {
+            "question": "Can I participate in IDOs right after purchasing $CGPT?",
+            "answer": "<p>Almost. Before being able to participate in the IDO’s users must do two more actions.<br/><br/>First, once $CGPT is acquired, users must make sure to have enough tier points for inclusion, if yes, then simply staking their tokens in the official <a href=\"https://www.degenpad.com/staking-pools\" target=\"_blank\" rel=\"noreferrer nofollow\">Staking Dashboard</a><br/><br/>Second, they must pass KYC <a href=\"https://verify-with.blockpass.org/?clientId=degenpad_30b1f&serviceName=DegenPad&env=prod\" target=\"_blank\" rel=\"noreferrer nofollow\">http://url.degenpad.com/kyc</a></p>"
+          },
+          {
+            "question": "Is there a refund policy?",
+            "answer": "Yes. Every IDO launch will have a “refund grace period” lasting 7–14 days on average that allows participating users added time to evaluate their decisions before finalizing the commitments."
+          },
+          {
+            "question": "Do I have to KYC in order to access the Launchpad?",
+            "answer": "<p>Yes. KYC is required for participating at any tier level. The KYC process has been made maximally simple through our partner Blockpass. To sign up please follow our official link: <a href=\"http://url.degenpad.com/kyc\" target=\"_blank\" rel=\"noreferrer nofollow\">http://url.degenpad.com/kyc</a></p>"
+          },
+          {
+            "question": "How is Pool Weight Calculated?",
+            "answer": "<p>Pool weight is calculated based on the distribution of tier points among participating members and their corresponding tier levels.<br/><br/>Every pool has a structured base range that is dependent on their staking tier points.<br/><br/>Bronze | 1x | 2,000 points — 19,999 points Silver | 4x — 9.99x | 20,000 points — 49,999 points Gold | 10x — 39.99x | 50,000 points — 199,999 points Diamond | 40x + | 200,000 points +<br/><br/>The pool weight indicates how much multiplier is applied to that specific teir level’s allocation capacity.<br/><br/>Bronze maintains a base level of 1x multiplier throughout its entire point range. The Silver, Gold, and Diamond levels pool weights are scaled proportionally to the individual stakers point position within its range. To best understand the mechanism is through an empirical example:<br/><br/>In the event of a Silver tier with 20,000 points, they have a 4x multiplier. In the event of a Silver tier with 35,000 points, they have a 7x multiplier. In the event of a Silver tier with 49,999 points, they have a 9.99x multiplier.<br/><br/>This logic applies to the Gold tier equally.<br/><br/>Given that Diamond level can theoretically have no point limit, the cap on the multiplier for them is logarithmically relational to the total IDO’s upper bound.</p>"
+          },
+          {
+            "question": "What crypto tokens can be used to participate in IDOs?",
+            "answer": "Stablecoins: USDT, USDC, BUSD\nCryptocurrencies: BNB, ETH"
+          },
+          {
+            "question": "What countries are restricted from IDOs?",
+            "answer": "<p>As of now, everyone can pass a KYC & sign up for ChainGPT Pad. However, countries that have banned cryptocurrencies will not be eligible to participate in IDOs.<br/><br/>Restricted countries: Bangladesh, China, Algeria, Iraq, Morocco, Nepal, Qatar, Tunisia .<br/><br/>For a full list of sanctioned countries please refer to the directory provided by our KYC partner BlockPass:<a href=\"https://www.blockpass.org/major-sanctioned-countries-lists/\" target=\"_blank\" rel=\"noreferrer nofollow\">https://www.blockpass.org/major-sanctioned-countries-lists/</a></p>"
+          }
+        ]
+      },
+      {
+        "tabName": "Tiers & Staking",
+        "questionList": [
+          {
+            "question": "Can I stake into multiple Pools and still acquire points?",
+            "answer": "<p>Yes. If you wish to split up your $CGPT stake across different pools, then the Launchpad will calculate your point based on their individual placements.<br/><br/>As an example, if you stake 2,500 $CGPT into 45 day pool for 2,500 points and 2,500 $CGPT into the 180 day pool for 3,750 points then your associated wallet will be attributed the aggregated 6,250 tier points.</p>"
+          },
+          {
+            "question": "What is the Absolute minimum number of $CGPT that must be staked in order to acquire a Tier status?",
+            "answer": "<p>The entry level tier is Bronze, it requires 2,000 points.<br/><br/>Based on the maximum multiplier of 2x for the 365 day staking pool, the minimal number of tokens require is 1,000 $CGPT.</p>"
+          },
+          {
+            "question": "How are Tier Points calculated?",
+            "answer": "<p>Tier points are calculated based on two simple factors; the number of tokens staked and the duration of the staking pool they are allocated to.<br/><br/>1 $CGPT = 1 point<br/><br/>45 day = 1 : 1 points, 90 days = 1 : 1.3 points, 180 days = 1 : 1.5 points365 days = 1 : 2 points<br/><br/>So 1,000 $CGPT in 180 day pool would yield 1,500 points.</p>"
+          },
+          {
+            "question": "How many different tiers are there?",
+            "answer": "<p>There are four tiers in the launchpad system, Bronze, Silver, Gold, and Diamond. To understand how tier levels are calculated, please refer to our dedicated post: <a href=\"https://medium.com/chaingpt-blog/chaingpt-launch-pad-tier-system-staking-364d2a63a10e\" target=\"_blank\" rel=\"noreferrer nofollow\">ChainGPT Launch Pad — Tier System & Staking</a></p>"
+          },
+          {
+            "question": "What does Allocation Multiplier mean?",
+            "answer": "The allocation multiplier specifies the amount of tokens that participants will be able to purchase at the different tier levels. Every tier has its own corresponding allocation multiplier, Bronze: 1, Silver: 4+, Gold: 10+, Diamond 40+."
+          }
+        ]
+      },
+      {
+        "tabName": "For Projects",
+        "questionList": [
+          {
+            "question": "Can any category of project apply for listing?",
+            "answer": "Yes, absolutely! Innovators from all sectors of the digital economy are invited to apply."
+          },
+          {
+            "question": "Is there a criteria that must be met in order to list?",
+            "answer": "Yes. ChainGPT upholds high quality standards that must be met in order for a project to be given access to the LaunchPad."
+          },
+          {
+            "question": "What is the onboarding process for applying?",
+            "answer": "After submitting an application, they will undergo an initial screening by the ChainGPT Team. Following the screening, projects will be put through an in depth due-diligence process. Only projects that pass the rigorous qualitative assessment are inducted into the incubator and given the rights to list their IDO on the Launchpad."
+          },
+          {
+            "question": "What is the incubation program?",
+            "answer": "The incubation program is a system to support the early stages of a projects development and bootstrap their operations prior to launching their product."
+          },
+          {
+            "question": "How long is the incubation program?",
+            "answer": "Duration of the incubation program depends on the individual needs of a project; averaging around 12 months but can be as long as 18–24 months."
+          },
+          {
+            "question": "Is incubation necessary or can we just apply to IDO?",
+            "answer": "Projects are not required to be incubated in order to apply for an IDO listing. However, if a project decides to go through the incubation program then they must IDO via the ChainGPT Pad."
+          },
+          {
+            "question": "What is the max cap on what projects can raise during IDO?",
+            "answer": "There is so set maximum. The capacity is based on a project-to-project basis. A multitude of factors will be taken into account, which help gauge potential outcomes, whenever the fundraising goals are being set, which will dictate the maximum capacity."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "footerLogo": "/assets/images/logo.svg",
+    "description": "<p>Launch hand-picked projects and help them shine.<br/>ChainGPT Pad, a cutting-edge launchpad and DeFi platform powered by ChainGPT.</p>",
+    "copyright": "Copyright © 2023 . All rights reserved.",
+    "socialMedia": [
+      {
+        "image": "/assets/images/socials/telegram.svg",
+        "link": "https://t.me/DegenPadChat"
+      },
+      {
+        "image": "/assets/images/socials/telegram.svg",
+        "link": "https://t.me/DegenPadNews"
+      },
+      {
+        "image": "/assets/images/socials/twitter.svg",
+        "link": "https://x.com/DegenPadHQ"
+      },
+      {
+        "image": "/assets/images/socials/twitter.svg",
+        "link": "https://twitter.com/ChainGPT_Pad"
+      },
+      {
+        "image": "/assets/images/socials/m.svg",
+        "link": "https://medium.com/@degenpad"
+      },
+      {
+        "image": "/assets/images/socials/linkedin.svg",
+        "link": "https://www.linkedin.com/company/degenpad/about/"
+      },
+      {
+        "image": "/assets/images/socials/cmc.svg",
+        "link": "https://coinmarketcap.com/community/profile/ChainGPT"
+      },
+      {
+        "image": "/assets/images/socials/discord.svg",
+        "link": "https://discord.gg/chaingpt"
+      },
+      {
+        "image": "/assets/images/socials/youtube.svg",
+        "link": "https://www.youtube.com/@DegenPad"
+      },
+      {
+        "image": "/assets/images/socials/instagram.svg",
+        "link": "https://www.instagram.com/degenpad/"
+      }
+    ],
+    "services": [
+      {
+        "title": "Terms of Service",
+        "link": "mailto:support@chaingpt.org"
+      },
+      {
+        "title": "Privacy Policy",
+        "link": "mailto:support@chaingpt.org"
+      },
+      {
+        "title": "Help Center",
+        "link": "https://medium.com/chaingpt-blog"
+      },
+      {
+        "title": "info@chaingpt.org",
+        "link": "mailto:info@chaingpt.org"
+      }
+    ]
+  },
+  "learnLinks": [
+    {
+      "name": "Introduction & Overview",
+      "url": "https://docs.chaingpt.org/the-ecosystem/degenpad/introduction-to-degenpad"
+    },
+    {
+      "name": "Tier System & Staking",
+      "url": "https://docs.chaingpt.org/the-ecosystem/degenpad/tier-system"
+    },
+    {
+      "name": "Flexible Refund Policy",
+      "url": "https://docs.chaingpt.org/the-ecosystem/degenpad/flexible-refund-policy"
+    },
+    {
+      "name": "Frequently Asked Questions",
+      "url": "https://docs.chaingpt.org/the-ecosystem/degenpad/degenpad-faqs"
+    },
+    {
+      "name": "ChainGPT Incubation Program",
+      "url": "https://www.chaingpt.org/blog/chaingpt-incubation-program"
+    },
+    {
+      "name": "Documentation Page",
+      "url": "https://docs.chaingpt.org/chaingpt-pad/overview"
+    }
+  ],
+  "myProfileLinks": [
+    {
+      "name": "My Profile",
+      "icon": "/assets/images/account_v3/icons/icon_my_profile.svg"
+    },
+    {
+      "name": "My Tier",
+      "icon": "/assets/images/account_v3/icons/icon_my_tier.svg"
+    },
+    {
+      "name": "My Pools",
+      "icon": "/assets/images/account_v3/icons/icon_my_pools.svg"
+    },
+    {
+      "name": "Need Help",
+      "icon": "/assets/images/account_v3/icons/icon_need_help.svg"
+    }
+  ],
+  "myProfile": {
+    "title": "Wallet Addresses",
+    "description": "Your wallets linked to ChainGPT Pad are listed below. <br />Click \"Edit Profile\" button to connect / disconnect the sub-wallets."
+  },
+  "myTiers": {
+    "learnMore": {
+      "title": "Learn more about how to acheive ChainGPT Pad Tier here:",
+      "list": [
+        {
+          "id": 1,
+          "title": "How to stake?",
+          "url": "https://www.chaingpt.org/blog/cgptsp-chaingpt-staking-point-system"
+        },
+        {
+          "id": 2,
+          "title": "What are CGPT Staking Points (CGPTsp)?",
+          "url": "https://www.chaingpt.org/blog/cgptsp-chaingpt-staking-point-system"
+        },
+        {
+          "id": 3,
+          "title": "What is ChainGPT Pad Tiers?",
+          "url": "https://www.chaingpt.org/blog/chaingpt-launchpad-tier-system-staking"
+        },
+        {
+          "id": 4,
+          "title": "My Tier FAQs",
+          "url": "https://www.chaingpt.org/blog/chaingpt-launchpad-f-a-q-s"
+        }
+      ]
+    },
+    "TierOverview": [
+      {
+        "id": 8,
+        "title": "No tier",
+        "icon_url": "/assets/images/icon-rocket.svg"
+      },
+      {
+        "id": 9,
+        "title": "Bronze",
+        "icon_url": "/assets/images/icons/bronze.png"
+      },
+      {
+        "id": 10,
+        "title": "Silver",
+        "icon_url": "/assets/images/icons/silver.png"
+      },
+      {
+        "id": 11,
+        "title": "Gold",
+        "icon_url": "/assets/images/icons/gold.png"
+      },
+      {
+        "id": 12,
+        "title": "Diamond",
+        "icon_url": "/assets/images/icons/diamond.png"
+      }
+    ],
+    "StakingInfo": [
+      {
+        "id": 4,
+        "title": "Staking Informationnnn",
+        "description": "You can stake $CGPT to achieve CGPTspppp"
+      }
+    ],
+    "TierBenefits": [
+      {
+        "id": 17,
+        "title": "Minimum Staking Points",
+        "bronze": 2000,
+        "silver": 20000,
+        "gold": 50000,
+        "diamond": 200000,
+        "created_at": "2024-01-04 09:30:20",
+        "updated_at": "2024-01-04 12:36:21"
+      },
+      {
+        "id": 18,
+        "title": "Pool Weight / Allocation Multiplier",
+        "bronze": "1x",
+        "silver": "4x",
+        "gold": "10x",
+        "diamond": "40x",
+        "created_at": "2024-01-04 12:37:10",
+        "updated_at": "2024-01-04 12:56:31"
+      }
+    ], 
+    "TierRows": [
+      {
+        "name": "Social interaction required",
+        "bronze": 1,
+        "silver": 0,
+        "gold": 0,
+        "diamond": 0
+      },
+      {
+        "name": "Refund Eligibility",
+        "bronze": 1,
+        "silver": 1,
+        "gold": 1,
+        "diamond": 1
+      },
+      {
+        "name": "FCFS Round",
+        "bronze": 1,
+        "silver": 1,
+        "gold": 1,
+        "diamond": 1
+      },
+      {
+        "name": "Vote in DAO Proposals",
+        "bronze": 1,
+        "silver": 1,
+        "gold": 1,
+        "diamond": 1
+      },
+      {
+        "name": "Guaranteed Round",
+        "bronze": 0,
+        "silver": 1,
+        "gold": 1,
+        "diamond": 1
+      },
+      {
+        "name": "CrowdFunding & Private Pools",
+        "bronze": 0,
+        "silver": 1,
+        "gold": 1,
+        "diamond": 1
+      },
+      {
+        "name": "Incubations Airdrops",
+        "bronze": 0,
+        "silver": 0,
+        "gold": 1,
+        "diamond": 1
+      },
+      {
+        "name": "Freemium Access to ChainGPT AI Tools",
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0,
+        "diamond": 1
+      },
+      {
+        "name": "Create DAO Proposals",
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0,
+        "diamond": 1
+      }
+    ]
+  },
+  "needHelp": {
+    "title": "Need some help?",
+    "supportEmail": {
+      "title": "Support Email",
+      "description": "If you have any questions, please contact us at any moment via",
+      "link": "mailto:info@chaingpt.org",
+      "email": "info@chaingpt.org"
+    },
+    "list": [
+      {
+        "name": "Guide",
+        "childs": [
+          {
+            "title": "Before Joining IDOs",
+            "href": "https://medium.com/chaingpt-blog/chaingpt-launchpad-introduction-and-breakdown-3ef8cd79dd06"
+          },
+          {
+            "title": "Tier System Explained",
+            "href": "https://medium.com/chaingpt-blog/chaingpt-launch-pad-tier-system-staking-364d2a63a10e"
+          },
+          {
+            "title": "How to Claim IDO Tokens / Refund?",
+            "href": " https://medium.com/chaingpt-blog/chaingpt-pad-token-claims-and-refund-requests-1fc6db61b716"
+          }
+        ]
+      },
+      {
+        "name": "FAQ",
+        "childs": [
+          {
+            "title": "Get started with ChainGPT Pad",
+            "href": "https://medium.com/chaingpt-blog/chaingpt-launchpad-introduction-and-breakdown-3ef8cd79dd06"
+          },
+          {
+            "title": "KYC Process",
+            "href": "https://medium.com/chaingpt-blog/chaingpt-pad-kyc-process-6343e0eaf7cf"
+          },
+          {
+            "title": "Claim & Refund Process",
+            "href": "https://medium.com/chaingpt-blog/chaingpt-pad-token-claims-and-refund-requests-1fc6db61b716"
+          },
+          {
+            "title": "Staking Mechanism & Tier System",
+            "href": "https://medium.com/chaingpt-blog/chaingpt-launch-pad-tier-system-staking-364d2a63a10e"
+          },
+          {
+            "title": "Staking Pools Explained",
+            "href": "https://medium.com/chaingpt-blog/chaingpt-pad-staking-modules-9eff07ea5c15"
+          },
+          {
+            "title": "Others",
+            "href": "https://medium.com/chaingpt-blog/chaingpt-launchpad-f-a-q-s-1df2f6e996cc"
+          },
+          {
+            "title": "FAQs Blog Post",
+            "href": "https://medium.com/chaingpt-blog/chaingpt-launchpad-f-a-q-s-1df2f6e996cc"
+          }
+        ]
+      }
+    ]
+  },
+  "termsofService": {
+    "title": "Terms of Services",
+    "lastUpdated": "[Sep 6, 2021]",
+    "agreement": {
+      "introduction": "This end-user agreement (the \"Agreement\") should be read by you (the \"User\" or \"you\") in its entirety prior to your use of ChainGPT Pad’s service or products. Be aware that this Agreement constitutes a legally binding agreement between you and ChainGPT Pad (referred to herein as \"ChainGPT Pad\", \"us\" or \"we\") which owns and operates the website on the Internet and the Service at https://chaingpt.org (the \"Service\"). By accessing or using the site or ChainGPT Pad Services, you agree that you have read, understood, and agree to be bound by this agreement."
+    },
+    "firstParagraph": {
+      "description": "<h2>1. General Conditions of use </h2>\n<p>1.1. By signing up to use an Account through any of the ChainGPT Pad Clients’ social websites made available through the ChainGPT Pad Platform, you agree to comply with and be legally bound by this Agreement. If you do not agree to any of the terms set forth in this Agreement or any subsequent modification to the Agreement, you may not access or use any of the ChainGPT Pad Services and must cancel your ChainGPT Pad Account immediately.</p>\n<p>1.2. We may amend or modify this Agreement by posting such amended or modified Agreement (“Revised Agreement”) on the ChainGPT Pad Platform or by notifying you about the changes via email. By continuing to access or use the ChainGPT Pad Services once the Revised Agreement is effective, you agree to be bound by its terms.</p>\n<p>1.3. To be eligible to use the ChainGPT Pad Services, you must be at least 18 years old (or the applicable age of majority and contractual capacity in each qualifying jurisdiction). By accessing or using the ChainGPT Pad Services you represent and warrant that you are 18 or older.</p>\n<p>1.4. ChainGPT Pad disclaims any and all warranties, expressed or implied, in connection with the service which is provided to you \"as is\" and we provide you with no warranty or representation whatsoever regarding its quality, fitness for purpose, completeness, or accuracy.</p>\n<p>1.5. The term \"ChainGPT Pad\", its domain names and any other trademarks, or service marks used by ChainGPT Pad as part of the Service (the \"Trademarks\"), are solely owned by ChainGPT Pad. In addition, all content on the website, including, but not limited to, the images, pictures, graphics, photographs, animations, videos, music, audio, and text (the \"Site Content\") belongs to ChainGPT Pad and is protected by copyright and/or other intellectual property or other rights. You hereby acknowledge that by using the Service, you obtain no rights in the Site Content and/or the Trademarks, or any part thereof. Under no circumstances may you use the Site Content and/or the Trade Marks without ChainGPT Pad’s prior written consent. Additionally, you agree not to do anything that will harm or potentially harm the rights, including the intellectual property rights of ChainGPT Pad.</p>"
+    },
+    "secondParagraph": {
+      "description": "<h2>2. Authority/Terms of Service</h2>\n  <p>\n    You agree to the rules of the Service provided and described on the\n    <a href=\"https://chaingpt.org\" style=\"color: #3232DC;\">https://chaingpt.org</a> website. ChainGPT Pad retains all authority over the issuing,\n    maintenance, and closing of the Service. The decision of ChainGPT Pad’s management,\n    concerning any use of the Service, or dispute resolution, is final and shall not be open\n    to review or appeal.\n  </p>"
+    },
+    "thirdParagraph": {
+      "description": "<h2>3. Your Representations and Warranties</h2><p>Prior to your use of the Service and on an ongoing basis you represent, warrant, covenant, and agree that:</p><p>3.1. There is a risk of losing cryptocurrency & other funds of value when using the Service and ChainGPT Pad has no responsibility to you for any such loss;</p><p>3.2. Your use of the Service is at your sole option, discretion, and risk. You hereby accept full responsibility for any consequences that may arise from your use of the Services, and expressly agree and acknowledge that ChainGPT Pad shall have absolutely no liability in this regard;</p><p>3.3. You are solely responsible for any applicable taxes which may be payable on cryptocurrency traded or transacted by you through your using the Service;</p><p>3.4. Any cryptographic tokens, blockchain technology, or distributed ledger technology-related projects are new and relatively untested, and outside of both our and our Clients’ exclusive control. Any adverse changes in market forces, technology, and regulatory environment impacting our performance under this Agreement shall absolve us from responsibility in this regard, including but not limited to hacking attacks, possible theft, unfavorable regulatory action, or unclear legal/tax status of cryptographic tokens;</p><p>3.5. (i) You are eighteen years of age or older, (ii) you are of the age of majority in your jurisdiction, (iii) you are accessing the Service from a jurisdiction in which it is legal to do so, (iv) your use of the Services is not prohibited by applicable law, and at all times compliant with applicable law; and (v) you are solely responsible for use of the Services and, if applicable, for all activities that occur on or through your User Account.</p>"
+    },
+    "fourthParagraph": {
+      "description": "<h2>4. Prohibited Uses & Termination</h2><p>4.1. In connection with your use of the ChainGPT Pad Services, and your interactions with other Users, and third parties you agree and represent you will not engage in any illegal, unauthorized, or improper activity, which are:</p><ul><li>Infringe any proprietary rights, including but not limited to copyrights, patents, trademarks, or trade secrets of ChainGPT Pad;</li><li>Create multiple accounts, including for collusion and/or abuse of service;</li><li>Use the Services to transmit any data or send or upload any material that contains viruses, Trojan horses, worms, time-bombs, keystroke loggers, spyware, adware, or any other harmful programs or similar computer code designed to adversely affect the operation of any computer software or hardware;</li><li>Make any backup or archival copies of the Platform or any part thereof, including disassembling or de-compilation of the Platform;</li></ul><p>4.2. We reserve the right to (a) modify or discontinue any portion of the ChainGPT Pad Services, and (b) suspend or terminate your access to the ChainGPT Pad Services, at any time, and from time to time, without notice to you in certain, limited circumstances described herein. You agree that we shall not be liable to you or any third party for any modification or termination of the ChainGPT Pad Services, or suspension or termination of your access to the ChainGPT Pad Services, except to the extent otherwise expressly set forth herein.</p>"
+    },
+    "fifthParagraph": {
+      "description": "<h2>5. Know your Customer (“KYC”) and Anti-Money Laundering (AML) Policy</h2>\n<p>\nChainGPT Pad is a permissionless, fully decentralized platform for token sales, swaps, and decentralized exchange. As a software development company, ChainGPT Pad has no role in enforcing KYC by default, however, we do provide such tools for fundraising entities using ChainGPT Pad to enforce on their users, if the entities choose to do so. The use of KYC/AML tools on ChainGPT Pad by fundraising entities using the Service is completely at the discretion of said entities.\n</p>\n<p>\nAlthough ChainGPT Pad makes no warranty as to the merit, legality, or juridical nature of any token (including whether or not it is considered a security or financial instrument under any applicable Securities Laws), token sale or fundraiser on top of ChainGPT Pad, we nonetheless understand the need of some token projects to require KYC/AML on their token sale participants.\n</p>\n<p>\nTherefore, and at the sole behest of fundraising entities and/or competent regulatory authorities, ChainGPT Pad reserves the right at any time:\n</p>\n<ul>\n<li>\nTo ask for any KYC documentation it deems necessary to determine the identity and location of a User.\n</li>\n<li>To restrict service and payment until identity is sufficiently determined.</li>\n<li>\nTo share submitted KYC information and documentation to 3rd parties to verify the authenticity of submitted information, and the end-user (you) agrees to this by using the Service.\n</li>\n<li>\nTo confiscate any and all funds that are found to be in violation of relevant and applicable anti-money laundering (AML) and countering terrorism financing (CFT) laws and regulations, and to cooperate with the competent authorities when and if necessary.\n</li>\n</ul>"
+    },
+    "sixthParagraph": {
+      "description": "<h2>6. Retention of Intellectual Property Rights of ChainGPT Pad Platform and ChainGPT Pad clients</h2>\n<p>\nThe ChainGPT Pad Platform and all ChainGPT Pad Services, including their design elements or concepts and any underlying intellectual property, including, but not limited to, all trademarks, are the property of ChainGPT Pad and/or ChainGPT Pad Customers (as applicable), and are protected by copyright, patent, trade secret, and other intellectual property laws.\n</p>\n<p>\nChainGPT Pad and ChainGPT Pad Clients retain any and all rights, title, and interest in and to ChainGPT Pad Platform and ChainGPT Pad Services (including, without limitation, all intellectual property rights), including all copies, modifications, extensions, and derivative works thereof. Your right to use the ChainGPT Pad Platform and ChainGPT Pad Services is limited to the rights expressly granted in these Terms. Except as stated in these Terms, nothing in these Terms should be construed as conferring any right in or license to ChainGPT Pad’s or any third party’s intellectual rights.\n</p>\n<p>\nYou may not: Copy, create derivative works, distribute, publish, reverse engineer, decompile, disassemble, modify, or translate the ChainGPT Pad website or the Service; or Use the Service that in any way is prohibited by applicable laws or regulations (each of the above herein defined as an \"Unauthorized Use\"). You agree that you will be solely responsible for any damage, costs, or expenses arising out of or in connection with any unauthorized use by you\n</p>"
+    },
+    "seventhParagraph": {
+      "description": "<h2>7. Jurisdiction and Governing Law</h2>\n<p>\n7.1. The laws of Panama (with the exclusion of any rules that might lead to the use of any other law which is not the law of Panama) will govern the validity and construction of this Agreement, any separate agreement whereby we provide you any services and any dispute arising out of or in relation to this Agreement or such separate agreement.\n</p>\n<p>\n7.2. Citizens and residents of and persons located in the United States of America, China, Hong Kong, and all sanctioned OFAC countries (DR Congo, Iran, Myanmar, Sudan, Iraq, Ivory Coast, North Korea, Syria, Zimbabwe, Cuba, Belarus, Liberia) (the ”Prohibited Jurisdictions”) are not permitted to make use of the Service.\n</p>"
+    },
+    "eighthParagraph": {
+      "description": "<h2>8. Third-party services</h2>\n<p>\nThe Services may include services, content, and information owned, made available, or otherwise licensed by a third party (“Third-Party Services”) or contain links to Third Party Services. You understand that Third-Party Services are the responsibility of the third party that created or provided it and acknowledges that the use of such Third Party Services is solely at your own risk.\n</p>\n<p>\nChainGPT Pad makes no representations and excludes all warranties and liabilities arising out of or pertaining to such Third Party Services, including its accuracy or completeness.\n</p>\n<p>\nAll intellectual property rights in and to Third-Party Services are the property of the respective third parties.\n</p>"
+    },
+    "ninthParagraph": {
+      "description": "<h2>9. Breach</h2>\n<p>\n9.1. Without prejudice to any other rights, if a User breaches in whole or in part any provision contained herein, ChainGPT Pad reserves the right to take such action as it sees fit, including terminating this Agreement or any other agreement in place with the User and/or taking legal action against such User.\n</p>\n<p>\n9.2. You agree to indemnify and hold harmless ChainGPT Pad, its affiliates, subsidiaries, licensors, and their respective directors, officers, members, managers, employees, and agents from and against any and all claims and expenses arising out of your use of the Services, a breach of any provision of these Terms by you or any person using the Services on your behalf, a breach by you of any applicable laws, or any third-party claim to the extent arising from or connected with an allegation that your use of the Services in accordance with these Terms infringes any rights of a third party.\n</p>"
+    },
+    "tenthParagraph": {
+      "description": "<h2>10. Force Majeure</h2>\n<p>ChainGPT Pad shall have no liability for delays, failure in performance, or interruption of service which result directly or indirectly from any cause or condition beyond our reasonable control, including but not limited to, any delay or failure due to any act of God, the act of civil or military authorities, the act of terrorists, civil disturbance, war, strike or other labor dispute, fire, interruption in telecommunications or Internet services or network provider services, failure of equipment and/or software, other catastrophe or any other occurrence which is beyond our reasonable control and shall not affect the validity and enforceability of any remaining provisions.</p> <p>9.2. You agree to indemnify and hold harmless ChainGPT Pad, its affiliates, subsidiaries,licensors, and their respective directors, officers, members, managers, employees, and agents from and against any and all claims and expenses arising out of your use of the Services, a breach of any provision of these Terms by you or any person using the Services on your behalf, a breach by you of any applicable laws, or any third-party claim to the extent arising from or connected with an allegation that your use of the Services in accordance with these Terms infringes any rights of a third party.</p>"
+    },
+    "eleventhParagraph": {
+      "description": "<h2>11. Miscellaneous</h2>\n<p>11.1. <span>Severability</span>: If a provision of this Agreement is or becomes illegal, invalid, or unenforceable in any jurisdiction, that shall not affect the validity or enforceability in that jurisdiction of any other provision hereof or the validity or enforceability in other jurisdictions of that or any other provision hereof.</p>\n<p>11.2. <span>Assignment</span>: ChainGPT Pad reserves the right to assign this Agreement, in whole or in part, at any time without notice. The User may not assign any of his/her rights or obligations under this Agreement.</p>\n<p>11.3. <span>Third-Party Rights</span>: Unless expressly provided to the contrary in this Agreement, a person who is not a party to this Agreement has no right to enforce or to enjoy the benefit of any term of this Agreement. Notwithstanding any term of this Agreement, no consent of any party who is not a party to this Agreement shall be required for the waiver, variation, or termination of any part of this Agreement.</p>\n<p>11.4. <span>Support and Notice</span>: All notices, requests, demands, and determinations for ChainGPT Pad under these Terms (other than routine operational communications) shall be sent to [<a href=\"mailto:info@chaingpt.org\" style={{ color: \"#3232DC\" }}>info@chaingpt.org</a>].</p>"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "[May 6, 2021]",
+    "description": "<p>This Privacy Policy describes how ChainGPT Pad (referred to herein as “ChainGPT Pad”, “we”, “us” or “our”), a company formed pursuant to the laws of the Republic of Panama, will manage end user’s personal data collected. This Policy, in consonance with our Terms, applies to your use of ChainGPT Pad platform.</p><p>By accessing the platform and using our services, you consent to the collection, storage, use, and disclosure of your personal data, in accordance with this Privacy Policy. We will not collect any information from you, except where it is knowingly and explicitly provided by you.</p><p>ChainGPT Pad is committed to respecting your privacy and ensuring that the personal data we collect about you is protected and is used, stored and disclosed in accordance with this Privacy Policy. Please read this Policy carefully to understand our practices regarding your personal data and how we will treat it. If you do not agree with this Privacy Policy, please do not use our services or provide ChainGPT Pad platforms with your personal data.</p>",
+    "firstParagraph": {
+      "description": "<div><h2>1. Reasons We Collect Your Data</h2><p>1.1. ChainGPT Pad will collect your Personal Data only by lawful and fair means for the following purposes. One or more purposes may apply simultaneously.</p><ul><li>To verify your identity for security purposes;</li><li>To provide services to you as a user, for example, processing your requests or managing your account;</li><li>To update you on technical progress of ChainGPT Pad;</li><li>To contact you in relation to the management and administration of your ChainGPT Pad account</li><li>To email you our newsletter or communicate with you in other form about our products or services that we think may be of interest to you;</li><li>To take appropriate action if ChainGPT Pad has reason to suspect that unlawful activity or misconduct of a serious nature has been, is being or may be engaged in that relates to our functions and activities;</li><li>To comply with a legal or regulatory obligation.</li></ul><p>1.2. You may choose to deal with us on an anonymous basis or to use a pseudonym unless it is not practicable for us to deal with individuals who we cannot identify or we are required by law to only deal with identified individuals. Also, if you do not provide ChainGPT Pad with the Personal Data we request, we may be unable to process your request to become a User, provide you with our services or respond to your enquiry or complaint. Examples of Personal Data That may be collected by ChainGPT Pad include your name, email address, telephone numbers, your date of birth, other verification information such as your Service usage activities. By becoming a User or otherwise choosing to provide ChainGPT Pad with Personal Data You consent to ChainGPT Pad collecting, using and disclosing your Personal Data For the above purposes.</p></div>"
+    },
+    "secondParagraph": {
+      "description": "<div><h2>2. Types of Data We Collect</h2><p>2.1. The types of Personal Data that ChainGPT Pad may collect from you are:</p><ul><li>Personal identification information: name, email address, country, date of birth, nationality, photo of identification document (national ID card or passport), photo of you holding your identification document;</li><li>User non-custodial wallet address, telegram username.</li></ul><p>2.2. With regard to each of your visits to our ChainGPT Pad platform and access to the services we may automatically collect the following information:</p><ul><li>Transaction data including purchases of crypto assets;</li><li>The smart contract stored in your non-custodial wallet address;</li><li>Technical data including IP address, time zone setting and locations, operating system, and other technologies on your device used to access the platform;</li><li>Information about your visits, including the full Uniform Resource Locators (URL) clickstream to, through and from the ChainGPT Pad (including date and time);</li><li>Products or pools you viewed or searched for; page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page;</li><li>Information regarding the provision of ChainGPT Pad services we might receive from any other sources.</li></ul></div>"
+    },
+    "thirdParagraph": {
+      "description": "<div><h2>3. Collection of Your Data</h2><p>3.1. You directly provide ChainGPT Pad with most of the data we collect. We collect data and process data when you:</p><ul><li>Register online and use the ChainGPT Pad platform services;</li><li>Voluntarily complete a Client survey or provide feedback on any of our message boards or via email;</li><li>Contact us, we will keep a record of the information shared during the correspondence.</li></ul><p>3.2. Additionally, we may receive information about you from publicly available sources and collect technical and usage data automatically when you use our services. For example, we may aggregate your usage data to calculate the percentage of users accessing a specific feature of the services.</p></div>"
+    },
+    "fourthParagraph": {
+      "description": "<div><h2>Management of Your Data</h2><p>4.1. ChainGPT Pad will take all reasonable steps to ensure that the Personal Data which it collects, uses or discloses is correct and is stored in a secure environment which is accessed only by authorised persons.</p><p>4.2. ChainGPT Pad will destroy or permanently de-identify the Personal Data we hold when it is no longer required for any purpose permitted.</p></div>"
+    },
+    "fifthParagraph": {
+      "description": "<div><h2>5. Security of Your Data</h2><p>5.1. The security of your Personal Data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is totally secure. Therefore, we cannot warrant its absolute security of any information which you transmit. Any information which you transmit to ChainGPT Pad is transmitted at your own risk.</p><p>Remember to always log out of your account when you have completed your time on the website. This is particularly important if you share a computer with another person. You are responsible for the security of and access to your own computer, mobile device or any other handset used to access the website.</p><p>Ultimately, you are solely responsible for maintaining the secrecy of your username, password and any account information. Please be careful whenever using the Internet and our website.</p><p>5.2. However, we strive to use commercially acceptable means to protect your Personal Data, from misuse, loss and unauthorised access, modification and disclosure including by using password protected systems and databases and security technology. ChainGPT Pad employees, agents and contractors are required to maintain the confidentiality of users’ Personal Information and trading behaviour. We will comply with the requirements of applicable laws in the event of a data or security risk.</p></div>"
+    },
+    "sixthParagraph": {
+      "description": "<div><h2>6. Law Enforcement</h2><p>Under certain circumstances, ChainGPT Pad may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).</p></div>"
+    },
+    "seventhParagraph": {
+      "description": "<div><h2>7. Business Transactions</h2><p>You are aware that if ChainGPT Pad is ever involved in a merger, acquisition by another organisation or goes through asset sale, your personal data might be among the assets transferred. We will provide notice before your Personal Data is transferred and becomes subject to a different Privacy Policy.</p></div>"
+    },
+    "eighthParagraph": {
+      "description": "<div><h2>8. Link to Other Third Parties</h2><p>Under certain circumstances, ChainGPT Pad may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).</p></div>"
+    },
+    "ninthParagraph": {
+      "description": "<div><h2>9. Contact Details</h2><p>If you believe that someone has provided us with your Personal Data and you would like to request that it be removed from our database, please contact us at our contact email as specified below. Besides, if you have any queries, requests for access or correction or complaints relating to the handling of your personal data, please also contact us by email.</p><p>Email: <a href=\"mailto:info@chaingpt.org\" style=\"color: #3232DC;\">info@chaingpt.org</a></p></div>"
+    }
+  },
+  "themeOptions": {
+    "colors": {
+      "primary": "#FFCC00",
+      "secondary": "#3A39BB",
+      "primaryText": "#636363",
+      "secondaryText": "#363636",
+      "metamask": "#FF8F44",
+      "mainBackground": "#202020",
+      "secondaryBackground": "#FFFFFF",
+      "primaryGradient": "#6154DA",
+      "primaryGradientTwo": "#6254DA",
+      "secondaryGradient": "#E59396",
+      "secondaryGradientTwo": "#E69598",
+      "linearGradientPrimaryOne": "#764CE2",
+      "linearGradientPrimaryTwo": "#7E4CD2",
+      "linearGradientSecondaryOne": "#D9B4C7",
+      "linearGradientSecondaryTwo": "#BEA5C5"
+    }
+  }
+}

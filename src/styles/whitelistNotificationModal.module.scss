@@ -1,0 +1,615 @@
+.WhitelistFollowSocial {
+  font-family: "Violet Sans";
+}
+
+.dialog {
+  :global(.MuiPaper-root) {
+    background: #F5F5F5;
+    padding: 60px;
+    max-width: 540px;
+    width: 540px;
+    text-align: center;
+    
+    @media (max-width: 600px) {
+      padding: 30px 20px;
+    }
+  }
+}
+
+.socialFollowContent {
+  display: flex;
+  margin-top: 12px;
+  
+  @media (max-width: 600px) {
+    margin-top: 0;
+  }
+}
+
+.socialDialog {
+  :global(.MuiPaper-root) {
+    max-width: 720px;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    font-size: 16px;
+    padding: 32px 0 20px;
+    
+    @media (max-width: 960px) {
+      padding: 32px 20px 20px;
+    }
+    
+    :global(.socialForm) {
+      margin-top: 19px;
+      
+      > .row {
+        display: flex;
+        flex-direction: column;
+        
+        @media (min-width: 960px) {
+          flex-direction: row;
+          
+          > * + * {
+            --tw-space-x-reverse: 0;
+            margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+            margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+          }
+        }
+      }
+      
+      .input-group {
+        display: block;
+        width: 100%;
+        
+        .label {
+          font-weight: 400;
+          margin: 0 0 0.5rem;
+          font-size: 14px;
+          line-height: 18px;
+          font-family: "Violet Sans";
+        }
+        
+        input {
+          width: 100%;
+          height: 36px;
+          padding: 0 12px;
+          color: #1e1e1e;
+          background: #F5F5F5;
+          border: 1px solid #d9d9d9;
+          box-sizing: border-box;
+          border-radius: 4px;
+          
+          &:focus {
+            outline: none;
+          }
+        }
+        
+        input[type="text"]:disabled {
+          color: #757575;
+        }
+      }
+    }
+    
+    :global(.socialForm[data-role="retweet"]) {
+      width: 100%;
+      margin-top: 0;
+      
+      .input-group {
+        margin-top: 12px;
+      }
+    }
+    
+    @media (max-width: 600px) {
+      max-width: calc(100% - 56px);
+      
+      .input-group:last-child {
+        margin-top: 12px;
+      }
+    }
+  }
+  
+  .socialCompany {
+    margin-top: 21px;
+    
+    .socialFlow {
+      display: flex;
+    }
+    
+    .retweet {
+      padding-bottom: 32px;
+    }
+    
+    .numberLeft {
+      position: relative;
+      width: 26px;
+      min-width: 26px;
+      
+      .numberDot {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 0;
+        left: 0;
+        padding: 1.5px;
+        background: #d9d9d9;
+        border-radius: 50%;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+      }
+      
+      .numberLine {
+        width: 2px;
+        height: 100%;
+        margin-left: 9px;
+        background: #d9d9d9;
+      }
+    }
+  }
+  
+  :global(.MuiDialogContent-root) {
+    overflow: visible;
+    margin-bottom: 28px;
+    
+    @media (max-width: 960px) {
+      padding: 0;
+    }
+  }
+  
+  :global(.MuiDialogActions-root) {
+    padding-top: 20px;
+    margin-top: 0;
+    border-top: 1px solid #d9d9d9;
+    
+    @media (max-width: 960px) {
+      button {
+        width: 100%;
+      }
+    }
+  }
+  
+  @media (max-width: 960px) {
+    :global(.MuiPaper-root) {
+      margin: 10px;
+    }
+    
+    :global(.MuiDialog-paperFullWidth) {
+      width: calc(100% - 24px);
+    }
+  }
+}
+
+.socialStep {
+  display: flex;
+  margin-top: 0.75rem;
+  position: relative;
+  
+  @media (min-width: 960px) {
+    align-items: center;
+  }
+}
+
+.socialCompanyTitle {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.solanaWallet {
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font: normal normal 500 14px/18px "Violet Sans";
+  
+  span {
+    color: #D01F36;
+  }
+  
+  div {
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D01F36;
+    text-decoration: underline;
+    cursor: pointer;
+    
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.solanaInput {
+  display: flex;
+  max-width: 317px;
+  height: 36px;
+  padding: 0 20px;
+  align-items: center;
+  background: linear-gradient(180deg, #252525 0%, #191919 100%);
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  
+  img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+  }
+}
+
+.inputNewValue {
+  width: 100%;
+  max-width: 310px;
+  
+  &:global(.MuiInputBase-root), &:global(.MuiInputBase-input) {
+    // height: 32px;
+  }
+  
+  &>div:before, &>div:after {
+    display: none;
+  }
+  
+  @media (max-width: 600px) {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font: normal normal 500 14px/20px "Violet Sans";
+    color: #fff;
+    
+    @media (max-width: 600px) {
+      width: 100%;
+      max-width: 100%;
+      margin-top: 12px;
+    }
+    
+    &::placeholder {
+      font-family: "Violet Sans";
+      font-size: 13px;
+      line-height: 20px;
+      color: #757575;
+    }
+  }
+}
+
+.solanaConnectWallet {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  
+  div {
+    font: 14px/24px "Violet Sans";
+    color: #757575;
+  }
+  
+  button {
+    margin-left: 40px;
+    width: 129px;
+    height: 28px;
+    background: #D01F36;
+    border-radius: 4px;
+    font: normal normal 500 12px/16px "Violet Sans";
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    align-items: flex-start;
+    flex-direction: column;
+    
+    button {
+      margin: 28px 0 0;
+    }
+  }
+}
+
+.tutText {
+  font: 14px/24px "Violet Sans";
+}
+
+.likeSocialTitle {
+  font: 14px/24px "Violet Sans";
+  
+  a {
+    font-weight: bold;
+    color: #D01F36;
+  }
+  
+  span {
+    color: #fff;
+  }
+}
+
+.retweetInput {
+  position: relative;
+  
+  input {
+    padding-left: 36px !important;
+  }
+  
+  img {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+  }
+}
+
+.socialStepNunber {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: #222228;
+  display: flex;
+  position: absolute;
+  left: -2.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  min-width: 24px;
+  
+  @media (max-width: 960px) {
+    position: relative;
+    left: 0;
+    margin-right: 0.5rem;
+  }
+}
+
+.socialFollowTable {
+  @media (min-width: 600px) {
+    table-layout: fixed;
+  }
+  
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+  background-color: #1A1A1A;
+  border-radius: 8px;
+  overflow: hidden;
+  
+  thead {
+    background-color: #1A1A1A;
+    text-align: left;
+  }
+  
+  th {
+    border: 1px solid #37373D;
+    padding: 0.7rem;
+    
+    @media (min-width: 960px) {
+      padding: 12px 21px;
+    }
+    
+    span {
+      line-height: 24px;
+      vertical-align: top;
+    }
+  }
+  
+  td {
+    border: 1px solid #37373D;
+    padding: 12px 20px;
+    
+    @media (min-width: 960px) {
+      padding: 12px 20px;
+    }
+    
+    svg {
+      margin-left: 0.3rem;
+      vertical-align: text-bottom;
+      
+      @media (min-width: 600px) {
+        margin-left: auto;
+      }
+    }
+  }
+  
+  > tr > td + td {
+    padding-left: 4rem;
+  }
+  
+  .flex-cell {
+    display: flex;
+    align-items: center;
+    
+    @media (max-width: 960px) {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.socialAnchorlink {
+  display: flex;
+  max-width: 100%;
+  padding: 6px 8px;
+  background: #3B3B3B;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  
+  &:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+    color: #FFFFFF;
+  }
+  
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  img {
+    margin-left: 6px;
+  }
+}
+
+.socialMobile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  
+  .flex-cell {
+    @media (max-width: 600px) {
+      margin: 4px 0 12px 0;
+      width: fit-content;
+    }
+  }
+  
+  > div {
+    align-items: center;
+    margin-bottom: 8px;
+  }
+}
+
+.iconToken {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+
+.socialTitleCol {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Violet Sans";
+}
+
+.titleToken {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Violet Sans";
+}
+
+.dialogLabel {
+  font: normal normal normal 12px/18px "Violet Sans";
+  text-align: left;
+}
+
+.dialogContentTypo {
+  color: #1e1e1e;
+  font-size: 16px;
+  margin-top: 40px;
+  font-weight: 700;
+  
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.dialogContentBlock {
+  margin-top: 20px;
+}
+
+.dialogTitle {
+  padding-bottom: 20px !important;
+  background: none !important;
+  
+  :global(.MuiTypography-h5) {
+    padding: 0 !important;
+    font: normal normal 500 22px/28px "Violet Sans" !important;
+  }
+  
+  :global(.MuiSvgIcon-root) {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    padding-bottom: 12px !important;
+    
+    :global(.MuiTypography-h5) {
+      font: normal normal 500 20px/24px "Violet Sans" !important;
+    }
+  }
+}
+
+.dialogPrivacy {
+  display: flex;
+  align-items: center;
+}
+
+.dialogPrivacyText {
+  font-size: 16px;
+}
+
+.dialogPrivacyHighlight {
+  color: #3C5EA2;
+}
+
+.dialogCheckbox {
+  padding: 0;
+  margin-right: 8px;
+  
+  :global(.MuiSvgIcon-root) {
+    fill: white;
+  }
+}
+
+.dialogNetworks {
+  display: flex;
+}
+
+.dialogInput {
+  width: 100%;
+  padding: 8px 15px;
+  margin-top: 15px;
+  background: #f5f5f5;
+  border-radius: 50px;
+  border: none;
+  color: #1e1e1e;
+  font: normal normal normal 14px/24px "Violet Sans";
+  
+  &:focus {
+    outline: none;
+    color: #1e1e1e;
+  }
+}
+
+
+.dialogButton {
+  margin-top: 25px;
+  display: flex;
+  width: 100%;
+  background: #3232DC;
+  border-radius: 60px;
+  padding: 0;
+  color: white;
+  border: none;
+  font: normal normal 500 14px/18px "Violet Sans";
+  cursor: pointer;
+  transition: .2s all ease-out;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  
+  &:focus {
+    outline: none;
+  }
+  
+  &:hover {
+    opacity: 0.8;
+    color: white;
+  }
+  
+  &:active {
+    transform: translateY(-3px);
+  }
+}
+
+.textRed {
+  color: #D01F36;
+  margin: 0 !important;
+}
+
+.textPurple {
+  color: #0066FF;
+  margin: 0 !important;
+}

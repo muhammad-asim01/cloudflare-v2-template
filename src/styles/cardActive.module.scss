@@ -1,0 +1,564 @@
+.cardAvtive {
+    cursor: pointer;
+    overflow: hidden;
+    height: 100%;
+    background: #f5f5f5;
+    padding: 17px;
+    padding-right: 7px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    border-radius: 12px;
+  
+    &:hover {
+      background: #f5f5f5;
+      box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+      // transform: translateY(-7px);
+    }
+  
+    @media (max-width: sm) {
+      grid-template-columns: 1fr;
+      padding-right: 20px;
+      background: transparent;
+      clip-path: unset;
+      flex-direction: column;
+    }
+  }
+  
+  .layerContainer {
+    &:hover {
+      // background: #23232b;
+    }
+    position: relative;
+  }
+  
+  .cardActiveLeft {
+    position: relative;
+    max-height: 236px;
+  
+    > img {
+      width: 100%;
+      max-height: 260px;
+      height: 235px;
+      // object-fit: cover;
+  
+      // @media (max-width: sm) {
+      //   height: 260px;
+      // }
+    }
+  
+    .time {
+      background: #030925;
+      border-radius: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font: normal normal bold 12px/14px Violet Sans;
+      color: #ffffff;
+      padding: 6px 15px;
+      height: 34px;
+      margin-left: 12px;
+  
+      &.tba {
+        background-color: #9e63ff;
+      }
+  
+      &.upcoming {
+        background-color: #6398ff;
+      }
+  
+      &.joining {
+        background-color: #12a064;
+      }
+  
+      &.in-progress {
+        background-color: #ffde30;
+      }
+  
+      &.filled {
+        background-color: #ff1493;
+        color: #fff;
+      }
+  
+      &.ended {
+        background-color: #d01f36;
+        color: #fff;
+      }
+  
+      &.closed {
+        background-color: #d01f36;
+        color: #fff;
+      }
+  
+      &.claimable {
+        background-color: #ff9330;
+      }
+  
+      &.none {
+        background-color: #ff9330;
+        color: #fff;
+      }
+    }
+  }
+  
+  .network {
+    display: flex;
+    align-items: center;
+  
+    img {
+      width: 16px;
+      height: 16px;
+      margin-right: 4px;
+      border-radius: 50%;
+    }
+  }
+  
+  .btnApplied {
+    height: 42px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #d9d9d9;
+    margin-top: 12px;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    font: 14px/24px Violet Sans;
+    color: #1e1e1e;
+  
+    img {
+      margin-right: 6px;
+      height: 20px;
+    }
+  
+    &:hover {
+      background: #38383d;
+      opacity: 0.8;
+      color: #d6d6d6;
+    }
+  
+    > div {
+      font: normal normal bold 14px/24px Violet Sans;
+      color: #ffffff;
+      // margin-left: 6px;
+    }
+  }
+  
+  .listStatus {
+    position: absolute;
+    padding: 12px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .poolStatusWarning {
+    height: 34px;
+    background: #f5f5f5;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: #1e1e1e;
+    border-radius: 50px;
+    padding: 0 21px;
+    font: normal normal 500 14px/18px Violet Sans;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+  
+    @media (max-width: xs) {
+      padding: 0 6px;
+    }
+  }
+  
+  .poolStatusCountdown {
+    height: 34px;
+    background: #ffffff;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: #000;
+    border-radius: 50px;
+    margin-left: auto;
+    padding: 0 9px;
+    font: 14px/24px Violet Sans;
+  }
+  
+  .tooltip {
+    font-family: Violet Sans;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 5px 10px;
+  }
+  
+  .flexCol {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flexRow {
+    display: flex;
+  }
+  
+  .top {
+    display: flex;
+  
+    .token-symbol {
+      font: 14px/24px Violet Sans;
+      color: #757575;
+      margin-top: 4px;
+    }
+  
+    &.is_address {
+      flex-direction: column;
+      margin-bottom: 8px;
+    }
+  }
+  
+  .poolSymbol {
+    font: 14px/24px Violet Sans;
+    color: #757575;
+  }
+  
+  .tokenImg {
+    width: 52px;
+    height: 52px;
+    border-radius: 2px;
+    margin-right: 8px;
+    background: var(--secondaryBackground);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconToken {
+    max-width: 52px;
+    max-height: 52px;
+    border-radius: 2px;
+  }
+  
+  .cardActiveRight {
+    // max-width: 460px;
+    padding: 8px 54px 0 40px;
+    width: 50%;
+  
+    .incubationTag {
+      padding: 8px;
+      background: #e8b931;
+      border-radius: 2px;
+      position: absolute;
+      right: 16px;
+      color: #ffffff;
+      font: normal normal 400 12px/16px Violet Sans;
+      top: 16px;
+  
+      @media (max-width: sm) {
+        padding: 8px;
+        background: #e8b931;
+        border-radius: 2px;
+        position: absolute;
+        right: 16px;
+        color: #ffffff;
+        font: normal normal 400 12px/16px Violet Sans;
+        top: 287px;
+      }
+  
+      @media (max-width: xs) {
+        padding: 8px;
+        background: rgba(255, 208, 88, 0.1);
+        border-radius: 2px;
+        position: absolute;
+        right: 16px;
+        color: #ffd058;
+        font: normal normal 400 12px/16px Violet Sans;
+        top: 205px;
+      }
+    }
+  
+    .card-content__title {
+      white-space: nowrap;
+      max-width: 306px;
+  
+      img {
+        width: 50px;
+        height: 50px;
+        margin-right: 7px;
+        border-radius: 50%;
+      }
+  
+      .text-title {
+        font: normal normal 500 20px/24px Violet Sans;
+        color: #1e1e1e;
+        overflow: hidden;
+        text-overflow: ellipsis !important;
+        white-space: nowrap;
+      }
+    }
+  
+    .card-content__content {
+      display: flex;
+      flex-direction: column;
+      margin-top: 18px;
+  
+      li {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+  
+        span:first-child {
+          font: 14px/24px Violet Sans;
+          color: #757575;
+        }
+      }
+  
+      .total {
+        font: normal normal 500 16px/24px Violet Sans;
+        color: #1e1e1e;
+      }
+    }
+  
+    @media (max-width: sm) {
+      padding: 24px 12px 0 0;
+      width: 100%;
+    }
+  }
+  
+  .poolInfo {
+    display: flex;
+  }
+  
+  .titleProgressArea {
+    font: 14px/24px Violet Sans;
+    color: #757575;
+    margin-right: 12px;
+  }
+  
+  .progress {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  .progressBar {
+    margin-left: auto;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #d9d9d9;
+    // box-shadow: 0px 4px 8px rgba(208, 31, 54, 0.4);
+    border-radius: 20px;
+    max-width: 240px;
+  }
+  
+  .iconCurrentProgress {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background: var(--secondaryBackground);
+    border: 1px solid #353539;
+    top: -7px;
+    right: -5px;
+  }
+  
+  .currentProgress {
+    position: relative;
+    height: 4px;
+    background: linear-gradient(179.88deg, #d073ff -1.27%, #ff4f5d 102.92%);
+    border-radius: 20px;
+    display: block;
+    transition: 2s;
+    box-shadow: 0px 4px 8px rgba(208, 31, 54, 0.4);
+  
+    &.inactive {
+      width: 0 !important;
+    }
+  }
+  
+  .progressInfo {
+    // margin-top: -6px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    font: 12px/16px Violet Sans;
+    color: #757575;
+    align-items: center;
+  
+    span {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  
+  .groupBtnBottom {
+    // width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  
+    @media (max-width: xs) {
+      flex-direction: column;
+    }
+  }
+  
+  .btnSwapNow {
+    width: 100%;
+    // max-width: 240px;
+    height: 36px;
+    // background: #0066ff;
+    border-radius: 50px;
+    // margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: #1e1e1e;
+    overflow: hidden;
+    font: normal normal 500 14px/20px Violet Sans;
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  
+    img {
+      width: 20px;
+      margin-left: 8px;
+    }
+  }
+  
+  .btnDetail {
+    background: transparent;
+    border: 1px solid #d9d9d9;
+    border-radius: 50px;
+    color: #1e1e1e;
+  }
+  
+  .btnClaim {
+    background: transparent;
+    border: 1px solid #ffd058;
+    border-radius: 2px;
+    color: #ffd058;
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  
+  .btnBuy {
+    background: transparent;
+    border: 1px solid #0066ff;
+    position: relative;
+    color: #1e1e1e;
+    border-radius: 50px;
+  
+    @media (max-width: sm) {
+      // Additional styles for small screens
+    }
+  }
+  
+  .iconCoin {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  
+    @media (max-width: sm) {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  
+  .countdown {
+    display: flex;
+    // width: 100%;
+    // background: #38383d;
+    border-radius: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font: 14px/16px Violet Sans;
+  }
+  
+  .endInTextClaimable {
+    font-family: Violet Sans;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffd058;
+    text-transform: uppercase;
+  }
+  
+  .endInCountdown {
+    font-weight: bold;
+  }
+  
+  // Mobile styles
+  @media (max-width: xs) {
+    .cardAvtive {
+      padding: 12px;
+      padding-bottom: 20px;
+    }
+  
+    .cardActiveLeft {
+      > img {
+        height: 178px;
+      }
+    }
+  
+    .cardActiveRight {
+      padding: 12px 0 0;
+  
+      .text-title {
+        font: normal normal 500 14px/18px Violet Sans !important;
+      }
+  
+      .card-content__title {
+        max-width: 265px;
+      }
+  
+      .card-content__content {
+        margin-top: 10px;
+  
+        li span:first-child {
+          font-size: 12px;
+        }
+  
+        .total {
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+    }
+  
+    .poolSymbol {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  
+    .tokenImg {
+      width: 36px;
+      height: 36px;
+    }
+  
+    .iconToken {
+      width: 28px;
+      height: 28px;
+    }
+  
+    .titleProgressArea {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  
+    .countdown {
+      font-size: 12px;
+    }
+  }

@@ -1,0 +1,252 @@
+.cardImage {
+    width: 52px;
+    height: 52px;
+    background: #D01F36;
+    border-radius: 18px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px #D01F36;
+    position: relative;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 18px;
+      background: #D01F36;
+      filter: blur(32px);
+    }
+  
+    img {
+      width: 32px;
+      z-index: 2;
+    }
+  }
+  
+  .mainContent {
+    span.card__title {
+      color: #1e1e1e;
+      margin-top: 0;
+    }
+  
+    p {
+      margin-top: 12px;
+      color: #757575;
+    }
+  }
+  
+  .cardContainer {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    transition: 0.2s all ease-in;
+    background: #F5F5F5;
+    clip-path: polygon(5% 0, 100% 0, 100% 95.5%, 94.5% 100%, 0 100%, 0 4%);
+    width: calc(100% - 10px);
+    margin-right: 10px;
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  
+    span {
+      font: 14px/24px "Violet Sans";
+    }
+  
+    &:hover {
+      // Add hover effects if needed
+    }
+  
+    .sub-title {
+      color: #757575;
+      opacity: 0.8;
+      text-align: left;
+    }
+  
+    @media (max-width: 600px) {
+      width: 100%;
+      clip-path: polygon(3% 0, 100% 0, 100% 98%, 94.5% 100%, 0 100%, 0 4%);
+      margin-bottom: 20px;
+    }
+  }
+  
+  .tooltip {
+    font: normal normal 500 14px/24px "Violet Sans";
+    color: #FFFFFF;
+    padding: 5px 10px;
+  }
+  
+  .cardTitle {
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+  
+    @media (max-width: 600px) {
+      max-width: 280px;
+      text-align: left;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  
+  .subInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+  }
+  
+  .btn {
+    margin-top: 20px;
+    height: 36px;
+    width: auto;
+    font: normal normal 500 14px/18px "Violet Sans";
+    color: #1E1E1E;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+  
+    &:hover {
+      color: #1e1e1e;
+      opacity: 0.8;
+    }
+  
+    img {
+      height: 10px;
+    }
+  }
+  
+  .layerContainer {
+    padding: 14px;
+    background: #F5F5F5;
+    position: relative;
+  
+    &:before,
+    &:after {
+      position: absolute;
+      width: 15px;
+      height: 1px;
+      content: "";
+      background: #D9D9D9;
+    }
+  
+    &:before {
+      top: 0;
+      left: -4px;
+      z-index: 1;
+      transform: rotate(-45deg);
+      transform-origin: top right;
+    }
+  
+    &:after {
+      bottom: 0;
+      right: -4px;
+      transform: rotate(-45deg);
+      transform-origin: bottom left;
+    }
+  }
+  
+  .layer1 {
+    &:before,
+    &:after {
+      position: absolute;
+      width: calc(100% - 11px);
+      height: 1px;
+      content: "";
+      background: #D9D9D9;
+    }
+  
+    &:before {
+      top: 0;
+      left: 11px;
+    }
+  
+    &:after {
+      bottom: 0;
+      right: 11px;
+    }
+  }
+  
+  .layer2 {
+    &:before,
+    &:after {
+      position: absolute;
+      width: 1px;
+      content: "";
+      background: #D9D9D9;
+    }
+  
+    &:before {
+      bottom: 0;
+      left: 0;
+      height: calc(100% - 11px);
+    }
+  
+    &:after {
+      top: 0;
+      right: 0;
+      height: calc(100% - 11px);
+    }
+  }
+
+
+
+//   landing staking card
+.container {
+    width: 100%;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  
+    @media (max-width: 600px) { // "sm" breakpoint
+      flex-wrap: wrap;
+    }
+  
+    @media (max-width: 375px) { // "xs" breakpoint
+      margin-top: 20px;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+  }
+  
+  .skeletonStaking {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 6px;
+  }
+  
+  .cardContainer {
+    background: #272727;
+    clip-path: polygon(4% 0, 100% 0, 100% 96%, 96% 100%, 0 100%, 0 4%);
+    display: flex;
+    width: calc(25% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+    padding-bottom: 23px;
+    border: 1px solid transparent;
+    transition: 0.2s all ease-in;
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  
+    @media (max-width: 375px) { // "xs" breakpoint
+      width: 100%;
+    }
+  }
+  
+  

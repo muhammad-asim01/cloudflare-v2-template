@@ -1,0 +1,1 @@
+export const SET_USER_BALANCE = 'SET_USER_BALANCE';

@@ -1,0 +1,933 @@
+{
+  "id": 26,
+  "landing_title": "Built by Degens,",
+  "landing_title1": "for Degens",
+
+  "landing_description": "Powered by formidable technology developed by ChainGPT, DegenPad isn't just another IDO (Initial DEX Offering) platform - it's where degens find their edge.",
+  "footer_description": "<p>DegenPad is a cutting-edge launchpad powered by ChainGPT.</p>",
+  "footer_copyright": "Copyright © 2024 . All rights reserved.",
+  "created_at": "2024-01-02 06:51:05",
+  "updated_at": "2024-01-11 05:04:02",
+  "attachments": [
+    {
+      "file_url": "/assets/images/landing/pad.png",
+      "pivot": {
+        "attachment_id": 70,
+        "landing_page_id": 26,
+        "attachment_purpose": "landing_background"
+      }
+    },
+    {
+      "file_url": "/assets/images/landing/landing-bg-sm.png",
+      "pivot": {
+        "attachment_id": 72,
+        "landing_page_id": 26,
+        "attachment_purpose": "landing_backgroundSM"
+      }
+    },
+    {
+      "file_url": "/assets/images/landing/landing-bg-mobile.png",
+      "pivot": {
+        "attachment_id": 73,
+        "landing_page_id": 26,
+        "attachment_purpose": "landing_background_mobile"
+      }
+    },
+    {
+      "file_url": "/assets/images/icon-rocket.svg",
+      "pivot": {
+        "attachment_id": 75,
+        "landing_page_id": 26,
+        "attachment_purpose": "notified_icon"
+      }
+    },
+    {
+      "file_url": "/assets/images/icons/staking.svg",
+      "pivot": {
+        "attachment_id": 76,
+        "landing_page_id": 26,
+        "attachment_purpose": "staking_icon"
+      }
+    },
+    {
+      "file_url": "/assets/images/landing/arrowdown.svg",
+      "pivot": {
+        "attachment_id": 78,
+        "landing_page_id": 26,
+        "attachment_purpose": "poweredBy_logo"
+      }
+    },
+    {
+      "file_url": "/assets/images/landing/logo.svg",
+      "pivot": {
+        "attachment_id": 126,
+        "landing_page_id": 26,
+        "attachment_purpose": "header_logo"
+      }
+    }
+  ],
+  "registerSection": [
+    {
+      "title": "Sign-Up and KYC",
+      "button_name": "Sign-Up ",
+      "learn_more_url": "https://www.degenpad.com/account",
+      "description": "Join the fam by finishing our quick onboarding steps: registration and KYC. ",
+      "img_url": "/assets/images/landing/instruction1.png",
+      "sort_id": 4
+    },
+    {
+      "title": "Verify Wallet",
+      "button_name": "Verify",
+      "learn_more_url": "https://www.degenpad.com/account",
+      "description": "Once registered, verify the wallet address you'll use for IDOs. Choose carefully: each user can verify one wallet.",
+      "img_url": "/assets/images/landing/instruction2.png",
+      "sort_id": 1
+    },
+    {
+      "title": "Stake $CGPT",
+      "button_name": "Stake",
+      "learn_more_url": "https://www.degenpad.com/staking-pools",
+      "description": "Unlock your tier, increase your multiplier, and secure your allocations by staking $CGPT! ",
+      "img_url": "/assets/images/landing/instruction3.png",
+      "sort_id": 2
+    },
+    {
+      "title": "Register for a Sale",
+      "button_name": "Register",
+      "learn_more_url": "https://www.degenpad.com/pools",
+      "description": "Show your interest by registering for the projects you want to join. Only those who register can participate.  ",
+      "img_url": "/assets/images/landing/instruction4.png",
+      "sort_id": 3
+    }
+  ],
+  "featureSection": [
+    {
+      "img_url": "/assets/images/landing/image1.png",
+      "title": "Fair Tier System",
+      "description": "Confidence is key! Our secure and flexible tier system ensures you’re protected.",
+      "learn_more_url": "https://medium.com/@degenpad/degenpads-fair-tier-system-ec74d31f6371",
+      "background_color": "test111",
+      "sort_id": 1
+    },
+    {
+      "img_url": "/assets/images/landing/image2.png",
+      "title": "Selected Low FDV Projects",
+      "description": "We've scoured Web3 to find diamonds in the rough, collaborating exclusively with the most promising projects!",
+      "learn_more_url": "https://medium.com/@degenpad/understanding-low-fdv-projects-a-gateway-to-high-value-opportunities-with-degenpad-b316ff697bfa",
+      "background_color": "test111",
+      "sort_id": 2
+    },
+    {
+      "img_url": "/assets/images/landing/image3.png",
+      "title": "Airdrops and Giveaways",
+      "description": "Treat yourself! Projects award the $CGPT community with unique goodies just for being listed!",
+      "learn_more_url": "https://medium.com/@degenpad/airdrops-giveaways-at-degenpad-cca07c790db0",
+      "background_color": "test111",
+      "sort_id": 3
+    }
+  ],
+  "googleFormSection": {
+    "title": "Want to launch your project on DegenPad?",
+    "button_title": "Apply to Launch",
+    "link": "test",
+    "description": "<p><img src=\"/assets/images/icons/checked-white-no-bg.svg\" alt=\"\"><span> Unique fictionless token sale process</span></p>\n<p><img src=\"/assets/images/icons/checked-white-no-bg.svg\" alt=\"\"> <span>Tier-1 marketing partners and support</span></p>\n<p><img src=\"/assets/images/icons/checked-white-no-bg.svg\" alt=\"\"><span> Security audit, Pentest &amp; Incident</span></p>\n<p><br><span><em>Response Powered by </em></span><img src=\"/assets/images/landing/logo-copy-right.svg\" style=\"width:146px; height:40px\"></p>"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Can’t find an answer to your question? Feel free to contact us",
+    "QuestionsData": [
+      {
+        "category_name": "Basic",
+        "faqs": [
+          {
+            "id": 60,
+            "faq_section_id": 1,
+            "question": "What is DegenPad?",
+            "answer": "<p>It is a platform for incubating promising projects that are looking to introduce a token into their systems and launching them via IDOs.</p>",
+            "faq_category_id": 1,
+            "sort_id": 1,
+            "created_at": "2024-01-17 04:28:15",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 61,
+            "faq_section_id": 1,
+            "question": "What is an IDO?",
+            "answer": "<p>IDO stands for Initial DEX Offering. It is a method of public fundraising that pools capital from retail users by utilizing a decentralized platform as the venue for facilitating the transactions. <br/><br/> This model is superior to the preceding ICO model because the platform can provide a higher degree of security for end users by collecting the funding and only releasing to the projects after the satisfaction of a certain criteria.</p>",
+            "faq_category_id": 1,
+            "sort_id": 2,
+            "created_at": "2024-01-12 12:40:21",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 62,
+            "faq_section_id": 1,
+            "question": "What is CrowdFunding / Private Sale?",
+            "answer": "<p>The crowdfunding/private sale is a very early round of fundraising that takes place right before an IDO.<br/><br/>Typically just a day or so before an IDO launch. These rounds tend to offer superior rates but also incur prolonged vesting periods.</p>",
+            "faq_category_id": 1,
+            "sort_id": 5,
+            "created_at": "2024-01-12 13:41:24",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 63,
+            "faq_section_id": 1,
+            "question": "What is FCFS or First Comes First Serve round?",
+            "answer": "<p>FCFS is the acronym for First-Come-First-Serve, and it refers to the round of fundraising that becomes available to the general public after the guaranteed round.<br/><br/>As the name might suggest, FCFS rounds are based on timing, available token supplies are sold to participants that arrive ahead of others.</p>",
+            "faq_category_id": 1,
+            "sort_id": 6,
+            "created_at": "2024-01-12 13:41:24",
+            "updated_at": "2024-01-17 04:28:32"
+          }
+        ]
+      },
+      {
+        "category_name": "IDO Allocation & Policy",
+        "faqs": [
+          {
+            "id": 65,
+            "faq_section_id": 2,
+            "question": "Can I participate in IDOs right after purchasing $CGPT?",
+            "answer": "<p>Almost. Before being able to participate in the IDO’s users must do two more actions.<br/><br/>First, once $CGPT is acquired, users must make sure to have enough tier points for inclusion, if yes, then simply staking their tokens in the official <a href=\"https://www.degenpad.com/staking-pools\" target=\"_blank\" rel=\"noreferrer nofollow\">Staking Dashboard</a><br/><br/>Second, they must pass KYC <a href=\"https://verify-with.blockpass.org/?clientId=degenpad_30b1f&serviceName=DegenPad&env=prod\" target=\"_blank\" rel=\"noreferrer nofollow\">http://url.degenpad.com/kyc</a></p>",
+            "faq_category_id": 2,
+            "sort_id": 1,
+            "created_at": "2024-01-12 12:49:00",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 66,
+            "question": "Is there a refund policy?",
+            "answer": "Yes. Every IDO launch will have a “refund grace period” lasting 7–14 days on average that allows participating users added time to evaluate their decisions before finalizing the commitments.",
+            "faq_category_id": 2,
+            "sort_id": 2,
+            "created_at": "2024-01-12 12:43:44",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 67,
+            "question": "Do I have to KYC in order to access the Launchpad?",
+            "answer": "<p>Yes. KYC is required for participating at any tier level. The KYC process has been made maximally simple through our partner Blockpass. To sign up please follow our official link: <a href=\"https://verify-with.blockpass.org/?clientId=degenpad_30b1f&serviceName=DegenPad&env=prod\" target=\"_blank\" rel=\"noreferrer nofollow\">http://url.degenpad.com/kyc</a></p>",
+            "faq_category_id": 2,
+            "sort_id": 3,
+            "created_at": "2024-01-12 12:43:44",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 68,
+            "question": "How is pool weight calculated?",
+            "answer": "<p>Pool weight is calculated based on the distribution of tier points among participating members and their corresponding tier levels.<br/><br/>Every pool has a structured base range that is dependent on their staking tier points.<br/><br/>Ape | 1x | 2,000 points — 19,999 points Chad | 4x — 9.99x | 20,000 points — 49,999 points Shark | 10x — 39.99x | 50,000 points — 199,999 points Whale | 40x + | 200,000 points +<br/><br/>The pool weight indicates how much multiplier is applied to that specific teir level’s allocation capacity.<br/><br/>Ape maintains a base level of 1x multiplier throughout its entire point range. The Chad, Shark, and Whale levels pool weights are scaled proportionally to the individual stakers point position within its range. To best understand the mechanism is through an empirical example:<br/><br/>In the event of a Chad tier with 20,000 points, they have a 4x multiplier. In the event of a Chad tier with 35,000 points, they have a 7x multiplier. In the event of a Chad tier with 49,999 points, they have a 9.99x multiplier.<br/><br/>This logic applies to the Shark tier equally.<br/><br/>Given that Whale level can theoretically have no point limit, the cap on the multiplier for them is logarithmically relational to the total IDO’s upper bound.</p>",
+            "faq_category_id": 2,
+            "sort_id": 4,
+            "created_at": "2024-01-12 12:43:44",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 69,
+            "question": "What crypto tokens can be used to participate in IDOs?",
+            "answer": "Stablecoin: USDT",
+            "faq_category_id": 2,
+            "sort_id": 4,
+            "created_at": "2024-01-12 12:43:44",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 70,
+            "question": "What countries are restricted from IDOs?",
+            "answer": "<p>Persons from the United States and Canada cannot participate in any IDO due to the lack of clear regulations in the crypto space. <br/></br>Countries restricted or sanctioned include: Afghanistan, Algeria, American Samoa, Bangladesh, Bolivia, Botswana, Central African Republic, China, Cuba, Democratic People’s Republic of Korea (North Korea), Hong Kong, Egypt, Ethiopia, Ghana, Guam, Iran, Iraq, Libya, Morocco, Nepal, Nigeria, Pakistan, Panama, Puerto Rico, Samoa, South Sudan, Sri Lanka, Sudan, Syria, Trinidad and Tobago, Tunisia, US Virgin Islands, Venezuela, and Yemen.</p>",
+            "faq_category_id": 2,
+            "sort_id": 4,
+            "created_at": "2024-01-12 12:43:44",
+            "updated_at": "2024-01-17 04:28:32"
+          }
+        ]
+      },
+      {
+        "category_name": "Tiers & Staking",
+        "faqs": [
+          {
+            "id": 71,
+            "faq_section_id": 3,
+            "question": "Can I stake into multiple Pools and still acquire points?",
+            "answer": "<p>Yes. If you wish to split up your $CGPT stake across different pools, then the Launchpad will calculate your point based on their individual placements.<br/><br/>As an example, if you stake 2,500 $CGPT into 45 day pool for 2,500 points and 2,500 $CGPT into the 180 day pool for 3,750 points then your associated wallet will be attributed the aggregated 6,250 tier points.</p>",
+            "faq_category_id": 3,
+            "sort_id": 1,
+            "created_at": "2024-01-12 12:49:00",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 72,
+            "faq_section_id": 3,
+            "question": "What is the absolute minimum number of $CGPT that must be staked in order to acquire a Tier status?",
+            "answer": "<p>The entry level tier is Ape, it requires 2,000 points.<br/><br/>Based on the maximum multiplier of 2x for the 365 day staking pool, the minimal number of tokens require is 1,000 $CGPT.</p>",
+            "faq_category_id": 3,
+            "sort_id": 2,
+            "created_at": "2024-01-12 12:43:44",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 73,
+            "faq_section_id": 3,
+            "question": "How are Tier Points calculated?",
+            "answer": "<p>Tier points are calculated based on two simple factors; the number of tokens staked and the duration of the staking pool they are allocated to.<br/><br/>1 $CGPT = 1 point<br/><br/>45 day = 1 : 1 points, 90 days = 1 : 1.3 points, 180 days = 1 : 1.5 points, 365 days = 1 : 2 points, 700 days = 1 : 3 points,<br/><br/>So 1,000 $CGPT in 180 day pool would yield 1,500 points.</p>",
+            "faq_category_id": 3,
+            "sort_id": 3,
+            "created_at": "2024-01-12 12:43:44",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 74,
+            "faq_section_id": 3,
+            "question": "How many different tiers are there?",
+            "answer": "<p>There are four tiers in the launchpad system, Ape, Chad, Shark, and Whale. To understand how tier levels are calculated, please refer to our dedicated post: <a href=\"https://medium.com/@degenpad/degenpads-tier-system-and-staking-maximizing-your-participation-c977b17f5c9e\" target=\"_blank\" rel=\"noreferrer nofollow\">DegenPad — Tier System & Staking</a></p>",
+            "faq_category_id": 3,
+            "sort_id": 3,
+            "created_at": "2024-01-12 12:43:44",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 75,
+            "faq_section_id": 3,
+            "question": "What does Allocation Multiplier mean?",
+            "answer": "The allocation multiplier specifies the amount of tokens that participants will be able to purchase at the different tier levels. Every tier has its own corresponding allocation multiplier, Ape: 1, Chad: 4+, Shark: 10+, Whale 40+.",
+            "faq_category_id": 3,
+            "sort_id": 4,
+            "created_at": "2024-01-12 12:43:44",
+            "updated_at": "2024-01-17 04:28:32"
+          }
+        ]
+      },
+      {
+        "category_name": "For Projects",
+        "faqs": [
+          {
+            "id": 76,
+            "faq_section_id": 4,
+            "question": "Can any category of project apply for listing?",
+            "answer": "Yes, absolutely! Innovators from all sectors of the digital economy are invited to apply.",
+            "faq_category_id": 4,
+            "sort_id": 1,
+            "created_at": "2024-01-12 12:49:00",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 77,
+            "faq_section_id": 4,
+            "question": "Is there a criteria that must be met in order to list?",
+            "answer": "Yes. DegenPad upholds high quality standards that must be met in order for a project to be given access to the LaunchPad.",
+            "faq_category_id": 4,
+            "sort_id": 1,
+            "created_at": "2024-01-12 12:49:00",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 78,
+            "faq_section_id": 4,
+            "question": "What is the onboarding process for applying?",
+            "answer": "After submitting an application, they will undergo an initial screening by the DegenPad Team. Following the screening, projects will be put through an in depth due-diligence process.",
+            "faq_category_id": 4,
+            "sort_id": 1,
+            "created_at": "2024-01-12 12:49:00",
+            "updated_at": "2024-01-17 04:28:32"
+          },
+          {
+            "id": 82,
+            "faq_section_id": 4,
+            "question": "What is the max cap on what projects can raise during IDO?",
+            "answer": "The max cap is $15M. For a bigger cap, please consider applying to ChainGPT Pad.",
+            "faq_category_id": 4,
+            "sort_id": 1,
+            "created_at": "2024-01-12 12:49:00",
+            "updated_at": "2024-01-17 04:28:32"
+          }
+        ]
+      }
+    ]
+  },
+  "Menus": [
+    {
+      "id": 24,
+      "menu_name": "Launchpad",
+      "menu_url": "/",
+      "type": "header",
+      "icon_url": "/assets/images/icon-rocket.svg",
+      "is_parent": 1,
+      "parent_id": 0,
+      "parent_sort_id": 3,
+      "child_sort_id": 1,
+      "created_at": "2024-01-10 04:01:43",
+      "updated_at": "2024-01-16 13:07:39",
+      "children": []
+    },
+    {
+      "id": 32,
+      "menu_name": "Terms of Service",
+      "menu_url": "/terms",
+      "type": "footer",
+      "icon_url": null,
+      "is_parent": 1,
+      "parent_id": 0,
+      "parent_sort_id": 2,
+      "child_sort_id": 6,
+      "created_at": "2024-01-10 07:28:05",
+      "updated_at": "2024-01-16 13:07:39",
+      "children": []
+    },
+    {
+      "id": 25,
+      "menu_name": "Staking",
+      "menu_url": "staking-pools",
+      "type": "header",
+      "icon_url": "/assets/images/icons/staking.svg",
+      "is_parent": 1,
+      "parent_id": 0,
+      "parent_sort_id": 1,
+      "child_sort_id": 3,
+      "created_at": "2024-01-10 04:02:22",
+      "updated_at": "2024-01-16 13:07:39",
+      "children": []
+    },
+    {
+      "id": 27,
+      "menu_name": "Learn",
+      "menu_url": null,
+      "type": "header",
+      "icon_url": null,
+      "is_parent": 1,
+      "parent_id": 0,
+      "parent_sort_id": 4,
+      "child_sort_id": 7,
+      "created_at": "2024-01-10 05:21:48",
+      "updated_at": "2024-01-16 13:07:39",
+      "children": [
+        {
+          "id": 28,
+          "menu_name": "Introduction & Overview",
+          "menu_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/introduction-to-degenpad",
+          "type": "header",
+          "icon_url": null,
+          "is_parent": 0,
+          "parent_id": 27,
+          "parent_sort_id": 1,
+          "child_sort_id": 1,
+          "created_at": "2024-01-10 05:22:13",
+          "updated_at": "2024-01-16 13:07:47"
+        },
+        {
+          "id": 29,
+          "menu_name": "Tier System & Staking",
+          "menu_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/tier-system",
+          "type": "header",
+          "icon_url": null,
+          "is_parent": 0,
+          "parent_id": 27,
+          "parent_sort_id": 2,
+          "child_sort_id": 2,
+          "created_at": "2024-01-10 05:22:27",
+          "updated_at": "2024-01-16 13:07:47"
+        },
+        {
+          "id": 30,
+          "menu_name": "Flexible Refund Policy",
+          "menu_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/flexible-refund-policy",
+          "type": "header",
+          "icon_url": null,
+          "is_parent": 0,
+          "parent_id": 27,
+          "parent_sort_id": 2,
+          "child_sort_id": 3,
+          "created_at": "2024-01-10 05:22:27",
+          "updated_at": "2024-01-16 13:07:47"
+        },
+        {
+          "id": 31,
+          "menu_name": "Frequently Asked Questions",
+          "menu_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/degenpad-faqs",
+          "type": "header",
+          "icon_url": null,
+          "is_parent": 0,
+          "parent_id": 27,
+          "parent_sort_id": 2,
+          "child_sort_id": 4,
+          "created_at": "2024-01-10 05:22:27",
+          "updated_at": "2024-01-16 13:07:47"
+        },
+        {
+          "id": 33,
+          "menu_name": "Documentation Page",
+          "menu_url": "https://docs.chaingpt.org/the-ecosystem/degenpad",
+          "type": "header",
+          "icon_url": null,
+          "is_parent": 0,
+          "parent_id": 27,
+          "parent_sort_id": 2,
+          "child_sort_id": 6,
+          "created_at": "2024-01-10 05:22:27",
+          "updated_at": "2024-01-16 13:07:47"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "menu_name": "Privacy Policy",
+      "menu_url": "/privacy",
+      "type": "footer",
+      "icon_url": null,
+      "is_parent": 1,
+      "parent_id": 0,
+      "parent_sort_id": 7,
+      "child_sort_id": 2,
+      "created_at": "2024-01-10 07:28:30",
+      "updated_at": "2024-01-16 13:07:39",
+      "children": []
+    },
+    {
+      "id": 34,
+      "menu_name": "Help Center",
+      "menu_url": "https://docs.chaingpt.org/the-ecosystem/degenpad",
+      "type": "footer",
+      "icon_url": null,
+      "is_parent": 1,
+      "parent_id": 0,
+      "parent_sort_id": 8,
+      "child_sort_id": 5,
+      "created_at": "2024-01-10 07:29:03",
+      "updated_at": "2024-01-16 13:07:39",
+      "children": []
+    },
+    {
+      "id": 35,
+      "menu_name": "support@chaingpt.org",
+      "menu_url": "mailto:support@chaingpt.org",
+      "type": "footer",
+      "icon_url": null,
+      "is_parent": 1,
+      "parent_id": 0,
+      "parent_sort_id": 6,
+      "child_sort_id": 4,
+      "created_at": "2024-01-10 07:29:25",
+      "updated_at": "2024-01-16 13:07:39",
+      "children": []
+    }
+  ],
+  "myTiers": {
+    "Tier": [
+      {
+        "id": 15,
+        "title": "How to stake?",
+        "title_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/tier-system/staking#id-55b5",
+        "sort_id": 1,
+        "created_at": "2024-01-08 11:12:21",
+        "updated_at": "2024-01-15 07:36:31"
+      },
+      {
+        "id": 14,
+        "title": "What are CGPT Staking Points (CGPTsp)?",
+        "title_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/tier-system",
+        "sort_id": 2,
+        "created_at": "2024-01-08 11:12:13",
+        "updated_at": "2024-01-11 07:32:34"
+      },
+      {
+        "id": 16,
+        "title": "What is degenPad Tiers?",
+        "title_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/tier-system",
+        "sort_id": 3,
+        "created_at": "2024-01-08 11:12:28",
+        "updated_at": "2024-01-11 07:32:34"
+      },
+      {
+        "id": 17,
+        "title": "My Tier",
+        "title_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/tier-system/staking#id-496a",
+        "sort_id": 4,
+        "created_at": "2024-01-08 11:12:33",
+        "updated_at": "2024-01-11 07:32:34"
+      }
+    ],
+    "TierOverview": [
+      {
+        "id": 9,
+        "title": "Ape",
+        "icon_url": "/assets/images/icons/bronze.png",
+        "sort_id": 1
+      },
+      {
+        "id": 10,
+        "title": "Chad",
+        "icon_url": "/assets/images/icons/silver.png",
+        "sort_id": 2
+      },
+      {
+        "id": 11,
+        "title": "Shark",
+        "icon_url": "/assets/images/icons/gold.png",
+        "sort_id": 3
+      },
+      {
+        "id": 27,
+        "title": "Whale",
+        "icon_url": "/assets/images/icons/diamond.png",
+        "sort_id": 4
+      }
+    ],
+    "StakingInfo": [
+      {
+        "id": 4,
+        "title": "Staking Information",
+        "description": "You can stake $CGPT To achieve CGPTsp DegenPad",
+        "sort_id": null
+      },
+      {
+        "id": 9,
+        "title": "my new talent for staking ",
+        "description": "The political history of Pakistan is an illuminating record of the milestones and turning points that this nation has faced since its inception. In this comprehensive book, Sartaz Aziz explores the basic causes of the failure of democracy in Pakistan and proposes that only a genuine democratic dispensation -- not military rule with a civilian facade -- can ensure the country's survival as a viable federation. As Finance Minister under Nawaz Sharif and Foreign Minister during the Kargil crisis of 1999,",
+        "sort_id": null
+      }
+    ],
+    "TierBenefits": [
+      {
+        "id": 17,
+        "title": "Minimum Staking Points",
+        "bronze": "2000",
+        "bronze_checked": 1,
+        "silver": "20000",
+        "silver_checked": 1,
+        "gold": "50000",
+        "gold_checked": 1,
+        "diamond": "200000",
+        "diamond_checked": 1,
+        "sort_id": 1,
+        "created_at": "2024-01-04 09:30:20",
+        "updated_at": "2024-01-22 06:58:21"
+      },
+      {
+        "id": 25,
+        "title": "Pool Weight / Allocation Multiplier",
+        "bronze": "1x",
+        "bronze_checked": 1,
+        "silver": "4x",
+        "silver_checked": 1,
+        "gold": "10x",
+        "gold_checked": 1,
+        "diamond": "40x",
+        "diamond_checked": 1,
+        "sort_id": 2,
+        "created_at": "2024-01-10 03:51:30",
+        "updated_at": "2024-01-22 06:58:33"
+      },
+      {
+        "id": 26,
+        "title": "Social interaction required",
+        "bronze": null,
+        "bronze_checked": 1,
+        "silver": null,
+        "silver_checked": 0,
+        "gold": null,
+        "gold_checked": 0,
+        "diamond": null,
+        "diamond_checked": 0,
+        "sort_id": 3,
+        "created_at": "2024-01-10 03:52:15",
+        "updated_at": "2024-01-22 07:04:26"
+      },
+      {
+        "id": 30,
+        "title": "Refund Eligibility",
+        "bronze": null,
+        "bronze_checked": 1,
+        "silver": null,
+        "silver_checked": 1,
+        "gold": null,
+        "gold_checked": 1,
+        "diamond": null,
+        "diamond_checked": 1,
+        "sort_id": 4,
+        "created_at": "2024-01-19 05:35:58",
+        "updated_at": "2024-01-22 07:04:15"
+      },
+      {
+        "id": 31,
+        "title": "FCFS Round",
+        "bronze": null,
+        "bronze_checked": 1,
+        "silver": null,
+        "silver_checked": 1,
+        "gold": null,
+        "gold_checked": 1,
+        "diamond": null,
+        "diamond_checked": 1,
+        "sort_id": 5,
+        "created_at": "2024-01-19 05:37:14",
+        "updated_at": "2024-01-22 06:59:18"
+      },
+      {
+        "id": 32,
+        "title": "Vote in DAO Proposals",
+        "bronze": null,
+        "bronze_checked": 1,
+        "silver": null,
+        "silver_checked": 1,
+        "gold": null,
+        "gold_checked": 1,
+        "diamond": null,
+        "diamond_checked": 1,
+        "sort_id": 6,
+        "created_at": "2024-01-19 05:37:23",
+        "updated_at": "2024-01-22 06:59:23"
+      },
+      {
+        "id": 33,
+        "title": "Guaranteed Round",
+        "bronze": null,
+        "bronze_checked": 0,
+        "silver": null,
+        "silver_checked": 1,
+        "gold": null,
+        "gold_checked": 1,
+        "diamond": null,
+        "diamond_checked": 1,
+        "sort_id": 7,
+        "created_at": "2024-01-19 05:37:30",
+        "updated_at": "2024-01-22 06:59:29"
+      },
+      {
+        "id": 34,
+        "title": "CrowdFunding & Private Pools",
+        "bronze": null,
+        "bronze_checked": 0,
+        "silver": null,
+        "silver_checked": 0,
+        "gold": null,
+        "gold_checked": 1,
+        "diamond": null,
+        "diamond_checked": 1,
+        "sort_id": 8,
+        "created_at": "2024-01-19 05:37:39",
+        "updated_at": "2024-01-22 06:59:35"
+      },
+      {
+        "id": 35,
+        "title": "Incubations Airdrops",
+        "bronze": null,
+        "bronze_checked": 0,
+        "silver": null,
+        "silver_checked": 0,
+        "gold": null,
+        "gold_checked": 1,
+        "diamond": null,
+        "diamond_checked": 1,
+        "sort_id": 9,
+        "created_at": "2024-01-19 05:37:47",
+        "updated_at": "2024-01-22 06:59:42"
+      },
+      {
+        "id": 36,
+        "title": "Freemium Access to ChainGPT AI Tools",
+        "bronze": null,
+        "bronze_checked": 0,
+        "silver": null,
+        "silver_checked": 0,
+        "gold": null,
+        "gold_checked": 0,
+        "diamond": null,
+        "diamond_checked": 1,
+        "sort_id": 10,
+        "created_at": "2024-01-19 05:37:54",
+        "updated_at": "2024-01-22 06:59:48"
+      },
+      {
+        "id": 37,
+        "title": "Create DAO Proposals",
+        "bronze": null,
+        "bronze_checked": 0,
+        "silver": null,
+        "silver_checked": 0,
+        "gold": null,
+        "gold_checked": 0,
+        "diamond": null,
+        "diamond_checked": 1,
+        "sort_id": 11,
+        "created_at": "2024-01-19 05:38:05",
+        "updated_at": "2024-01-22 06:59:54"
+      }
+    ]
+  },
+  "needHelp": {
+    "title": "Need some help?",
+    "SupportEmail": {
+      "description": "<p>If you have any questions, please contact us at any moment via <a href=\"mailto:support@chaingpt.org\">support@chaingpt.org</a></p>"
+    },
+    "Guide": [
+      {
+        "guide_title": "Before Joining IDOs",
+        "guide_url": "https://medium.com/chaingpt-blog/chaingpt-launchpad-introduction-and-breakdown-3ef8cd79dd06"
+      },
+      {
+        "guide_title": "Tier System Explained",
+        "guide_url": "https://medium.com/@degenpad/degenpads-tier-system-and-staking-maximizing-your-participation-c977b17f5c9e"
+      },
+      {
+        "guide_title": "How to Claim IDO Tokens / Refund?",
+        "guide_url": "https://medium.com/@degenpad/degenpads-flexible-refund-policy-c1c494d7b26f"
+      }
+    ],
+    "FAQ": [
+      {
+        "faq_title": "Introduction to DegenPad",
+        "faq_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/introduction-to-degenpad"
+      },
+      {
+        "faq_title": "Tier System",
+        "faq_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/tier-system"
+      },
+      {
+        "faq_title": "Understanding Low FDV Projects on DegenPad",
+        "faq_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/understanding-low-fdv-projects-on-degenpad"
+      },
+      {
+        "faq_title": "IDO Rounds Explained",
+        "faq_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/ido-rounds-explained"
+      },
+      {
+        "faq_title": "Flexible Refund Policy",
+        "faq_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/flexible-refund-policy"
+      },
+      {
+        "faq_title": "DegenPad FAQs",
+        "faq_url": "https://docs.chaingpt.org/the-ecosystem/degenpad/degenpad-faqs"
+      }
+    ]
+  },
+  "TermsOfService": {
+    "terms_of_service": "<h1 class=\"jss4\" style=\"text-align: center;\">Terms of Services</h1>\n<p class=\"jss5\" style=\"text-align: center;\">Last Updated: [Sep 6, 2021]</p>\n<section class=\"jss2\">\n<p>This end-user agreement (the \"Agreement\") should be read by you (the \"User\" or \"you\") in its entirety prior to your use of DegenPad’s service or products. Be aware that this Agreement constitutes a legally binding agreement between you and DegenPad (referred to herein as \"DegenPad\", \"us\" or \"we\") which owns and operates the website on the Internet and the Service at https://degenpad.com (the \"Service\"). By accessing or using the site or DegenPad Services, you agree that you have read, understood, and agree to be bound by this agreement.</p>\n</section>\n<section class=\"jss3\">\n<div>\n<h2>1. General Conditions of use</h2>\n<p>1.1. By signing up to use an Account through any of the DegenPad Clients’ social websites made available through the DegenPad Platform, you agree to comply with and be legally bound by this Agreement. If you do not agree to any of the terms set forth in this Agreement or any subsequent modification to the Agreement, you may not access or use any of the DegenPad Services and must cancel your DegenPad Account immediately.</p>\n<p>1.2. We may amend or modify this Agreement by posting such amended or modified Agreement (“Revised Agreement”) on the DegenPad Platform or by notifying you about the changes via email. By continuing to access or use the DegenPad Services once the Revised Agreement is effective, you agree to be bound by its terms.</p>\n<p>1.3.To be eligible to use the DegenPad Services, you must be at least 18 years old (or the applicable age of majority and contractual capacity in each qualifying jurisdiction). By accessing or using the DegenPad Services you represent and warrant that you are 18 or older. </p>\n<p>1.4. DegenPad disclaims any and all warranties, expressed or implied, in connection with the service which is provided to you \"as is\" and we provide you with no warranty or representation whatsoever regarding its quality, fitness for purpose, completeness, or accuracy. </p>\n<p>1.5. The term \"DegenPad\", its domain names and any other trademarks, or service marks used by DegenPad as part of the Service (the \"Trademarks\"), are solely owned by DegenPad. In addition, all content on the website, including, but not limited to, the images, pictures, graphics, photographs, animations, videos, music, audio, and text (the \"Site Content\") belongs to DegenPad and is protected by copyright and/or other intellectual property or other rights. You hereby acknowledge that by using the Service, you obtain no rights in the Site Content and/or the Trademarks, or any part thereof. Under no circumstances may you use the Site Content and/or the Trade Marks without DegenPad’s prior written consent. Additionally, you agree not to do anything that will harm or potentially harm the rights, including the intellectual property rights of DegenPad. </p></div>\n\n<div>\n\n\n<h2>1.  Authority/Terms of Service</h2>\n\n\n<p>You agree to the rules of the Service provided and described on the https://degenpad.com website. DegenPad retains all authority over the issuing, maintenance, and closing of the Service. The decision of DegenPad’s management, concerning any use of the Service, or dispute resolution, is final and shall not be open to review or appeal. </p> \n<h2>3. Your Representations and Warranties</h2>\n \n<p> Prior to your use of the Service and on an ongoing basis you represent, warrant, covenant, and agree that: </p> \n<p>1.5. </p> \n<p>1.5. </p>  </div></section>"
+  },
+  "PrivacyPolicy": {
+    "privacy_policy": "<p style=\"text-align: center;\">Terms of Services Last Updated: [Sep 6, 2021] This end-user agreement (the \"Agreement\") should be read by you (the \"User\" or \"you\") in its entirety prior to your use of ChainGPT Pad&rsquo;s service or products. Be aware that this Agreement constitutes a legally binding agreement between you and ChainGPT Pad (referred to herein as \"ChainGPT Pad\", \"us\" or \"we\") which owns and operates the website on the Internet and the Service at https://chaingpt.org (the \"Service\"). By accessing or using the site or ChainGPT Pad Services, you agree that you have read, understood, and agree to be bound by this agreement. 1. General Conditions of use 1.1. By signing up to use an Account through any of the ChainGPT Pad Clients&rsquo; social websites made available through the ChainGPT Pad Platform, you agree to comply with and be legally bound by this Agreement. If you do not agree to any of the terms set forth in this Agreement or any subsequent modification to the Agreement, you may not access or use any of the ChainGPT Pad Services and must cancel your ChainGPT Pad Account immediately. 1.2. We may amend or modify this Agreement by posting such amended or modified Agreement (&ldquo;Revised Agreement&rdquo;) on the ChainGPT Pad Platform or by notifying you about the changes via email. By continuing to access or use the ChainGPT Pad Services once the Revised Agreement is effective, you agree to be bound by its terms. 1.3. To be eligible to use the ChainGPT Pad Services, you must be at least 18 years old (or the applicable age of majority and contractual capacity in each qualifying jurisdiction). By accessing or using the ChainGPT Pad Services you represent and warrant that you are 18 or older. 1.4. ChainGPT Pad disclaims any and all warranties, expressed or implied, in connection with the service which is provided to you \"as is\" and we provide you with no warranty or representation whatsoever regarding its quality, fitness for purpose, completeness, or accuracy. 1.5. The term \"ChainGPT Pad\", its domain names and any other trademarks, or service marks used by ChainGPT Pad as part of the Service (the \"Trademarks\"), are solely owned by ChainGPT Pad. In addition, all content on the website, including, but not limited to, the images, pictures, graphics, photographs, animations, videos, music, audio, and text (the \"Site Content\") belongs to ChainGPT Pad and is protected by copyright and/or other intellectual property or other rights. You hereby acknowledge that by using the Service, you obtain no rights in the Site Content and/or the Trademarks, or any part thereof. Under no circumstances may you use the Site Content and/or the Trade Marks without ChainGPT Pad&rsquo;s prior written consent. Additionally, you agree not to do anything that will harm or potentially harm the rights, including the intellectual property rights of ChainGPT Pad. 2. Authority/Terms of Service You agree to the rules of the Service provided and described on the https://chaingpt.org website. ChainGPT Pad retains all authority over the issuing, maintenance, and closing of the Service. The decision of ChainGPT Pad&rsquo;s management, concerning any use of the Service, or dispute resolution, is final and shall not be open to review or appeal. 3. Your Representations and Warranties Prior to your use of the Service and on an ongoing basis you represent, warrant, covenant, and agree that: 3.1. There is a risk of losing cryptocurrency &amp; other funds of value when using the Service and ChainGPT Pad has no responsibility to you for any such loss; 3.2. Your use of the Service is at your sole option, discretion, and risk. You hereby accept full responsibility for any consequences that may arise from your use of the Services, and expressly agree and acknowledge that ChainGPT Pad shall have absolutely no liability in this regard. 3.3. You are solely responsible for any applicable taxes which may be payable on cryptocurrency traded or transacted by you through your using the Service; 3.4. Any cryptographic tokens, blockchain technology, or distributed ledger technology-related projects are new and relatively untested, and outside of both our and our Clients&rsquo; exclusive control. Any adverse changes in market forces, technology, and regulatory environment impacting our performance under this Agreement shall absolve us from responsibility in this regard, including but not limited to hacking attacks, possible theft, unfavorable regulatory action, or unclear legal/tax status of cryptographic tokens. 3.5. (i) You are eighteen years of age or older, (ii) you are of the age of majority in your jurisdiction, (iii) you are accessing the Service from a jurisdiction in which it is legal to do so, (iv) your use of the Services is not prohibited by applicable law, and at all times compliant with applicable law; and (v) you are solely responsible for use of the Services and, if applicable, for all activities that occur on or through your User Account. 4. Prohibited Uses &amp; Termination 4.1. In connection with your use of the ChainGPT Pad Services, and your interactions with other Users, and third parties you agree and represent you will not engage in any illegal, unauthorized, or improper activity, which are: Infringe any proprietary rights, including but not limited to copyrights, patents, trademarks, or trade secrets of ChainGPT Pad; Create multiple accounts, including for collusion and/or abuse of service; Use the Services to transmit any data or send or upload any material that contains viruses, Trojan horses, worms, time-bombs, keystroke loggers, spyware, adware, or any other harmful programs or similar computer code designed to adversely affect the operation of any computer software or hardware; Make any backup or archival copies of the Platform or any part thereof, including disassembling or de-compilation of the Platform; 4.2. We reserve the right to (a) modify or discontinue any portion of the ChainGPT Pad Services, and (b) suspend or terminate your access to the ChainGPT Pad Services, at any time, and from time to time, without notice to you in certain, limited circumstances described herein. You agree that we shall not be liable to you or any third party for any modification or termination of the ChainGPT Pad Services, or suspension or termination of your access to the ChainGPT Pad Services, except to the extent otherwise expressly set forth herein. 5. Know your Customer (&ldquo;KYC&rdquo;) and Anti-Money Laundering (AML) Policy ChainGPT Pad is a permissionless, fully decentralized platform for token sales, swaps, and decentralized exchange. As a software development company, ChainGPT Pad has no role in enforcing KYC by default, however, we do provide such tools for fundraising entities using ChainGPT Pad to enforce on their users, if the entities choose to do so. The use of KYC/AML tools on ChainGPT Pad by fundraising entities using the Service is completely at the discretion of said entities. Although ChainGPT Pad makes no warranty as to the merit, legality, or juridical nature of any token (including whether or not it is considered a security or financial instrument under any applicable Securities Laws), token sale or fundraiser on top of ChainGPT Pad, we nonetheless understand the need of some token projects to require KYC/AML on their token sale participants. Therefore, and at the sole behest of fundraising entities and/or competent regulatory authorities, ChainGPT Pad reserves the right at any time: To ask for any KYC documentation it deems necessary to determine the identity and location of a User. To restrict service and payment until identity is sufficiently determined. To share submitted KYC information and documentation to 3rd parties to verify the authenticity of submitted information, and the end-user (you) agrees to this by using the Service. To confiscate any and all funds that are found to be in violation of relevant and applicable anti-money laundering (AML) and countering terrorism financing (CFT) laws and regulations, and to cooperate with the competent authorities when and if necessary. 6. Retention of Intellectual Property Rights of ChainGPT Pad Platform and ChainGPT Pad clients The ChainGPT Pad Platform and all ChainGPT Pad Services, including their design elements or concepts and any underlying intellectual property, including, but not limited to, all trademarks, are the property of ChainGPT Pad and/or ChainGPT Pad Customers (as applicable), and are protected by copyright, patent, trade secret, and other intellectual property laws. ChainGPT Pad and ChainGPT Pad Clients retain any and all rights, title, and interest in and to ChainGPT Pad Platform and ChainGPT Pad Services (including, without limitation, all intellectual property rights), including all copies, modifications, extensions, and derivative works thereof. Your right to use the ChainGPT Pad Platform and ChainGPT Pad Services is limited to the rights expressly granted in these Terms. Except as stated in these Terms, nothing in these Terms should be construed as conferring any right in or license to ChainGPT Pad&rsquo;s or any third party&rsquo;s intellectual rights. You may not: Copy, create derivative works, distribute, publish, reverse engineer, decompile, disassemble, modify, or translate the ChainGPT Pad website or the Service; or Use the Service that in any way is prohibited by applicable laws or regulations (each of the above herein defined as an \"Unauthorized Use\"). You agree that you will be solely responsible for any damage, costs, or expenses arising out of or in connection with any unauthorized use by you 7. Jurisdiction and Governing Law 7.1. The laws of Panama (with the exclusion of any rules that might lead to the use of any other law which is not the law of Panama) will govern the validity and construction of this Agreement, any separate agreement whereby we provide you any services and any dispute arising out of or in relation to this Agreement or such separate agreement. 7.2. Citizens and residents of and persons located in the United States of America, China, Hong Kong, and all sanctioned OFAC countries (DR Congo, Iran, Myanmar, Sudan, Iraq, Ivory Coast, North Korea, Syria, Zimbabwe, Cuba, Belarus, Liberia) (the &rdquo;Prohibited Jurisdictions&rdquo;) are not permitted to make use of the Service. 8. Third-party services The Services may include services, content, and information owned, made available, or otherwise licensed by a third party (&ldquo;Third-Party Services&rdquo;) or contain links to Third Party Services. You understand that Third-Party Services are the responsibility of the third party that created or provided it and acknowledges that the use of such Third Party Services is solely at your own risk. ChainGPT Pad makes no representations and excludes all warranties and liabilities arising out of or pertaining to such Third Party Services, including its accuracy or completeness. All intellectual property rights in and to Third-Party Services are the property of the respective third parties. 9. Breach 9.1. Without prejudice to any other rights, if a User breaches in whole or in part any provision contained herein, ChainGPT Pad reserves the right to take such action as it sees fit, including terminating this Agreement or any other agreement in place with the User and/or taking legal action against such User. 9.2. You agree to indemnify and hold harmless ChainGPT Pad, its affiliates, subsidiaries, licensors, and their respective directors, officers, members, managers, employees, and agents from and against any and all claims and expenses arising out of your use of the Services, a breach of any provision of these Terms by you or any person using the Services on your behalf, a breach by you of any applicable laws, or any third-party claim to the extent arising from or connected with an allegation that your use of the Services in accordance with these Terms infringes any rights of a third party. 10. Force Majeure ChainGPT Pad shall have no liability for delays, failure in performance, or interruption of service which result directly or indirectly from any cause or condition beyond our reasonable control, including but not limited to, any delay or failure due to any act of God, the act of civil or military authorities, the act of terrorists, civil disturbance, war, strike or other labor dispute, fire, interruption in telecommunications or Internet services or network provider services, failure of equipment and/or software, other catastrophe or any other occurrence which is beyond our reasonable control and shall not affect the validity and enforceability of any remaining provisions. 9.2. You agree to indemnify and hold harmless ChainGPT Pad, its affiliates, subsidiaries, licensors, and their respective directors, officers, members, managers, employees, and agents from and against any and all claims and expenses arising out of your use of the Services, a breach of any provision of these Terms by you or any person using the Services on your behalf, a breach by you of any applicable laws, or any third-party claim to the extent arising from or connected with an allegation that your use of the Services in accordance with these Terms infringes any rights of a third party. 11. Miscellaneous 11.1. Severability: If a provision of this Agreement is or becomes illegal, invalid, or unenforceable in any jurisdiction, that shall not affect the validity or enforceability in that jurisdiction of any other provision hereof or the validity or enforceability in other jurisdictions of that or any other provision hereof. 11.2. Assignment: ChainGPT Pad reserves the right to assign this Agreement, in whole or in part, at any time without notice. The User may not assign any of his/her rights or obligations under this Agreement. 11.3. Third-Party Rights: Unless expressly provided to the contrary in this Agreement, a person who is not a party to this Agreement has no right to enforce or to enjoy the benefit of any term of this Agreement. Notwithstanding any term of this Agreement, no consent of any party who is not a party to this Agreement shall be required for the waiver, variation, or termination of any part of this Agreement. 11.4. Support and Notice: All notices, requests, demands, and determinations for ChainGPT Pad under these Terms (other than routine operational communications) shall be sent to [mailto:info@chaingpt.org].</p>"
+  },
+  "themeOptions": {
+    "id": 1,
+    "primary": "#000000",
+    "secondary": "#000000",
+    "primary_text": "#a34129",
+    "secondary_text": "#2d8415",
+    "meta_mask": "#000000",
+    "main_background": "#a05f22",
+    "secondary_background": "#FFFFFF",
+    "primary_gradient": "#6154DA",
+    "primary_gradient_two": "#00ff4c",
+    "secondary_gradient": "#E69598",
+    "secondary_gradient_two": "#cd05f5",
+    "linear_gradient_primary_one": "#00ffaa",
+    "linear_gradient_primary_two": "#ff0000",
+    "linear_gradient_secondary_one": "#000000",
+    "linear_gradient_secondary_two": "#000000",
+    "created_at": "2024-01-01 05:30:59",
+    "updated_at": "2024-01-17 05:13:25"
+  },
+  "SocialMediaLinks": [
+    {
+      "id": 1,
+      "sm_type": "Twitter",
+      "created_at": null,
+      "updated_at": null,
+      "socialMediaLinks": [
+        {
+          "id": 15,
+          "social_media_type_id": 1,
+          "sm_link": "https://x.com/DegenPadHQ",
+          "sort_id": 3,
+          "created_at": "2024-01-11 10:57:02",
+          "updated_at": "2024-01-16 09:59:29"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "sm_type": "CoinMarketCap",
+      "created_at": null,
+      "updated_at": null,
+      "socialMediaLinks": [
+        {
+          "id": 4,
+          "social_media_type_id": 4,
+          "sm_link": "https://coinmarketcap.com/community/profile/ChainGPT/",
+          "sort_id": 7,
+          "created_at": "2023-12-29 11:37:00",
+          "updated_at": "2024-01-16 09:59:29"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "sm_type": "YouTube",
+      "created_at": null,
+      "updated_at": null,
+    "socialMediaLinks": [
+        {
+          "id": 5,
+          "social_media_type_id": 5,
+          "sm_link": "https://www.youtube.com/@DegenPad",
+          "sort_id": 9,
+          "created_at": "2023-12-29 11:37:10",
+          "updated_at": "2024-01-16 09:59:29"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "sm_type": "Medium",
+      "created_at": null,
+      "updated_at": null,
+      "socialMediaLinks": [
+        {
+          "id": 5,
+          "social_media_type_id": 5,
+          "sm_link": "https://medium.com/@degenpad",
+          "sort_id": 9,
+          "created_at": "2023-12-29 11:37:10",
+          "updated_at": "2024-01-16 09:59:29"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "sm_type": "LinkedIn",
+      "created_at": null,
+      "updated_at": null,
+      "socialMediaLinks": [
+        {
+          "id": 5,
+          "social_media_type_id": 5,
+          "sm_link": "https://www.linkedin.com/company/degenpad/",
+          "sort_id": 9,
+          "created_at": "2023-12-29 11:37:10",
+          "updated_at": "2024-01-16 09:59:29"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "sm_type": "Telegram",
+      "created_at": null,
+      "updated_at": null,
+      "socialMediaLinks": [
+        {
+          "id": 12,
+          "social_media_type_id": 8,
+          "sm_link": "https://t.me/DegenPadChat",
+          "sort_id": 1,
+          "created_at": "2024-01-04 09:22:44",
+          "updated_at": "2024-01-16 09:59:29"
+        },
+        {
+          "id": 14,
+          "social_media_type_id": 8,
+          "sm_link": "https://t.me/DegenPadNews",
+          "sort_id": 2,
+          "created_at": "2024-01-11 05:18:38",
+          "updated_at": "2024-01-16 09:59:29"
+        }
+      ]
+    }
+  ]
+}

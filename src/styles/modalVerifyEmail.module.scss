@@ -1,0 +1,35 @@
+.modalVerifyEmail {
+    .modal-content__body {
+      padding: 0;
+  
+      .input-group {
+        input {
+          padding-right: 0;
+        }
+      }
+    }
+  
+    .modal-content__body .input-group {
+      background: #11152A;
+      padding: 0 10px;
+      margin-top: 10px;
+    }
+  
+    .disabled {
+      background-color: silver;
+    }
+  }
+  
+  @media (max-width: 600px) { // 'xs' breakpoint in Material-UI is typically 600px
+    .modalVerifyEmail {
+      .modal-content {
+        max-width: 100%;
+        padding: 15px;
+      }
+      
+      .modal-content__foot button {
+        padding-right: 50px;
+        padding-left: 50px;
+      }
+    }
+  }

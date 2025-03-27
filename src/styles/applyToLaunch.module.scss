@@ -1,0 +1,169 @@
+.btn {
+  min-width: 170px;
+  max-width: 200px;
+  min-height: 40px;
+  border-radius: 50px;
+  border: 1px solid #002966;
+  background: transparent;
+  font: normal normal 500 14px/18px Violet Sans;
+  color: #002966;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: sm) {
+    width: 280px;
+    max-width: 100%;
+  }
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.getAlert {
+  width: 100%;
+  max-width: 960px;
+  margin: 40px auto 0 auto;
+  position: relative;
+  background: #c0daff;
+  border-radius: 12px;
+
+  @media (max-width: sm) {
+    max-width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+.contentGetAlert {
+  min-height: 248px;
+  margin: auto;
+  display: flex;
+  color: #1e1e1e;
+
+  i {
+    font: normal normal 18px/28px Violet Sans;
+    font-style: italic;
+  }
+}
+
+.leftContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 60px;
+
+  @media (max-width: md) {
+    padding-left: 10%;
+  }
+
+  @media (max-width: sm) {
+    padding-left: 5%;
+  }
+}
+
+.rightContent {
+  position: relative;
+  width: 50%;
+
+  img {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+  }
+}
+
+.item {
+  width: fit-content;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+  }
+
+  span {
+    font: normal normal 18px/28px Violet Sans;
+    font-weight: 300;
+
+    em {
+      font: normal normal 18px/28px Violet Sans;
+      font-weight: 300;
+    }
+  }
+
+  p {
+    font: normal normal 18px/28px Violet Sans;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.copyRightItem {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-left: 8px;
+    margin-top: 5px;
+    height: 32px;
+  }
+}
+
+.titleGetAlert {
+  font: normal normal 300 36px/44px Violet Sans;
+  margin-bottom: 12px;
+  max-width: 380px;
+}
+
+.btnMobile {
+  display: none;
+  align-self: center;
+  margin-top: 18px;
+  width: 100%;
+  max-width: 100%;
+  height: 40px;
+}
+
+// Mobile styles
+@media (max-width: xs) {
+  .contentGetAlert {
+    flex-direction: column;
+    height: auto;
+    padding: 36px 0;
+  }
+
+  .leftContent {
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+  }
+
+  .rightContent {
+    width: 100%;
+  }
+
+  .titleGetAlert {
+    font-size: 28px;
+    line-height: 32px;
+    max-width: 320px;
+  }
+
+  .btnMobile {
+    display: block;
+  }
+}

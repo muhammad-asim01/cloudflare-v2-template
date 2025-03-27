@@ -1,0 +1,30 @@
+.modalStake {
+    .MuiPaper-root {
+      @media (max-width: 600px) { // xs breakpoint
+        margin: 28px;
+      }
+    }
+  
+    .subtitle {
+      font: normal normal 500 14px/18px "Violet Sans";
+    }
+  }
+  
+  .notice {
+    font: normal normal 500 14px/18px "Violet Sans";
+    color: #1e1e1e;
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 600px) { // xs breakpoint
+    .modalTransaction {
+      .modal-content__body {
+        padding: 0;
+      }
+  
+      .modal-content__foot {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  

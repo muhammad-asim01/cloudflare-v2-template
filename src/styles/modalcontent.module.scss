@@ -1,0 +1,83 @@
+.ModalContent {
+    border-radius: 4px;
+  
+    .modal-content {
+      min-height: 336px;
+      width: 600px;
+      padding: 80px 20px;
+      overflow: hidden;
+      background: none;
+      position: relative;
+  
+      .bg {
+        position: absolute;
+        top: -15px;
+        left: 0;
+        height: calc(100% + 20px);
+        width: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+  
+      .btn-close {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        cursor: pointer;
+      }
+    }
+  
+    .modal-content__head {
+      .title {
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        color: #1e1e1e;
+        margin-bottom: 8px;
+      }
+    }
+  
+    .modal-content__body {
+      margin: 0 0 40px 0;
+      padding: 0;
+  
+      .subtitle {
+        span {
+          font-family: 'Violet Sans', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 26px;
+          text-align: center;
+          color: #1e1e1e;
+          width: 100%;
+        }
+      }
+    }
+  
+    .modal-content__foot {
+      display: flex;
+      justify-content: center;
+  
+      button {
+        background-color: #0066FF !important;
+      }
+    }
+  
+    @media (max-width: 600px) {
+      .modal-content {
+        width: 100%;
+        padding: 60px 20px;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+  
+      .MuiPaper-rounded {
+        overflow: hidden;
+      }
+    }
+  }
+  

@@ -1,0 +1,175 @@
+.bottomBoxHowTo {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .boxHowTo {
+    background: #3232DC;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    width: 280px;
+    font-family: "Violet Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+  }
+  
+  .contentHowTo {
+    min-height: calc(300px - 65px);
+  }
+  
+  .titleBoxHowTo {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Violet Sans";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 65px;
+    padding: 0 20px;
+    align-items: center;
+  }
+  
+  .iconHowTo {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .listHowTo {
+    padding: 0 20px;
+  }
+  
+  .itemHowTo {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 14px;
+    display: flex;
+  }
+  
+  .checkmark {
+    display: block;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-right: 8px;
+    position: relative;
+  }
+  
+  .activeItemHowTo {
+    text-decoration: line-through;
+  }
+  
+  .activeCheckmark {
+    background: #40FBA1;
+    position: relative;
+  
+    &:after {
+      position: absolute;
+      content: "";
+      display: block;
+      left: 6px;
+      top: 2px;
+      width: 5px;
+      height: 10px;
+      border: solid #3232DC;
+      border-width: 0 3px 3px 0;
+      transform: rotate(45deg);
+      border-radius: 3px;
+    }
+  }
+  
+  .textClickHowTo {
+    padding: 0px 20px;
+    font-family: "Violet Sans";
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  
+    a {
+      font-weight: 700;
+    }
+  }
+  
+  .poolDetailContainer {
+    display: flex;
+    padding: 30px 0 80px 0;
+    width: 1040px;
+    max-width: calc(100vw - 80px);
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .poolDetailContainer {
+      width: calc(100%);
+      max-width: calc(100%);
+      margin: 8px auto;
+      padding-top: 28px;
+      padding-bottom: 40px;
+      flex-direction: column-reverse;
+    }
+    .poolDetailLeft {
+      width: calc(100% - 56px);
+      max-width: calc(100% - 56px);
+      margin-left: 28px;
+    }
+  }
+  
+  .poolDetailBlock {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #353539;
+    background: #111115;
+    height: fit-content;
+    border-radius: 8px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .poolDetailBlock {
+      flex-direction: column;
+      margin: 20px auto 0 auto;
+    }
+  }
+  
+  // Add similar SCSS conversions for other styles...
+  
+  // Responsive styles
+  @media screen and (max-width: 600px) {
+    .poolDetailTier {
+      padding: 20px;
+      width: 100%;
+    }
+    .poolHeaderAddress {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      margin-top: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .poolDetailTierWrapper {
+      flex-direction: column;
+    }
+    .poolDetailIntro {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .PoolAboutDesc {
+      width: 100%;
+    }
+  }
+  

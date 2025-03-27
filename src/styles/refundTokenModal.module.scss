@@ -1,0 +1,84 @@
+.refundDialog {
+    .MuiPaper-root {
+      padding: 40px;
+      padding-bottom: 28px;
+      background-color: #F5F5F5;
+      border-radius: 8px;
+      border: 1px solid #d9d9d9;
+      text-align: center;
+  
+      @media (max-width: 600px) {
+        padding: 30px 20px;
+      }
+    }
+  }
+  
+  .btnClose {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    top: 12px;
+    right: 12px;
+  }
+  
+  .iconRefund {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+  }
+  
+  .titleRefund {
+    height: 28px;
+    margin-top: 12px;
+    color: #1e1e1e;
+    text-align: center;
+    font: normal normal 500 22px/28px "Violet Sans";
+  }
+  
+  .contentRefund {
+    margin-top: 4px;
+    color: #1e1e1e;
+    text-align: center;
+    font: 14px/24px "Violet Sans";
+  }
+  
+  .groupButton {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 20px;
+  
+    .btn {
+      height: 36px;
+      border-radius: 50px;
+      border: 1px solid #0066ff;
+      cursor: pointer;
+      outline: none;
+      font: normal normal 500 14px/20px "Violet Sans";
+      color: #fff;
+      transition: 0.25s all;
+  
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+  
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+  }
+  
+  .btnConfirm {
+    border: 1px solid #0066ff;
+    border-radius: 50px;
+    background: #0066ff;
+  }
+  
+  .btnCancel {
+    border: 1px solid #0066ff;
+    border-radius: 50px;
+    background: transparent;
+    color: #1e1e1e !important;
+  }

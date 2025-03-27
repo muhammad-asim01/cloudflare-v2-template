@@ -1,0 +1,65 @@
+$loader-size: 35px;
+
+.loadingContainer {
+  color: white;
+  span {
+    margin-top: 10px;
+  }
+}
+
+.loadingTable {
+  height: $loader-size;
+  width: $loader-size;
+  position: relative;
+  transform: rotate(45deg);
+
+  .rhombus {
+    height: calc($loader-size / 7.5);
+    width: calc($loader-size / 7.5);
+    animation-duration: 2000ms;
+    top: calc($loader-size / 2.3077);
+    left: calc($loader-size / 2.3077);
+    background-color: #ff1d5e;
+    position: absolute;
+    animation-iteration-count: infinite;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    @for $i from 1 through 8 {
+      &.child-#{$i} {
+        animation-name: breeding-rhombus-spinner-animation-child-#{$i};
+        animation-delay: calc(100ms * #{$i});
+      }
+    }
+
+    &.big {
+      height: calc($loader-size / 3);
+      width: calc($loader-size / 3);
+      animation-duration: 2000ms;
+      top: calc($loader-size / 3);
+      left: calc($loader-size / 3);
+      background-color: #ff1d5e;
+      animation: breeding-rhombus-spinner-animation-child-big 2s infinite;
+      animation-delay: 0.5s;
+    }
+  }
+}
+
+@for $i from 1 through 8 {
+  @keyframes breeding-rhombus-spinner-animation-child-#{$i} {
+    50% {
+      transform: translate(
+        #{if($i == 1 or $i == 7, -325%, if($i == 3 or $i == 5, 325%, 0))},
+        #{if($i == 1 or $i == 3, -325%, if($i == 5 or $i == 7, 325%, 0))}
+      );
+    }
+  }
+}
+
+@keyframes breeding-rhombus-spinner-animation-child-big {
+  50% {
+    transform: scale(0.5);
+  }
+}

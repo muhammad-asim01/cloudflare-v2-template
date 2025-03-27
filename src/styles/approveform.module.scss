@@ -1,0 +1,327 @@
+.currencyName {
+    font: 12px/16px "Violet Sans";
+    color: #757575;
+  }
+  
+  .btnGroup {
+    margin-top: 12px;
+    padding-top: 12px;
+    // border-top: 1px solid #d9d9d9;
+    display: grid;
+    // grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8px;
+    
+    > div > button {
+      width: 100%;
+      font: normal normal 500 14px/20px "Violet Sans";
+      color: #1e1e1e !important;
+      cursor: pointer;
+      background: transparent;
+      border: 1px solid #0066FF;
+      position: relative;
+      border-radius: 50px;
+    }
+    
+    > div:last-child > button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    
+    > div:first-child > button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    
+    @media (max-width: 600px) {
+      margin-top: 12px;
+      padding-top: 32px;
+      grid-template-columns: 1fr;
+      
+      > div:first-child > button {
+        margin-bottom: 12px;
+      }
+    }
+    
+    @media (max-width: 600px) {
+      > div:first-child > button {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .buyTokenForm {
+    font-family: "Violet Sans";
+    // background: #303035;
+    // border-radius: 12px;
+    // padding: 28px 28px;
+    padding-bottom: 20px;
+    color: #1e1e1e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #d9d9d9;
+    margin-top: 70px;
+    
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+      // padding: 28px 20px;
+    }
+  }
+  
+  .leftBuyTokenForm {
+    padding-right: 28px;
+    
+    @media (max-width: 600px) {
+      margin-bottom: 20px;
+      padding-right: 0;
+    }
+  }
+  
+  .rightBuyTokenForm {
+    word-break: break-word;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 16px 20px;
+    border: 1px solid #d9d9d9;
+  }
+  
+  .title {
+    font: normal normal 500 14px/18px "Violet Sans";
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    
+    @media (max-width: 600px) {
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  
+  .title2 {
+    margin-bottom: 8px;
+    font: normal normal 500 14px/18px "Violet Sans";
+    color: #1e1e1e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .buyTokenFormTitle {
+    margin-top: 10px;
+    line-height: 24px;
+    color: #757575;
+    font-family: "Violet Sans";
+    font-weight: 500;
+    font-size: 16px;
+    
+    @media (max-width: 600px) {
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 0;
+    }
+  }
+  
+  .buyTokenInputForm {
+    background: transparent;
+    border: 1px solid #d9d9d9;
+    max-width: 100%;
+    padding: 4px;
+    padding-left: 12px;
+    border-radius: 50px;
+  }
+  
+  .buyTokenInputWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    height: 32px;
+    
+    @media (max-width: 600px) {
+      display: grid;
+      grid-template-columns: auto 125px;
+    }
+    
+    span {
+      font-weight: bold;
+    }
+  }
+  
+  .buyTokenInput {
+    background-color: transparent;
+    border: none;
+    color: #1e1e1e;
+    font: 14px/24px "Violet Sans";
+    
+    &:focus {
+      outline: none;
+    }
+    
+    &::placeholder {
+      font-family: "Violet Sans";
+      font-size: 14px;
+      line-height: 20px;
+      color: #757575;
+    }
+    
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+  
+  .buyTokenInputLabel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999999;
+    font: normal normal normal 12px/18px "Violet Sans";
+  }
+  
+  .buyTokenFee {
+    color: #999999;
+    margin-top: 10px;
+    font: normal normal normal 12px/18px "Violet Sans";
+  }
+  
+  .buyTokenEstimate {
+    margin-top: 16px;
+  }
+  
+  .buyTokenEstimateLabel {
+    font: normal normal 500 14px/18px "Violet Sans";
+  }
+  
+  .buyTokenEstimateAmount {
+    font: normal normal 500 18px/26px "Violet Sans";
+    color: #0066FF;
+    margin-top: 2px;
+  }
+  
+  .tokenPrice {
+    font: 12px/16px "Violet Sans";
+    color: #757575;
+    margin-left: auto;
+  }
+  
+  .poolErrorBuyWarning {
+    font: normal normal bold 15px/18px "Violet Sans";
+    color: #fff100;
+    display: none;
+  }
+  
+  .poolErrorBuy {
+    font: normal normal bold 15px/18px "Violet Sans";
+    // margin-top: 25px;
+    color: #D01F36;
+  }
+  
+  .purchasableCurrency {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font: normal normal 500 14px/18px "Violet Sans";
+    color: #1e1e1e;
+  }
+  
+  .purchasableCurrencyIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+  }
+  
+  .purchasableCurrencyMax {
+    background: #0066FF;
+    border-radius: 50px;
+    padding: 4px 16px;
+    // min-width: 60px;
+    // height: 32px;
+    border: none;
+    font: normal normal 500 14px/20px "Violet Sans";
+    color: #ffffff;
+    margin-left: 8px;
+    
+    &:hover {
+      opacity: 0.9;
+    }
+    
+    &:focus {
+      outline: none;
+    }
+    
+    &:active {
+      transform: translateY(-3px);
+    }
+  }
+  
+  .title3 {
+    margin-top: 12px;
+    font: 12px/16px "Violet Sans";
+    color: #1e1e1e;
+    
+    @media (max-width: 600px) {
+      margin-top: 32px;
+    }
+  }
+  
+  .allowcationWrap {
+    margin-bottom: 6px;
+    color: #1e1e1e;
+    font-size: 14px;
+    display: grid;
+    grid-column-gap: 8px;
+    grid-template-columns: minmax(140px, 150px) 1fr;
+    // @media (max-width: 600px) {
+    //   grid-template-columns: minmax(140px, 140px) 1fr;
+    // }
+  }
+  
+  .allocationTitle {
+    color: #757575;
+    font: 14px/24px "Violet Sans";
+  }
+  
+  .allocationContent {
+    font: 14px/24px "Violet Sans";
+    text-align: right;
+  }
+  
+  .captchaContainer {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: fit-content;
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .buyTokenForm {
+      border-bottom: 1px solid #757575;
+      padding-top: 12px;
+    }
+    
+    .title {
+      display: none;
+    }
+    
+    .step {
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    
+    .buyTokenEstimate {
+      margin-top: 6px;
+      
+      > div {
+        flex-direction: column-reverse;
+      }
+    }
+    
+    .title3 {
+      margin-top: 12px;
+    }
+    
+    .btnGroup {
+      padding: 0;
+      grid-template-columns: 1fr 1fr;
+    }
+  }

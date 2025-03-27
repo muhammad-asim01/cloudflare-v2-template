@@ -1,0 +1,92 @@
+.tierInfomation {
+    width: 100%;
+    max-width: 120px;
+    margin-top: 12px;
+  }
+  
+  .listRate {
+    font-family: "Violet Sans";
+    font-size: 14px;
+    line-height: 24px;
+  
+    li:not(:first-child) {
+      margin-top: 4px;
+    }
+  }
+  
+  .textRate {}
+  
+  .conversionRate {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 120px;
+    flex-wrap: wrap;
+    height: 100%;
+  
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+  
+  .group {
+    display: flex;
+    font-weight: 400;
+    font-family: "Violet Sans";
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  
+  .title {
+    margin-bottom: 12px;
+    font-family: "Violet Sans";
+    font-size: 14px;
+    line-height: 18px;
+    color: #757575;
+    margin-right: 12px;
+    font-weight: 600;
+  
+    @media (max-width: 600px) {
+      margin-right: 0;
+      margin-bottom: 4px;
+    }
+  }
+  
+  .lpWarning {
+    background: rgba(255, 80, 80, 0.6);
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 12px;
+    padding-left: 0;
+    font: normal normal normal 14px/20px "Violet Sans";
+    display: flex;
+  
+    img {
+      margin: 4px 6px auto 8px;
+    }
+  }
+  
+  .buttonStake {
+    width: 100%;
+    max-width: 220px;
+    margin-top: auto;
+    padding: 6px 0;
+    cursor: pointer;
+    background: #0066FF;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Violet Sans";
+    border: none;
+    color: #ffffff;
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  
+    @media (max-width: 600px) {
+      margin-top: 12px;
+    }
+  }
+  

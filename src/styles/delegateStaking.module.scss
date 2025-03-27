@@ -1,0 +1,586 @@
+$width-details: calc(100vw / 5);
+$min-width-details: 260px;
+$max-width-details: 300px;
+$width-btn-mobile: calc((90vw - 48px) / 2);
+$width-progress: calc(100vw / 5 - 40px);
+$color-green: #5eff8b;
+
+.pool {
+  margin-bottom: 6px;
+  background: #f5f5f5;
+  color: #1e1e1e;
+  box-shadow: unset;
+  border: 1px solid #d9d9d9;
+  padding: 18px 20px 14px;
+  border-radius: 2px;
+
+  @media (max-width: 600px) {
+    border-radius: 12px !important;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+  }
+
+  .MuiAccordionSummary-root {
+    padding: 0;
+    align-items: center;
+
+    @media (max-width: 600px) {
+      align-items: flex-start;
+    }
+
+    .MuiAccordionSummary-content {
+      margin: 0;
+    }
+  }
+
+  .Mui-expanded {
+    margin: 0;
+    .pool--expand-text {
+      color: #d01f36;
+    }
+    .MuiIconButton-label {
+      color: #0066ff;
+    }
+  }
+
+  .MuiIconButton-label {
+    color: #6398ff;
+  }
+}
+
+.poolLogo {
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.poolLine {
+  height: 1px;
+  margin-top: 9px;
+  background: #ffffff;
+  opacity: 0.1;
+}
+
+.expandText {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font: normal normal 500 14px/18px Violet Sans;
+
+  &.color-hide {
+    color: #0066ff;
+  }
+  &.color-details {
+    color: #6398ff;
+  }
+
+  @media (max-width: 600px) {
+    font: normal normal 500 16px/24px Violet Sans;
+    align-items: flex-start;
+  }
+}
+
+.poolDetails {
+  padding: 20px 0 0;
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    padding: 0 0;
+    width: 100%;
+  }
+}
+
+.poolTitleWrap {
+  display: flex;
+  width: $width-details;
+  min-width: $min-width-details;
+  max-width: $max-width-details;
+
+  @media (max-width: 600px) {
+    min-width: calc(100vw / 2);
+  }
+}
+
+.poolHeaderDetails {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 1.4fr 1fr 1.2fr;
+  gap: min(30px, calc(100vw / 35));
+  align-items: center;
+  margin-right: 20px;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.poolHeaderButtonWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 100px;
+  height: 28px;
+  border-radius: 2px;
+  outline: none;
+  font: normal normal 500 12px/16px Violet Sans;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  @media (max-width: 600px) {
+    width: auto;
+  }
+}
+
+.btnStake {
+  color: #fff;
+  background-color: #0066ff;
+  border-radius: 50px;
+}
+
+.btnUnstake {
+  color: #0066ff;
+  background-color: transparent;
+  border: 1px solid #0066ff;
+  border-radius: 50px;
+  margin-top: 6px;
+
+  @media (max-width: 600px) {
+    margin-top: 0;
+  }
+
+  &:disabled {
+    border: 1px solid #0066ff;
+    background-color: transparent;
+  }
+}
+
+.btnWithdraw {
+  color: #fff;
+  background-color: #d01f36;
+  border-radius: 50px;
+  width: 140px;
+  margin-top: auto;
+
+  @media (max-width: 600px) {
+    width: $width-btn-mobile;
+  }
+}
+
+.btnSwitch {
+  width: auto;
+  color: #000;
+  background-color: $color-green;
+  padding: 0 20px;
+  margin-top: auto;
+  gap: 6px;
+  border-radius: 50px;
+}
+
+// Add the remaining styles following this pattern...
+
+// Common Button Styles
+.btnClaimToken {
+  color: #000;
+  background-color: #ffd058;
+  border-radius: 50px;
+}
+
+.btnStakeReward {
+  color: #ffd058;
+  background-color: #000;
+  border: 1px solid #ffd058;
+  margin-top: 6px;
+
+  @media (max-width: 600px) {
+    margin-top: 0;
+  }
+}
+
+.btnConnect {
+  color: #fff;
+  background-color: #0066ff;
+  width: 140px;
+  margin-top: auto;
+  border-radius: 50px;
+
+  @media (max-width: 600px) {
+    width: $width-btn-mobile;
+    margin-top: 8px;
+  }
+}
+
+.delegateStaking {
+  padding: 20px 0;
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-top: 16px;
+
+  .controller-area__right {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-left: auto;
+  }
+
+  .controller-area__search {
+    position: relative;
+    width: 220px;
+    max-width: 100%;
+    height: 36px;
+
+    input {
+      box-sizing: border-box;
+      outline: none;
+      width: 100%;
+      height: 36px;
+      padding: 0 12px 0 40px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin: 0;
+      border: 1px solid #d9d9d9;
+      color: #1e1e1e;
+      font: 14px/24px "Violet Sans";
+      border-radius: 50px;
+      background: #f5f5f5;
+      margin-right: 10px;
+    }
+
+    input::placeholder {
+      font: normal normal normal 14px/24px "Violet Sans";
+      color: rgba(153, 153, 153, 0.5);
+    }
+
+    img {
+      position: absolute;
+      right: 12px;
+      transform: translateY(-50%);
+      top: 50%;
+    }
+  }
+
+  select {
+    text-overflow: ellipsis;
+    max-width: 100%;
+    background-color: #f5f5f5;
+    width: 160px;
+    height: 34px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    border-radius: 50px;
+    color: #1e1e1e;
+    padding: 0 12px;
+    font: 14px/24px "Violet Sans";
+  }
+
+  .form-control-label {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-weight: 700;
+      color: #1e1e1e;
+      margin-bottom: 8px;
+    }
+  }
+
+  .delegate-staking-header {
+    border: 1px solid #bababc;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+  }
+
+  .delegate-staking-header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 12px;
+    gap: 8px;
+  }
+
+  .delegate-staking-header-title-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8e8e90;
+    font-family: "Alliance No.2";
+  }
+
+  .delegate-points {
+    font-size: 24px;
+    font-weight: 400;
+    color: #353539;
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  .active-delegation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 24px 0px;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+  }
+
+  .delegation-table {
+    width: 100%;
+    border: 1px solid #bababc;
+    border-radius: 16px;
+    margin: 0px 20px;
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+      tr {
+        th {
+          text-align: left;
+          padding: 8px;
+        }
+      }
+    }
+  }
+
+  .delegate-btn {
+    background: #0066ff;
+    border-radius: 9999px;
+    padding: 6px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e5efff;
+    text-transform: uppercase;
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  .delegation-pagination {
+    width: 100%;
+    border: 1px solid #bababc;
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .active-delegation {
+    justify-content: center;
+  }
+
+  .delegation-table {
+    width: 90%;
+  }
+
+  .delegation-pagination {
+    width: 90%;
+    overflow-x: auto;
+  }
+}
+
+.switchGroup {
+  @media (max-width: 600px) {
+    // xs breakpoint
+    margin: 4px 0 4px -16px;
+  }
+}
+
+.root {
+  width: 38px;
+  height: 22px;
+  padding: 0;
+  margin: 8px; // theme.spacing(1) approximated
+
+  @media (min-width: 600px) {
+    // xs and up
+    margin-left: 20px;
+  }
+}
+
+.switchBase {
+  padding: 2px;
+
+  &.checked {
+    transform: translateX(16px);
+    color: white;
+
+    & + .track {
+      background-color: #0066ff;
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  &.focusVisible .thumb {
+    color: #3232dc;
+    border: 6px solid #fff;
+  }
+}
+
+.thumb {
+  width: 18px;
+  height: 18px;
+}
+
+.track {
+  border-radius: 13px;
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  opacity: 1;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.btnHeaderGroup {
+  display: flex;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  background: #f5f5f5;
+  padding: 4px;
+  border-radius: 50px;
+  overflow: hidden;
+
+  button:not(:first-child) {
+    margin-left: 4px;
+  }
+
+  span {
+    font: 14px/24px "Violet Sans";
+    height: 28px;
+  }
+
+  &:not(:first-child) {
+    margin-left: 6px;
+  }
+
+  .MuiButtonGroup-groupedHorizontal:not(:last-child) {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  .MuiButtonGroup-groupedHorizontal:not(:first-child) {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .MuiButton-outlined {
+    padding: 0;
+  }
+}
+
+.btnDurationType button {
+  width: 80px;
+
+  @media (max-width: 600px) {
+    width: 62px;
+  }
+}
+
+.btnStakingType button {
+  width: 90px;
+
+  @media (max-width: 600px) {
+    width: 86px;
+  }
+}
+
+.btnActive {
+  background: #0066ff;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 50px !important;
+
+  @media (max-width: 600px) {
+    padding: 5px 10px;
+  }
+
+  &.MuiButtonGroup-groupedHorizontal {
+    border-radius: 50px !important;
+  }
+
+  &:hover {
+    text-transform: capitalize;
+    background: #0066ff;
+    border: none;
+    outline: none;
+    opacity: 0.8;
+  }
+}
+
+.btnDisabled {
+  color: #1e1e1e;
+  text-transform: capitalize;
+  outline: none;
+  border-style: none;
+
+  @media (max-width: 600px) {
+    padding: 5px 10px;
+  }
+
+  &:hover {
+    border: none;
+    outline: none;
+    opacity: 0.8;
+  }
+}
+
+.poolTypeSelect {
+  .MuiNativeSelect-icon {
+    color: #1e1e1e;
+  }
+
+  .MuiNativeSelect-select option {
+    background: #f5f5f5;
+    padding: 4px 0;
+    height: 40px;
+  }
+
+  &.MuiInput-underline:after,
+  &.MuiInput-underline:before {
+    display: none !important;
+  }
+}

@@ -1,0 +1,13 @@
+<svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M57 1L15.9976 1L0.999999 17.282L0.999998 57" stroke="white" stroke-opacity="0.6" stroke-width="0.867598"/>
+<path d="M57 1L15.9976 1L0.999999 17.282L0.999998 57" stroke="url(#paint0_angular_260_989)" stroke-width="0.867598"/>
+<defs>
+<radialGradient id="paint0_angular_260_989" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(21.7932 51.1215) rotate(116.609) scale(91.7056 91.1576)">
+<stop stop-color="#724CE8"/>
+<stop offset="0.270833" stop-color="#C34C52"/>
+<stop offset="0.520833" stop-color="#FEC8C8"/>
+<stop offset="0.765625" stop-color="#4161BF"/>
+<stop offset="1" stop-color="#724CE8"/>
+</radialGradient>
+</defs>
+</svg>

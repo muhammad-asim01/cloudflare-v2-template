@@ -1,0 +1,104 @@
+.section-buy-token-pool-swap-info {
+    background: #303035;
+    border-radius: 12px;
+    padding: 28px 28px;
+    margin-bottom: 12px;
+    color: #ffffff;
+    font-family: 'DM Sans';
+  
+    @media (max-width: 600px) {
+      padding: 28px 20px;
+    }
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  
+    @media (max-width: 600px) {
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  
+  .top-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  
+  .left-top-sec {
+    width: 100%;
+  }
+  
+  .value-left-top-sec {
+    margin-top: 4px;
+    font-size: 28px;
+    line-height: 32px;
+    color: #6398ff;
+    font-weight: bold;
+  }
+  
+  .right-top-sec {
+    font-family: 'Violet Sans';
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+    margin-left: auto;
+    font-weight: 500;
+    text-align: right;
+  }
+  
+  .title-sub,
+  .title-sub2 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .title-sub2 {
+    margin-bottom: 24px;
+  }
+  
+  .jub-value {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .left-bot-sec {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .right-bot-sec {
+    font-family: 'Violet Sans';
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+  }
+  
+  .progress {
+    width: 100%;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  .achieved {
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #232394;
+    border-radius: 20px;
+  }

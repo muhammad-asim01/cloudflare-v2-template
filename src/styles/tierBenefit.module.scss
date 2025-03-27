@@ -1,0 +1,159 @@
+$title-font: normal normal 400 14px/18px Violet Sans;
+
+.tab-tier-benefits {
+  margin-top: 12px;
+}
+
+.table {
+  border-collapse: separate !important;
+  border-spacing: 0 6px !important;
+
+  .MuiTableBody-root td {
+    font: 14px/24px Violet Sans;
+  }
+}
+
+.table-container {
+  width: 100%;
+  background: transparent;
+
+  th {
+    @media (max-width: 600px) {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+    }
+  }
+
+  .MuiTableRow-head th, td {
+    border: 0;
+    background: transparent;
+  }
+
+  .status_pool {
+    white-space: nowrap;
+  }
+
+  .canceled-whitelist {
+    color: #D01F36;
+  }
+
+  .applied-whitelist {
+    color: #0066FF;
+  }
+
+  .win-whitelist {
+    color: #5EFF8B;
+  }
+
+  .not-win-whitelist {
+    color: #727272;
+  }
+
+  .swapping {
+    color: #6788FF;
+  }
+
+  .filled,
+  .claimable {
+    color: #FFD058;
+  }
+
+  .completed {
+    color: #727272;
+  }
+
+  .none {
+    color: #FFFFFF;
+  }
+
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 14px;
+      color: #1e1e1e;
+      margin: 20px 0 10px 13px;
+    }
+    background: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    margin-bottom: 10px;
+
+    th,
+    th:first-child,
+    th:last-child {
+      border: none;
+    }
+  }
+
+  .MuiTableCell-root {
+    @media (max-width: 480px) {
+      padding: 4px !important;
+      overflow: hidden;
+      max-width: 50px;
+      text-overflow: ellipsis;
+      font-family: Violet Sans;
+    }
+  }
+}
+
+.table-header-wrapper {
+  th {
+    font: $title-font;
+    color: #757575;
+    padding: 0 10px;
+    text-transform: uppercase;
+  }
+
+  tr {
+    background: transparent;
+  }
+}
+
+.tier-header {
+  img {
+    width: 24px;
+  }
+}
+
+.table-loading {
+  height: 150px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.tier-benefits-mobile {}
+
+.item-tier-mobile {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.name-tier-mobile {
+  font: $title-font;
+  margin-bottom: 6px;
+}
+
+.list-active-tier-mobile {}
+
+.value-active-mobile {
+  display: flex;
+  align-items: flex-start;
+  font-family: Violet Sans;
+  font-weight: normal;
+  margin-bottom: 6px;
+
+  img {
+    margin-right: 6px;
+    margin-top: 4px;
+  }
+
+  span {
+    font: $title-font;
+    color: #D01F36;
+  }
+}

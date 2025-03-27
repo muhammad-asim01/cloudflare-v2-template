@@ -1,0 +1,82 @@
+.dialog {
+    .MuiPaper-root {
+      position: relative;
+      padding: 33px 40px;
+      width: 100%;
+      max-width: 384px;
+      background-color: #F5F5F5;
+      border-radius: 2px;
+      border: 1px solid #d9d9d9;
+      text-align: center;
+    }
+  
+    .button-close {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 12px;
+      right: 12px;
+      border-radius: 50%;
+      border: none;
+      background: #777777;
+      cursor: pointer;
+    }
+  
+    .title {
+      margin-bottom: 20px;
+      color: #1e1e1e;
+      font-family: 'Violet Sans';
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: left;
+    }
+  }
+  
+  .event {
+    margin-top: 6px;
+    border-radius: 2px;
+    padding: 10px 4px;
+    display: flex;
+  }
+  
+  .logo {
+    background: black;
+    border-radius: 4px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  
+    img {
+      max-width: 26px;
+      display: block;
+    }
+  }
+  
+  .info {
+    margin-left: 6px;
+    padding: 2px;
+    color: white;
+    text-align: left;
+  
+    p {
+      margin: 0;
+    }
+  
+    p:first-child {
+      font-family: 'Violet Sans';
+      font-size: 10px;
+      line-height: 12px;
+    }
+  
+    p:last-child {
+      font-family: 'Violet Sans';
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 700;
+    }
+  }
+  

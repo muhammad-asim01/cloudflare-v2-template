@@ -1,0 +1,235 @@
+.messageUpdateSuccess {
+    position: relative;
+    width: 100%;
+    padding: 11px 9px 10px 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #244A9C;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    min-height: 42px;
+    font: 14px/20px "Violet Sans";
+    color: #FFFFFF;
+  
+    @media (max-width: 600px) {
+      align-items: flex-start;
+    }
+  
+    img {
+      margin-right: 6px;
+    }
+  }
+  
+  .alertVerifyEmail {
+    position: relative;
+    width: 100%;
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgba(236, 34, 31, 0.1);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    min-height: 42px;
+  
+    @media (max-width: 600px) {
+      align-items: flex-start;
+    }
+  
+    img {
+      margin-top: 3px;
+      @media (max-width: 600px) {
+        margin-top: 6px;
+      }
+    }
+  
+    .btn-close {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+    }
+  
+    span {
+      font: normal normal 400 14px/24px "Violet Sans";
+      color: #1e1e1e;
+    }
+  
+    a {
+      color: #6398FF;
+    }
+  }
+  
+  .errorSwich {
+    margin-bottom: 20px;
+  }
+  
+  .errorBanner {
+    color: white;
+    background-color: #FF4C00;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 0;
+    flex: 1;
+  }
+
+  
+  .mainContent {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    gap: 100px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    position: relative;
+  
+    @media (max-width: 960px) {
+      grid-template-columns: 1fr;
+    }
+  
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+      padding: 40px;
+      padding-top: 150px;
+    }
+  
+    @media (max-width: 480px) {
+      padding: 20px;
+      padding-top: 100px;
+    }
+  }
+  
+  .accountContainer {
+    padding: 26px 0 80px 0;
+    width: 1100px;
+    min-height: calc(100vh - 400px);
+    max-width: calc(100vw - 80px);
+    margin: auto;
+  
+    @media (max-width: 480px) {
+      padding-top: 16px;
+      padding-bottom: 40px;
+      width: calc(100% - 56px);
+      max-width: calc(100vw - 56px);
+    }
+  }
+  
+  .tier {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 20px 40px 24px 40px;
+    border: 1px solid #d9d9d9;
+  
+    @media (max-width: 600px) {
+      padding: 20px 20px;
+      border: none;
+    }
+  
+    @media (max-width: 480px) {
+      padding: 0;
+      background: none;
+    }
+  }
+  
+  .bodyContentMyAccount {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    color: #1e1e1e;
+  
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .leftAccount {
+    padding: 0 30px 0 0;
+  
+    @media (max-width: 600px) {
+      padding: 0;
+    }
+  }
+  
+  .titlLeft {
+    font-family: "Violet Sans";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+  
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  
+  .tabAccount {
+    display: flex;
+    flex-direction: column;
+  
+    @media (max-width: 600px) {
+      flex-direction: row;
+      padding-bottom: 12px;
+      overflow-x: auto;
+      white-space: nowrap;
+      width: calc(100vw - 56px);
+    }
+  }
+  
+  .itemTabAccount {
+    display: flex;
+    padding: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "Violet Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1e1e1e;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 2px;
+  
+    img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+  
+    @media (max-width: 600px) {
+      margin: 0 6px 0 0;
+  
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  
+    &.active {
+      opacity: 1;
+      border: 1px solid #d9d9d9;
+      cursor: inherit;
+      border-radius: 50px;
+    }
+  }
+  
+  .iconItemTabAccount {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background: #757575;
+  
+    &.active {
+      background: #6398FF;
+    }
+  
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  
+  .backdrop {
+    z-index: 1301;
+    color: #fff;
+  }
+  

@@ -1,0 +1,783 @@
+$violet-sans: "Violet Sans", sans-serif;
+$text-base: 12px/16px $violet-sans;
+$text-base-md: 14px/18px $violet-sans;
+$text-base-lg: 16px/24px $violet-sans;
+$text-base-xl: 22px/28px $violet-sans;
+$color-gray: #757575;
+$color-black: #1e1e1e;
+$color-white: #ffffff;
+$color-blue: #0066ff;
+$color-blue-light: #6398ff;
+$color-red: #d01f36;
+$color-yellow: #ffd058;
+$color-green: #5eff8b;
+$color-bg-light: #f5f5f5;
+$border-light: 1px solid #d9d9d9;
+$border-light-transparent: 1px solid rgba(255, 255, 255, 0.1);
+$width-details: calc(100vw / 5);
+$min-width-details: 260px;
+$max-width-details: 300px;
+$width-btn-mobile: calc((90vw - 48px) / 2);
+$width-progress: calc(100vw / 5 - 40px);
+$border-radius-btn: 50px;
+
+.pool {
+  margin-bottom: 6px;
+  background: $color-bg-light;
+  color: $color-black;
+  box-shadow: unset;
+  border: $border-light;
+  padding: 18px 20px 14px;
+  border-radius: 2px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.only("xs")
+    border-radius: 12px !important;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+  }
+
+  & .MuiAccordionSummary-root {
+    padding: 0;
+    align-items: center;
+
+    @media (max-width: 600px) {
+      // Assuming theme.breakpoints.only("xs")
+      align-items: flex-start;
+    }
+
+    & .MuiAccordionSummary-content {
+      margin: 0;
+    }
+  }
+
+  & .Mui-expanded {
+    margin: 0;
+
+    & .pool--expand-text {
+      color: $color-red;
+    }
+
+    & .MuiIconButton-label {
+      color: $color-blue;
+    }
+  }
+
+  & .MuiIconButton-label {
+    color: $color-blue-light;
+  }
+}
+
+.poolLogo {
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.poolLine {
+  height: 1px;
+  margin-top: 9px;
+  background: $color-white;
+  opacity: 0.1;
+}
+
+.expandText {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font: normal normal 500 $text-base-md;
+
+  &.color-hide {
+    color: $color-blue;
+  }
+
+  &.color-details {
+    color: $color-blue-light;
+  }
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    font: normal normal 500 $text-base-lg;
+    align-items: flex-start;
+  }
+}
+
+.poolDetails {
+  padding: 20px 0 0;
+  display: flex;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    flex-direction: column;
+    padding: 0 0;
+    width: 100%;
+  }
+}
+
+.poolTitleWrap {
+  display: flex;
+  width: $width-details;
+  min-width: $min-width-details;
+  max-width: $max-width-details;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.only("xs")
+    min-width: calc(100vw / 2);
+  }
+}
+
+.poolHeaderDetails {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 1.4fr 1fr 1.2fr;
+  gap: min(30px, calc(100vw / 35));
+  align-items: center;
+  margin-right: 20px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.only("xs")
+    display: none;
+  }
+}
+
+.poolHeaderButtonWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.poolDetailsContent {
+  width: $width-details;
+  min-width: $min-width-details;
+  max-width: $max-width-details;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    padding: 16px 0;
+    min-width: unset;
+    max-width: unset;
+    width: calc(90vw - 40px);
+  }
+}
+
+.poolDetailsItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 6px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &.pt10-mobile {
+    @media (max-width: 600px) {
+      // Assuming theme.breakpoints.down("xs")
+      padding-top: 10px;
+    }
+  }
+}
+
+.poolDetailsBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  border-left: $border-light-transparent;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    padding: 16px 0;
+    width: 100% !important;
+    border: 0;
+    border-top: $border-light-transparent;
+  }
+}
+
+.poolDetailInfoMobile {
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    padding-bottom: 16px;
+    border-bottom: $border-light-transparent;
+  }
+}
+
+.btn {
+  width: 100px;
+  height: 28px;
+  border-radius: 2px;
+  outline: none;
+  font: normal normal 500 $text-base;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    width: auto;
+  }
+}
+
+.btnModal {
+  height: 36px;
+  width: auto;
+  font: normal normal 500 $text-base-md;
+}
+
+.btnClaimToken {
+  color: #000;
+  background-color: $color-yellow;
+  border-radius: $border-radius-btn;
+}
+
+.btnStakeReward {
+  color: $color-yellow;
+  background-color: #000;
+  border: 1px solid $color-yellow;
+  margin-top: 6px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    margin-top: 0;
+  }
+}
+
+.btnStake {
+  color: $color-white;
+  -color: $color-blue;
+  border-radius: $border-radius-btn;
+}
+
+.btnUnstake {
+  color: $color-blue;
+  background-color: transparent;
+  border: 1px solid $color-blue;
+  border-radius: $border-radius-btn;
+  margin-top: 6px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    margin-top: 0;
+  }
+
+  &:disabled {
+    border: 1px solid $color-blue;
+    background-color: transparent;
+  }
+}
+
+.btnEnable {
+  color: $color-white;
+  border: 2px solid;
+  background: transparent;
+  border-image: linear-gradient(45deg, #0066ff, #0066ff) 1; // Assuming theme.custom.colors.primaryGradient and secondaryGradient are blue
+  border-radius: 50px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    margin-top: 8px;
+    width: $width-btn-mobile;
+  }
+}
+
+.btnWithdraw {
+  color: $color-white;
+  background-color: $color-red;
+  border-radius: $border-radius-btn;
+  width: 140px;
+  margin-top: auto;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    width: $width-btn-mobile;
+  }
+}
+
+.btnSwitch {
+  width: auto;
+  color: #000;
+  background-color: $color-green;
+  padding: 0 20px;
+  margin-top: auto;
+  gap: 6px;
+  border-radius: $border-radius-btn;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    // width: $width-btn-mobile;
+  }
+}
+
+.btnConnect {
+  color: $color-white;
+  background-color: $color-blue;
+  width: 140px;
+  margin-top: auto;
+  border-radius: $border-radius-btn;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    width: $width-btn-mobile;
+    margin-top: 8px;
+  }
+}
+
+.btnSelectPercent {
+  height: 32px;
+  width: 67px;
+  margin: auto 0 10px;
+  color: $color-white;
+  background-color: $color-blue;
+  border-radius: $border-radius-btn;
+  border: 0;
+  font: normal normal 500 $text-base-md;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    width: calc((100vw - 56px - 40px - 24px) / 4);
+  }
+}
+
+.btnSwitchModal {
+  background-color: $color-green;
+  color: #000;
+  border-radius: $border-radius-btn;
+
+  &:disabled {
+    background-color: $color-green;
+  }
+}
+
+.btnCancelModal {
+  background-color: #727272;
+  color: $color-white;
+  border-radius: $border-radius-btn;
+}
+
+.btnStakeModal {
+  border: 1px solid $color-blue;
+  background: transparent;
+  border-radius: $border-radius-btn;
+  color: $color-white;
+}
+
+.btnGetPkfModal {
+  background-color: $color-blue;
+  border: 1px solid $color-blue;
+  color: $color-white;
+  margin-left: 0 !important;
+  border-radius: $border-radius-btn;
+}
+
+.btnClaimModal {
+  background-color: $color-yellow;
+  color: #000000;
+  width: 100%;
+  border-radius: $border-radius-btn;
+}
+
+.groupButtonStaking {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  padding-top: 8px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+}
+
+.modalContent {
+  border: $border-light;
+  background-color: #292929; // Assuming theme.custom.colors.secondaryBackground is dark grey
+  width: calc(100vw - 56px);
+  max-width: 380px;
+  padding: 32px 0 0;
+  border-radius: 8px;
+  color: $color-black;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    padding: 40px 0 0;
+  }
+}
+
+.modalHeader {
+  text-align: center;
+
+  & .title {
+    margin: 0 auto;
+    font: normal normal 500 $text-base-xl;
+    color: $color-black;
+  }
+
+  & .btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+}
+
+.modalBody {
+  padding: 0 40px;
+  margin: 2px 0 20px 0;
+  overflow-x: hidden;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    padding: 0 20px;
+  }
+
+  & .token-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    font: 14px/24px $violet-sans;
+  }
+
+  & .token-type-title {
+    color: $color-gray;
+  }
+
+  & .token-detail {
+    display: flex;
+    align-items: center;
+  }
+
+  & .token-logo {
+    width: 22px;
+    height: 22px;
+    border-radius: 28px;
+    margin: 0 5px;
+  }
+
+  & .input-group {
+    display: flex;
+    flex: 1;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: $border-light;
+
+    & input {
+      flex: 1;
+      padding: 0;
+      width: auto;
+      cursor: auto;
+      font: 14px/24px $violet-sans;
+      background: none;
+      color: $color-black;
+      border: 0;
+      outline: none;
+    }
+
+    & span {
+      display: flex;
+      align-items: center;
+      font: normal normal 500 $text-base-md;
+      color: $color-black;
+    }
+  }
+
+  & .token-balance {
+    color: $color-gray;
+    margin-top: 8px;
+    font: $text-base;
+  }
+
+  & .subtitle {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    color: $color-black;
+  }
+}
+
+.modalFooter {
+  border-top: $border-light;
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    grid-template-columns: 1fr;
+    padding: 20px 20px;
+  }
+}
+
+.modalFooterSingleBtn {
+  border-top: $border-light;
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    padding: 20px 20px;
+  }
+}
+
+.earnedWrap {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  max-width: 150px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    width: 100%;
+    max-width: unset;
+    padding: 16px 0;
+    border-top: $border-light-transparent;
+  }
+}
+
+.groupButton {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+}
+
+.groupButtonPercent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.progressArea {
+  margin-bottom: 12px;
+  width: $width-progress;
+  min-width: $min-width-details - 40px;
+  max-width: $max-width-details - 40px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.down("xs")
+    width: 100%;
+    max-width: unset;
+  }
+}
+
+.progress {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #d9d9d9;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.iconCurrentProgress {
+  transform: scale(0.8);
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  background: $color-blue;
+  top: -6px;
+  right: -10px !important;
+}
+
+.currentProgress {
+  position: relative;
+  height: 4px;
+  background: $color-blue;
+  border-radius: 20px;
+  display: block;
+  transition: 2s;
+  box-shadow: 0px 4px 8px rgba(0, 102, 255, 0.51);
+
+  &.inactive {
+    width: 0 !important;
+  }
+}
+
+.modalProgress {
+  max-width: unset;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.currentPercentage {
+  font: $text-base;
+}
+
+.textPrimary {
+  color: $color-black;
+  font: $text-base;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.only("xs")
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+
+    & img {
+      margin-left: 4px;
+      width: 12px;
+      height: 12px;
+    }
+  }
+}
+
+.textSecondary {
+  color: $color-gray;
+  font: $text-base;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.only("xs")
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.textAPR {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 26px;
+  font-weight: 500;
+  color: $color-black;
+
+  & img {
+    margin-left: 4px;
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.textPoolTitle {
+  color: $color-black;
+  font: normal normal 500 $text-base-lg;
+}
+
+.textPoolSubTitle {
+  color: $color-black;
+  background: #d9d9d9;
+  border-radius: 50px;
+  width: max-content;
+  padding: 0 8px;
+  font: 14px/24px $violet-sans;
+}
+
+.textDescription {
+  color: $color-black;
+  font: $text-base-lg;
+  margin-top: 2px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.only("xs")
+    font-size: 14px;
+  }
+}
+
+.mt8Mobile {
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.only("xs")
+    margin-top: 8px;
+  }
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.tokenInfo {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.only("xs")
+    border-top: $border-light-transparent;
+    margin-top: 16px;
+    padding-top: 16px;
+  }
+}
+
+.tokenInfoItem {
+  width: auto;
+  margin-top: 4px;
+
+  @media (max-width: 600px) {
+    // Assuming theme.breakpoints.only("xs")
+    margin-top: 8px;
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.btnLink {
+  height: 28px;
+  width: fit-content;
+  padding: 6px 8px;
+  background-color: $color-blue;
+  border: none;
+  border-radius: 6px;
+  color: $color-white;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  cursor: pointer;
+  font: $text-base;
+
+  &:hover {
+    opacity: 0.8;
+    color: $color-white;
+  }
+
+  & img {
+    margin-left: 6px;
+    width: 12px;
+
+    &[data-role="metamask"] {
+      width: 14px;
+      height: 12px;
+    }
+  }
+}

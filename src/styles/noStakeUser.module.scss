@@ -1,0 +1,85 @@
+.noStakeComponent {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Violet Sans";
+  }
+  
+  .title {
+    margin-bottom: 12px;
+    
+    span {
+      color: #D01F36;
+    }
+  }
+  
+  .buttonStakeNow {
+    padding: 7.2px 29.7px;
+    background: #0066FF;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    font: normal normal 500 12px/16px "Violet Sans";
+    color: #000;
+  
+    &:hover {
+      opacity: 0.8;
+      color: #FFFFFF;
+    }
+  }
+  
+  .boxQuestions {
+    max-width: 500px;
+    margin-bottom: 20px;
+  
+    @media (max-width: 600px) {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .listQuestions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .subTitle {
+    margin-top: 32px;
+    font: 14px/24px "Violet Sans";
+    color: #1e1e1e;
+    margin-bottom: 8px;
+  }
+  
+  .itemQuestions {
+    min-width: 200px;
+    font-family: "Violet Sans";
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    padding-right: 5px;
+  
+    a {
+      color: #1e1e1e;
+      
+      &:hover {
+        color: #0066FF;
+        
+        span[data-role="title"] {
+          text-decoration-line: underline;
+        }
+      }
+  
+      span[data-role="dot"] {
+        margin-right: 6px;
+      }
+    }
+  }

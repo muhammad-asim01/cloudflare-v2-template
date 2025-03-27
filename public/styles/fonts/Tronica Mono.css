@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Tronica Mono';
+    src: url('fonts/Tronica-Mono.eot');
+    src: url('fonts/Tronica-Mono.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Tronica-Mono.woff2') format('woff2'),
+         url('fonts/Tronica-Mono.woff') format('woff'),
+         url('fonts/Tronica-Mono.ttf')  format('truetype'),
+         url('fonts/Tronica-Mono.svg#Tronica Mono') format('svg');
+}

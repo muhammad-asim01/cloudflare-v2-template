@@ -1,0 +1,54 @@
+.PoolAbout {
+    margin-top: 30px;
+    width: 50%;
+    margin-right: 120px;
+  
+    @media (max-width: 600px) { // 'xs' breakpoint
+      width: 100%;
+    }
+    @media (max-width: 960px) { // 'md' breakpoint
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  
+  .PoolAboutBlock {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  
+    &:not(:first-child) {
+      margin-top: 25px;
+    }
+  }
+  
+  .PoolAboutLabel {
+    color: #999999;
+    font: normal normal normal 14px/24px 'Violet Sans', sans-serif;
+  }
+  
+  .PoolAboutText {
+    display: flex;
+    align-items: center;
+    font: normal normal bold 14px/18px 'DM Sans', sans-serif;
+  
+    @media (max-width: 600px) { // 'xs' breakpoint
+      line-height: 20px;
+      word-break: break-word;
+    }
+  }
+  
+  .PoolAboutIcon {
+    margin-left: 10px;
+  }
+  
+  .PoolAboutDesc {
+    width: 580px;
+    line-height: 1.6rem;
+    color: #999999;
+    font: normal normal normal 14px/24px 'Violet Sans', sans-serif;
+  
+    @media (max-width: 600px) { // 'xs' breakpoint
+      width: 100%;
+    }
+  }
+  

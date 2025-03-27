@@ -1,0 +1,62 @@
+.container {
+    max-width: 750px;
+    overflow: hidden;
+    margin-left: 80px;
+    position: relative;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: -2px;
+      bottom: 0;
+      width: 100px;
+      background: linear-gradient(270deg, rgba(2, 6, 24, 0) 0%, #020618 100%);
+    }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      right: -2px;
+      bottom: 0;
+      width: 100px;
+      background: linear-gradient(270deg, #020618 0%, rgba(2, 6, 24, 0) 100%);
+    }
+  
+    @media (max-width: 600px) { // "sm" breakpoint
+      max-width: calc(100vw - 48px);
+      margin: 0;
+  
+      &::before {
+        width: 40px;
+      }
+  
+      &::after {
+        width: 40px;
+      }
+    }
+  }
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    animation: slideshow 10s linear infinite;
+  
+    & > a {
+      min-width: 300px;
+      margin-right: 8px;
+    }
+  }
+  
+  @keyframes slideshow {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-924px);
+    }
+  }
+  

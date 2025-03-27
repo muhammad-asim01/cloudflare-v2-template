@@ -1,0 +1,180 @@
+.tableRow {
+    cursor: pointer;
+    border: 1px solid #D9D9D9;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    background: #ffffff;
+    transition: 0.2s all ease-in;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  
+    .pool-name {
+      display: flex;
+      align-items: center;
+    }
+  
+    .token-symbol {
+      font: 12px/16px Violet Sans;
+      color: #757575;
+      margin-left: 5px;
+    }
+  
+    img {
+      width: 32px;
+      height: 32px;
+      margin-right: 6px;
+    }
+  
+    .mm-icon {
+      width: 16px;
+      height: 16px;
+      margin-bottom: -4px;
+      margin-right: 5px;
+  
+      @media (max-width: 960px) { // Assuming sm breakpoint is 960px
+        display: none;
+      }
+    }
+  
+    .tdata {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+  
+    .tname {
+      font-size: 12px;
+      color: #757575;
+      font-family: Violet Sans;
+    }
+  
+    .MuiTableCell-root {
+      border-bottom: none !important;
+      font-family: Violet Sans;
+  
+      @media (max-width: 600px) { // Assuming xs breakpoint is 600px
+        padding: 4px !important;
+      }
+    }
+  }
+  
+  .poolStatus {
+    text-transform: uppercase;
+  
+    .TBA {
+      color: #727272;
+    }
+  
+    .Upcoming {
+      color: #0066FF;
+    }
+  
+    .Swap {
+      color: #6788FF;
+    }
+  
+    .Filled {
+      color: #5EFF8B;
+    }
+  
+    .Ended {
+      color: #D01F36;
+    }
+  
+    .Claimable {
+      color: #FFD058;
+    }
+  
+    .none {
+      color: #fff;
+    }
+  }
+  
+  .poolType {
+    text-transform: capitalize;
+    min-width: 150px;
+    width: 15%;
+    color: #fff;
+  }
+  
+  .progress {
+    min-width: 400px;
+    width: 40%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.2s all ease-in;
+  
+    > span {
+      margin-right: 10px;
+      min-width: 60px;
+    }
+  
+    .progress {
+      width: 280px;
+      height: 5px;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.1);
+      position: relative;
+      transition: 0.2s all ease-in;
+    }
+  
+    .current-progress {
+      width: 280px;
+      height: 5px;
+      border-radius: 10px;
+      background-color: #232394;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: 0.2s all ease-in;
+    }
+  }
+  
+  @media (max-width: 600px) { // Assuming xs breakpoint is 600px
+    .row {
+      padding: 0 15px;
+      min-height: 46px;
+      height: auto;
+    }
+  
+    .ratio {
+      display: none;
+    }
+  
+    .poolType {
+      display: none;
+    }
+  
+    .progress {
+      width: 30%;
+      min-width: 90px;
+  
+      .progress {
+        display: none;
+      }
+    }
+  
+    .name {
+      width: 50%;
+      min-width: 150px;
+    }
+  
+    .status {
+      width: 20%;
+      min-width: 60px;
+  
+      div {
+        padding: 0 10px;
+        min-width: 70px;
+        width: 70px;
+  
+        span {
+          font: normal normal bold 10px/12px Violet Sans;
+        }
+      }
+    }
+  }

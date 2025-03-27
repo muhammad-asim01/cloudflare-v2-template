@@ -1,0 +1,69 @@
+import {
+    ARBITRUM_CHAIN_ID,
+    ARBITRUM_NETWORK_RPC_URL,
+    AVALANCHE_CHAIN_ID,
+    AVALANCHE_NETWORK_RPC_URL,
+    BASE_CHAIN_ID,
+    BASE_NETWORK_RPC_URL,
+    BERA_CHAIN_ID,
+    BERA_NETWORK_RPC_URL,
+    BLAST_CHAIN_ID,
+    BLAST_NETWORK_RPC_URL,
+    BSC_CHAIN_ID,
+    BSC_NETWORK_RPC_URL,
+    DAO_CHAIN_ID,
+    DAO_NETWORK_RPC_URL,
+    ETH_CHAIN_ID,
+    ETH_NETWORK_RPC_URL,
+    LINEA_CHAIN_ID,
+    LINEA_NETWORK_RPC_URL,
+    OKX_CHAIN_ID,
+    OKX_NETWORK_RPC_URL,
+    POLYGON_CHAIN_ID,
+    POLYGON_NETWORK_RPC_URL,
+    SONIC_CHAIN_ID,
+    SONIC_NETWORK_RPC_URL,
+    ZKSYNC_CHAIN_ID,
+    ZKSYNC_NETWORK_RPC_URL,
+  } from "@/constants/network";
+  import { ethers } from "ethers";
+  
+  type ChainID =
+    | typeof BSC_CHAIN_ID
+    | typeof POLYGON_CHAIN_ID
+    | typeof AVALANCHE_CHAIN_ID
+    | typeof ARBITRUM_CHAIN_ID
+    | typeof BASE_CHAIN_ID
+    | typeof ZKSYNC_CHAIN_ID
+    | typeof DAO_CHAIN_ID
+    | typeof OKX_CHAIN_ID
+    | typeof LINEA_CHAIN_ID
+    | typeof BLAST_CHAIN_ID
+    | typeof ETH_CHAIN_ID
+    | typeof BERA_CHAIN_ID
+    | typeof SONIC_CHAIN_ID
+  
+    // chain integration
+  const RPC_URLS: { [key in ChainID]: string } = {
+    [BSC_CHAIN_ID]: BSC_NETWORK_RPC_URL,
+    [POLYGON_CHAIN_ID]: POLYGON_NETWORK_RPC_URL,
+    [AVALANCHE_CHAIN_ID]: AVALANCHE_NETWORK_RPC_URL,
+    [ARBITRUM_CHAIN_ID]: ARBITRUM_NETWORK_RPC_URL,
+    [BASE_CHAIN_ID]: BASE_NETWORK_RPC_URL,
+    [ZKSYNC_CHAIN_ID]: ZKSYNC_NETWORK_RPC_URL,
+    [DAO_CHAIN_ID]: DAO_NETWORK_RPC_URL,
+    [OKX_CHAIN_ID]: OKX_NETWORK_RPC_URL,
+    [LINEA_CHAIN_ID]: LINEA_NETWORK_RPC_URL,
+    [BLAST_CHAIN_ID]: BLAST_NETWORK_RPC_URL,
+    [ETH_CHAIN_ID]: ETH_NETWORK_RPC_URL,
+    [BERA_CHAIN_ID]: BERA_NETWORK_RPC_URL,
+    [SONIC_CHAIN_ID]: SONIC_NETWORK_RPC_URL,
+  };
+  
+  export function getProvider(
+    chainID: ChainID
+  ): ethers.providers.JsonRpcProvider {
+    const rpcUrl = RPC_URLS[chainID] || ETH_NETWORK_RPC_URL;
+    return new ethers.providers.JsonRpcProvider(rpcUrl);
+  }
+  

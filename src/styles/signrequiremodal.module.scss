@@ -1,0 +1,44 @@
+.dialog {
+    & img {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 12px;
+    }
+  
+    & .MuiPaper-root {
+      padding: 40px 0 32px;
+      min-width: 360px;
+      width: 100%;
+      text-align: center;
+      font: 14px/24px "Violet Sans", sans-serif;
+      background-color: #f5f5f5;
+      border-radius: 2px;
+      border: 1px solid #d9d9d9;
+  
+      @media (max-width: #{theme-breakpoints(xs)}) {
+        min-width: unset;
+        width: calc(100vw - 56px);
+      }
+    }
+  }
+  
+  .dialogTitle {
+    text-align: center;
+  
+    & .MuiTypography-h6 {
+      font: normal normal 500 22px/28px "Violet Sans", sans-serif;
+      color: #1e1e1e !important;
+      padding-bottom: 4px;
+      margin: 0 auto;
+    }
+  
+    & .MuiSvgIcon-root {
+      font-size: 1rem;
+    }
+  }
+  
+  .dialogContent {
+    padding: 0 !important;
+    position: relative;
+    color: #1e1e1e !important;
+  }

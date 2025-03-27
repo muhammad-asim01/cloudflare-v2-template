@@ -1,0 +1,216 @@
+.bottom-box-how-to {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .box-how-to {
+    background: #3232DC;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    width: 280px;
+    font-family: "Violet Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+  }
+  
+  .content-how-to {
+    min-height: calc(300px - 65px);
+  }
+  
+  .title-box-how-to {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Violet Sans";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 65px;
+    padding: 0 20px;
+    align-items: center;
+  }
+  
+  .icon-how-to {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .list-how-to {
+    padding: 0 20px;
+  }
+  
+  .item-how-to {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 14px;
+    display: flex;
+  }
+  
+  .checkmark {
+    display: block;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-right: 8px;
+    position: relative;
+  }
+  
+  .active-item-how-to {
+    text-decoration: line-through;
+  }
+  
+  .active-checkmark {
+    background: #40FBA1;
+    
+    &:after {
+      position: absolute;
+      content: "";
+      display: block;
+      left: 6px;
+      top: 2px;
+      width: 5px;
+      height: 10px;
+      border: solid #3232DC;
+      border-width: 0 3px 3px 0;
+      transform: rotate(45deg);
+      border-radius: 3px;
+    }
+  }
+  
+  .text-click-how-to {
+    padding: 0 20px;
+    font-family: "Violet Sans";
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  
+    a {
+      font-weight: 700;
+    }
+  }
+  
+  .pool-detail-container {
+    display: flex;
+    padding: 30px 0 80px 0;
+    width: 1040px;
+    max-width: calc(100vw - 80px);
+    margin: auto;
+    
+    @media (max-width: 600px) {
+      width: 100%;
+      max-width: 100%;
+      margin: 8px auto;
+      padding-top: 28px;
+      padding-bottom: 40px;
+      flex-direction: column-reverse;
+    }
+  }
+  
+  .pool-detail-left {
+    padding-top: 10px;
+    width: 260px;
+  
+    @media (max-width: 600px) {
+      width: calc(100% - 56px);
+      max-width: calc(100% - 56px);
+      margin-left: 28px;
+    }
+  }
+  
+  .pool-detail-block {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D9D9D9;
+    background: #F5F5F5;
+    height: fit-content;
+    border-radius: 8px;
+    
+    @media (max-width: 600px) {
+      flex-direction: column;
+      margin: 20px auto 0 auto;
+    }
+  }
+  
+  .pool-detail-right {
+    margin-left: 20px;
+    flex: 1;
+    
+    @media (min-width: 600px) {
+      width: calc(100% - 280px);
+    }
+    
+    @media (max-width: 600px) {
+      margin-left: 0;
+    }
+  }
+  
+  .mid-page {
+    display: grid;
+    grid-column-gap: 12px;
+    grid-template-columns: 1fr 1fr;
+    
+    @media (max-width: 900px) {
+      grid-template-columns: 100%;
+    }
+  }
+  
+  .pool-header-title {
+    font-weight: 700;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    font-family: "Violet Sans";
+    
+    @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 25px;
+    }
+  }
+  
+  .pool-status {
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 6px 20px;
+    background-color: blue;
+    border-radius: 40px;
+    color: #1e1e1e;
+    font-weight: 700;
+    
+    &--in-progress { background-color: #FFDE30; }
+    &--whitelisting { background: #12A064; }
+    &--upcoming { background: #6398FF; }
+    &--ended { background-color: #D01F36; }
+    &--filled { background-color: deeppink; }
+    &--claimable { background-color: #FF9330; }
+    &--tba { background-color: #9E63FF; }
+  }
+  
+  .progress {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+  }
+  
+  .achieved {
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #232394;
+    border-radius: 0px 20px 20px 0px;
+  }
+  

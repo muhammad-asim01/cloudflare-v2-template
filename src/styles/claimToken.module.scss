@@ -1,0 +1,792 @@
+.poolDetailClaim {
+  padding-top: 20px;
+  font: 14px/24px Violet Sans;
+  color: #1e1e1e;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  button {
+    height: 42px;
+    width: fit-content;
+    min-width: 150px;
+    color: #1e1e1e !important;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #0066ff;
+    position: relative;
+    border-radius: 50px;
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.4;
+    }
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+
+    #countdown {
+      margin-top: 30px;
+    }
+
+    ul {
+      text-align: center;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    button {
+      width: 100% !important;
+      padding: 0 60px;
+      height: 42px;
+      font: normal normal bold 14px/18px Violet Sans;
+    }
+  }
+}
+
+.subTitle {
+  color: #d01f36;
+  font: 12px/16px Violet Sans;
+}
+
+.poolDetailClaimTitle {
+  font: normal normal 500 14px/18px Violet Sans;
+  margin-bottom: 12px;
+  margin-right: auto;
+  text-transform: uppercase;
+
+  .sub-title {
+    font: 12px/16px Violet Sans;
+    color: #757575;
+    text-transform: none;
+    margin-left: 2px;
+  }
+
+  @media (max-width: 600px) {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.colorRed {
+  color: #d01f36;
+  font-weight: 700;
+}
+
+.tooltip {
+  font: normal normal 500 14px/24px Violet Sans;
+  color: #ffffff;
+  padding: 5px 10px;
+  background: #575757;
+}
+
+.claimTokenContent {
+  text-align: right;
+}
+
+.walletField {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.poolDetailClaimInfo {
+  margin-bottom: 20px;
+  .chain-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+  }
+}
+
+.claimToken {
+  display: flex;
+  flex-direction: column;
+  padding-right: 28px;
+
+  @media (max-width: 600px) {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.schedule {
+}
+
+.scheduleHeader {
+  display: flex;
+}
+
+.schedulePagination {
+  margin-top: -8px;
+
+  input {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+    color: #fff;
+    border: 0;
+    margin-left: 8px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+}
+
+.btnPrevious {
+  background: #d9d9d9 url("/assets/images/icons/prev.svg") no-repeat center;
+}
+
+.btnNext {
+  background: #d9d9d9 url("/assets/images/icons/next.svg") no-repeat center;
+}
+
+.table {
+  .MuiTableBody-root td {
+    font: normal normal normal 14px/24px Violet Sans;
+  }
+  border-collapse: separate !important;
+  border-spacing: 0 6px !important;
+}
+
+.tableContainer {
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+
+  th,
+  td {
+    font: 14px/24px Violet Sans;
+    color: #1e1e1e;
+    padding: 6px 10px;
+    border-radius: 2px;
+  }
+
+  th:first-child {
+    max-width: 80px;
+  }
+
+  tr {
+    border: 0;
+    background: #f5f5f5;
+  }
+}
+
+.stepToClaim {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    color: #d01f36;
+    text-decoration: underline;
+  }
+}
+
+
+.pool-detail-claim {
+  padding-top: 20px;
+  font: 14px/24px "Violet Sans";
+  color: #1e1e1e;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  button {
+    height: 42px;
+    width: fit-content;
+    min-width: 150px;
+    color: #1e1e1e !important;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #0066ff;
+    position: relative;
+    border-radius: 50px;
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.4;
+    }
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+
+    #countdown {
+      margin-top: 30px;
+    }
+
+    ul {
+      text-align: center;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    button {
+      width: 100% !important;
+      padding: 0 60px;
+      height: 42px;
+      font: normal normal bold 14px/18px "Violet Sans";
+    }
+  }
+}
+
+.sub-title {
+  color: #d01f36;
+  font: 12px/16px "Violet Sans";
+}
+
+.pool-detail-claim-title {
+  font: normal normal 500 14px/18px "Violet Sans";
+  margin-bottom: 12px;
+  margin-right: auto;
+  text-transform: uppercase;
+
+  .sub-title {
+    font: 12px/16px "Violet Sans";
+    color: #757575;
+    text-transform: none;
+    margin-left: 2px;
+  }
+
+  @media (max-width: 600px) {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.color-red {
+  color: #d01f36;
+  font-weight: 700;
+}
+
+.tooltip {
+  font: normal normal 500 14px/24px "Violet Sans";
+  color: #ffffff;
+  padding: 5px 10px;
+  background: #575757;
+}
+
+.claim-token-content {
+  text-align: right;
+}
+
+.wallet-field {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.pool-detail-claim-info {
+  margin-bottom: 20px;
+
+  .chain-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+  }
+}
+
+.claim-token {
+  display: flex;
+  flex-direction: column;
+  padding-right: 28px;
+
+  @media (max-width: 600px) {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.schedule {
+}
+
+.schedule-header {
+  display: flex;
+}
+
+.schedule-pagination {
+  margin-top: -8px;
+
+  input {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+    color: #fff;
+    border: 0;
+    margin-left: 8px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+}
+
+.btn-previous {
+  background: #d9d9d9 url("/images/icons/prev.svg") no-repeat center;
+}
+
+.btn-next {
+  background: #d9d9d9 url("/images/icons/next.svg") no-repeat center;
+}
+
+.table {
+  .MuiTableBody-root td {
+    font: normal normal normal 14px/24px "Violet Sans";
+  }
+  border-collapse: separate !important;
+  border-spacing: 0 6px !important;
+}
+
+.table-container {
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+
+  th,
+  td {
+    font: 14px/24px "Violet Sans";
+    color: #1e1e1e;
+    padding: 6px 10px;
+    border-radius: 2px;
+  }
+
+  th:first-child {
+    max-width: 80px;
+  }
+
+  th {
+    border: 0;
+
+    @media (max-width: 600px) {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  tr {
+    border: 0;
+    background: #f5f5f5;
+  }
+}
+.tableHeaderWrapper {
+  th {
+    font: normal normal 500 14px/18px Violet Sans;
+    color: #757575;
+    padding: 0 10px;
+  }
+  tr {
+    background: transparent;
+  }
+}
+
+.stepToClaim {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    color: #d01f36;
+    text-decoration: underline;
+  }
+}
+
+.poolDetailClaimInfoBlock {
+  display: grid;
+  grid-template-columns: 140px 2fr;
+  color: #1e1e1e;
+  grid-column-gap: 8px;
+
+  span:first-child {
+    color: #757575;
+  }
+
+  &:not(:first-child) {
+    margin-top: 6px;
+  }
+
+  .text-blue {
+    color: #6398ff;
+  }
+}
+
+.poolDetailClaimProgress {
+  display: flex;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: #d9d9d9;
+
+    @media (max-width: 600px) {
+      top: 0;
+      left: 6px;
+      right: auto;
+      height: 100%;
+      width: 5px;
+    }
+  }
+
+  li {
+    .mark {
+      position: absolute;
+      top: -17px;
+      left: 0;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #d9d9d9;
+      z-index: 2;
+
+      @media (max-width: 600px) {
+        top: 0;
+        left: 0;
+        right: auto;
+      }
+    }
+
+    .info {
+      font-size: 12px;
+      line-height: 18px;
+      margin-top: 12px;
+
+      @media (max-width: 600px) {
+        text-align: left;
+        margin-top: 0;
+      }
+
+      & > div:nth-child(2) {
+        color: #757575;
+        line-height: 20px;
+        margin-top: 4px;
+      }
+
+      &.show {
+        white-space: nowrap;
+        transform: translateX(50%) !important;
+      }
+    }
+  }
+
+  .first-item {
+    flex: 3 1 0;
+    color: white;
+
+    @media (max-width: 600px) {
+      position: relative;
+      width: 100%;
+      text-align: left;
+      padding-left: 25px;
+      flex: 0 0 20px;
+    }
+
+    &.active {
+      color: #6398ff;
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: -12px;
+        left: 0;
+        right: 0;
+        height: 6px;
+        background: #6398ff;
+        z-index: 1;
+
+        @media (max-width: 600px) {
+          content: unset;
+        }
+      }
+
+      .info > div:first-child {
+        color: #6398ff;
+      }
+    }
+  }
+
+  .item.last-item {
+    flex: 5 1 0;
+
+    .info.show {
+      transform: none !important;
+    }
+
+    @media (max-width: 600px) {
+      flex: 0 0 80px;
+    }
+  }
+
+  .item {
+    flex: 2 1 0;
+    position: relative;
+
+    @media (max-width: 600px) {
+      width: 100%;
+      padding-left: 25px;
+      flex: 0 0 50px;
+    }
+
+    .mark {
+      left: unset;
+      right: 0;
+
+      @media (max-width: 600px) {
+        bottom: 0;
+        left: 0;
+        right: auto;
+        top: auto;
+      }
+    }
+
+    .info {
+      text-align: right;
+
+      @media (max-width: 600px) {
+        text-align: left;
+        position: absolute;
+        left: 24px;
+        bottom: -24px;
+      }
+    }
+
+    &:not(:last-child):not(:first-child) .info {
+      position: absolute;
+      right: 0;
+      text-align: center;
+      transform: translateX(4px);
+
+      @media (max-width: 600px) {
+        text-align: left;
+        transform: none;
+      }
+    }
+
+    &.active {
+      &:before {
+        content: "";
+        position: absolute;
+        top: -12px;
+        left: 0;
+        right: 1px;
+        height: 6px;
+        background: #6398ff;
+        z-index: 1;
+
+        @media (max-width: 600px) {
+          top: -30px;
+          left: 6px;
+          height: 125%;
+          width: 5px;
+          right: auto;
+        }
+      }
+
+      .info > div:first-child {
+        color: #6398ff;
+      }
+    }
+  }
+}
+
+.poolDetailRefund {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.refundDetail {
+  padding: 16px 20px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  background: #f5f5f5;
+  font: 14px/24px "Violet Sans";
+  
+  @media (max-width: 600px) {
+    padding: 20px 16px;
+  }
+}
+
+.refundPolicy {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  font: 14px/24px "Violet Sans";
+  
+  a {
+    text-decoration: underline;
+    color: #1e1e1e;
+    margin-left: 4px;
+  }
+}
+
+.nonRefundable {
+  display: flex;
+  align-items: center;
+  
+  img {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+  }
+}
+
+.refundable,
+.refundRequest {
+  display: flex;
+  flex-direction: column;
+}
+
+.requestTextContent {
+  display: flex;
+  
+  p {
+    max-width: 520px;
+    margin-right: 35px;
+  }
+  
+  @media (max-width: 600px) {
+    margin-bottom: 8px;
+  }
+}
+
+.btnClaim {
+  @media (max-width: 600px) {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+.btnRefund {
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.btnRefundXs {
+  display: none;
+  
+  @media (max-width: 600px) {
+    display: block;
+  }
+}
+
+.btnRefundContainer {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: max-content;
+  height: 36px;
+  padding: 0 26px;
+  color: #1e1e1e;
+  cursor: pointer;
+  font: normal normal 500 12px/16px "Violet Sans";
+  transition: 0.25s all;
+  background: transparent;
+  border: 1px solid #0066ff;
+  border-radius: 50px;
+  
+  &:hover {
+    opacity: 0.85;
+  }
+  
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 600px) {
+    width: 100%;
+    height: 36px;
+  }
+}
+
+.btnRefundSM {
+  height: 28px;
+}
+
+.requestDeadlineContainer {
+  @media (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+}
+
+.requestDeadline,
+.requestDeadlineEmpty {
+  color: #0066ff;
+  font-weight: 500;
+}
+
+.requestDeadline {
+  font-style: italic;
+}
+
+.refundStatus {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: 1px solid rgba(77, 77, 77, 0.5);
+  padding-top: 12px;
+  margin-top: 8px;
+  
+  .label {
+    color: #757575;
+    font: 14px/24px "Violet Sans";
+  }
+  
+  .status {
+    font: normal normal 500 14px/18px "Violet Sans";
+    margin: 0 14px 0 20px;
+    
+    &-requested {
+      color: #ffd058;
+    }
+    
+    &-refunded {
+      color: #5eff8b;
+    }
+    
+    &-not-request {
+      color: #727272;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    margin-top: 0;
+    
+    .status {
+      margin-left: auto;
+      margin-right: 0;
+    }
+  }
+}
+
